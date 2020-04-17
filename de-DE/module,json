@@ -1,0 +1,24 @@
+{
+  "name": "FoundryVTT-dnd5e-DE",
+  "title": "DnD5e German Translation",
+  "description": "German language support for the official D&D5e System",
+  "version": "0.1",
+  "minimumCoreVersion" : "0.5.3",
+  "author": "Hydroxi Hydroxi#0366",
+  "systems": ["dnd5e"],
+  "scripts": [],
+  "styles": [],
+  "packs": [],
+    
+  "languages": [{
+  	"lang": "de",
+    "name": "German",
+    "path": "de.json"
+  }],
+    
+    "url": "https://gitlab.com/Hydroxi/foundryvtt-dnd5e-lang-de",
+	"manifest": "https://gitlab.com/Hydroxi/foundryvtt-dnd5e-lang-de/raw/master/de-DE/module.json",
+	"download": "https://gitlab.com/Hydroxi/foundryvtt-dnd5e-lang-de/-/jobs/artifacts/master/raw/de-DE.zip?job=build"
+
+
+}
