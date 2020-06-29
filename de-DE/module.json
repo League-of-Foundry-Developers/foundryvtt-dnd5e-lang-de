@@ -4,7 +4,7 @@
   "description": "German language support for the official D&D5e System",
   "version": "0.5",
   "minimumCoreVersion" : "0.6.4",
-  "author": "Hydroxi Hydroxi#0366, Smicman Smicman#1404, ThoGri ThoGri#6692",
+  "author": "Hydroxi#0366, Smicman#1404, ThoGri#6692, Morvar#0915",
   "systems": ["dnd5e"],
   "scripts": [],
   "styles": [],
