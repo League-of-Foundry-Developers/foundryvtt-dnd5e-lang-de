@@ -57,7 +57,7 @@
 "DND5E.ActionUtil": "Utility",
 "DND5E.ActionWarningNoItem": "Das angefragte Objekt {item} existiert nicht mehr bei Charakter {name}",
 "DND5E.ActionWarningNoToken": "Um diese Option zu verwenden, brauchst du Kontrolle über mindestens ein Token.",
-"DND5E.Add": "Hinzufügen",
+"DND5E.Add": "Neu",
 "DND5E.Advantage": "Vorteil",
 "DND5E.Alignment": "Gesinnung",
 "DND5E.AlignmentCE": "Chaotisch Böse",
