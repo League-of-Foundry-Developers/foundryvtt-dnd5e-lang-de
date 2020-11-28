@@ -251,6 +251,8 @@
 "DND5E.FlagsInstructions": "Konfigurieren Sie Charaktermerkmale und Talente, die das Verhalten des D&D5e-Systems ändern.",
 "DND5E.FlagsJOAT": "Alleskönner",
 "DND5E.FlagsJOATHint": "Halber Übungsbonus auf alle nicht erlernten Fertigkeiten.",
+"DND5E.FlagsMeleeCriticalDice": "Nahkampf Kritische Schadenswürfel",
+"DND5E.FlagsMeleeCriticalDiceHint": "Anzahl zusätzlicher Schadenswürfel für kritische Treffer bei Nahkampf-Waffenangriffen.",
 "DND5E.FlagsObservant": "Aufmerksam",
 "DND5E.FlagsObservantHint": "Verleiht +5 auf passive Wahrnehmung und Nachforschungen.",
 "DND5E.FlagsPowerfulBuild": "Mächtiger Körperbau",
@@ -262,7 +264,11 @@
 "DND5E.FlagsSavageAttacks": "Wilde Angriffe",
 "DND5E.FlagsSavageAttacksHint": "Fügt einen zusätzlichen Würfel für Schaden hinzu.",
 "DND5E.FlagsSave": "Besondere Talente aktualisieren",
+"DND5E.FlagsSpellCritThreshold": "Kritischer Treffer Schwellwert (Zauber)",
+"DND5E.FlagsSpellCritThresholdHint": "Erweiterter Schwellwert für kritische Treffer bei Angriffen mit Zaubern.",
 "DND5E.FlagsTitle": "Besondere Talente konfigurieren",
+"DND5E.FlagsWeaponCritThreshold": "Kritischer Treffer Schwellwert (Waffen)",
+"DND5E.FlagsWeaponCritThresholdHint": "Erweiterter Schwellwert für kritische Treffer bei Angriffen mit Waffen.",
 "DND5E.Flat": "Flat",
 "DND5E.Flaws": "Makel",
 "DND5E.Formula": "Formel",
@@ -273,6 +279,7 @@
 "DND5E.Healing": "Heilung",
 "DND5E.HealingTemp": "Heilung (Temporär)",
 "DND5E.Health": "Trefferpunkte",
+"DND5E.HealthConditions": "Zustandskonditionen",
 "DND5E.HealthFormula": "TP Formel",
 "DND5E.HitDice": "Trefferwürfel",
 "DND5E.HitDiceRoll": "Wirf TW",
@@ -316,6 +323,7 @@
 "DND5E.ItemName": "Gegenstandsname",
 "DND5E.ItemNew": "Neu {type}",
 "DND5E.ItemNoUses": "{name} hat keine Ladungen mehr übrig.",
+"DND5E.ItemRechargeCheck": "{name} Aufladeprüfung",
 "DND5E.ItemRechargeFailure": "Fehlschlag!",
 "DND5E.ItemRechargeSuccess": "Erfolgreich!",
 "DND5E.ItemRequiredStr": "Benötigte Stärke",
@@ -701,5 +709,5 @@
 "SETTINGS.5eRestGritty": "Dreckiger Realismus (LR: 7 Tage, KR: 8 Std.)",
 "SETTINGS.5eRestL": "Konfigurieren Sie, welche Rastregel für Spiele innerhalb dieses Systems verwendet werden soll.",
 "SETTINGS.5eRestN": "Rast Variante",
-"SETTINGS.5eRestPHB": "Player's Handbook (LR: 8 Std., KR: 1 Std.)"
+"SETTINGS.5eRestPHB": "Spielerhandbuch (LR: 8 Std., KR: 1 Std.)"
 }
