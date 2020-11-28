@@ -20,8 +20,8 @@ def main():
                         val = a[key]
                         out.write("\"{0}\": \"{1}\",\n".format(key, val))
                         count += 1
-
-print("Found " + str(count) + " missing keys")
+    
+    print("Found " + str(count) + " missing keys")
 
 if __name__ == "__main__":
     main()
