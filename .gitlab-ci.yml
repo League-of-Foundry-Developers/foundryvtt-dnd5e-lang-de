@@ -23,6 +23,7 @@ build:
     when: on_success
     paths:
       - dnd5e-de-DE.zip
+    expire_in: never
   when: on_success
   only:
     - tags
