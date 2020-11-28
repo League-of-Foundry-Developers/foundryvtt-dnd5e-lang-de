@@ -2,7 +2,7 @@
   "name": "FoundryVTT-dnd5e-DE",
   "title": "DnD5e German Translation (Fallayn)",
   "description": "Updated german language support for the D&D5e system",
-  "version": "0.7",
+  "version": "0.7.1",
   "minimumCoreVersion": "0.6.4",
   "compatibleCoreVersion": "0.7.7",
   "author": "Fallayn#6414, Hydroxi#0366, Smicman#1404, ThoGri#6692, Morvar#0915",
