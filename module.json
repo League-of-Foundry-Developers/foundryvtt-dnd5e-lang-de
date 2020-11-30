@@ -1,0 +1,23 @@
+{
+  "name": "FoundryVTT-dnd5e-DE",
+  "title": "DnD5e German Translation",
+  "description": "German language support for the D&D5e system",
+  "version": "0.7.1",
+  "minimumCoreVersion": "0.6.4",
+  "compatibleCoreVersion": "0.7.7",
+  "author": "Fallayn#6414, Hydroxi#0366, Smicman#1404, ThoGri#6692, Morvar#0915",
+  "systems": ["dnd5e"],
+  "scripts": [],
+  "styles": [],
+  "packs": [],
+    
+  "languages": [{
+    "lang": "de",
+    "name": "German",
+    "path": "languages/de.json"
+  }],
+    
+  "url": "https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de",
+  "manifest": "https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/download/latest/module.json",
+  "download": "https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/download/latest/module.zip"
+}
