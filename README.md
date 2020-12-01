@@ -6,7 +6,7 @@ German translation of the dnd5e system for Foundry Virtual Tabletop
 
 Install via Foundry or by pasting the URL below into Foundry's module manager:
 
-https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/download/latest/module.json
+https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/latest/download/module.json
 
 If you want to install a specific release, have a look at the releases page:
 

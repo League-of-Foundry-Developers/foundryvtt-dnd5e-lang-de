@@ -18,6 +18,6 @@
   }],
     
   "url": "https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de",
-  "manifest": "https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/download/latest/module.json",
-  "download": "https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/download/latest/module.zip"
+  "manifest": "https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/latest/download/module.json",
+  "download": "https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/latest/download/module.zip"
 }
