@@ -5,7 +5,7 @@
 
 import json
 
-path = "de-DE/"
+path = "languages/"
 
 def main():
     count = 0
