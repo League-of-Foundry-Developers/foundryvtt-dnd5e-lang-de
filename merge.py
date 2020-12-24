@@ -8,7 +8,7 @@ import json
 sort_only = False
 overwrite = False
 
-path = "de-DE/"
+path = "languages/"
 
 def main():
     j = None
