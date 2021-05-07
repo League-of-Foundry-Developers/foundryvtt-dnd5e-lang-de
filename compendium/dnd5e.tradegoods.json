@@ -1,15 +1,170 @@
 {
     "label": "Handelsgüter (SRD)",
+    "mapping": {
+        "rarity": "data.rarity",
+        "source": "data.source"
+    },
     "entries": [
         {
-            "id": "Canvas",
-            "name": "Test 1",
-            "description": "<p>Lass mich testen</p>"
+            "id": "Pepper",
+            "name": "Pfeffer",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Silver",
+            "name": "Silber",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Flour",
+            "name": "Mehl",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Platinum",
+            "name": "Platin",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Linen",
+            "name": "Leinen",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Gold",
+            "name": "Gold",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Saffron",
+            "name": "Safran",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Sheep",
+            "name": "Schaf",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Cinnamon",
+            "name": "Zimt",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Iron",
+            "name": "Eisen",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Ginger",
+            "name": "Ingwer",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Cow",
+            "name": "Kuh",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Ox",
+            "name": "Ochse",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Wheat",
+            "name": "Weizen",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Pig",
+            "name": "Schwein",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Cotton",
+            "name": "Baumwolle",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Copper",
+            "name": "Kupfer",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Salt",
+            "name": "Salz",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Silk",
+            "name": "Seide",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
         },
         {
             "id": "Chicken",
-            "name": "Test 2",
-            "description": "<p>Noch mehr Tests</p>"
+            "name": "Hähnchen",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Canvas",
+            "name": "Segeltuch",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Goat",
+            "name": "Ziege",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Cloves",
+            "name": "Nelken",
+            "description": "",
+            "source": "PHB s. 157",
+            "rarity": "Verbreitet"
         }
     ]
 }
