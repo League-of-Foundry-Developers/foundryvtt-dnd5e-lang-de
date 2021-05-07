@@ -1,0 +1,15 @@
+{
+    "label": "Handelsgüter (SRD)",
+    "entries": [
+        {
+            "id": "Canvas",
+            "name": "Test 1",
+            "description": "<p>Lass mich testen</p>"
+        },
+        {
+            "id": "Chicken",
+            "name": "Test 2",
+            "description": "<p>Noch mehr Tests</p>"
+        }
+    ]
+}
