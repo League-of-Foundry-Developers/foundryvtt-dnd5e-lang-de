@@ -1,0 +1,65 @@
+{
+    "label": "Klassen (SRD)",
+    "entries": [
+        {
+            "id": "Sorcerer",
+            "name": "Zauberer",
+            "description": ""
+        },
+        {
+            "id": "Monk",
+            "name": "Mönch",
+            "description": ""
+        },
+        {
+            "id": "Warlock",
+            "name": "Hexenmeister",
+            "description": ""
+        },
+        {
+            "id": "Fighter",
+            "name": "Kämpfer",
+            "description": ""
+        },
+        {
+            "id": "Bard",
+            "name": "Barde",
+            "description": ""
+        },
+        {
+            "id": "Ranger",
+            "name": "Waldläufer",
+            "description": ""
+        },
+        {
+            "id": "Paladin",
+            "name": "Paladin",
+            "description": ""
+        },
+        {
+            "id": "Barbarian",
+            "name": "Barbar",
+            "description": ""
+        },
+        {
+            "id": "Cleric",
+            "name": "Kleriker",
+            "description": ""
+        },
+        {
+            "id": "Wizard",
+            "name": "Magier",
+            "description": ""
+        },
+        {
+            "id": "Rogue",
+            "name": "Schurke",
+            "description": ""
+        },
+        {
+            "id": "Druid",
+            "name": "Druide",
+            "description": ""
+        },
+    ]
+}
