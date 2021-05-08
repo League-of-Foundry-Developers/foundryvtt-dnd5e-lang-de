@@ -1,10 +1,24 @@
 {
     "label": "Zauber (SRD)",
-    "entries": [
-        {
-            "id": "",
-            "name": "",
-            "description": ""
+    "mapping": {
+        "range": {
+           "path": "data.range",
+           "converter": "range"
+        },
+        "target": {
+           "path": "data.target",
+           "converter": "target"
+        },
+        "material": "data.materials.value",
+        "source": "data.source"
+     },
+  
+    "entries": {
+        "Command": {
+            "name": "Befehl",
+            "description": "<p>Du gibst einer Kreatur in Reichweite, die du sehen kannst, einen Befehl, bei dem es sich nur um ein einzelnes Wort handeln darf. Dem Ziel muss ein WES-RW gelingen, sonst muss es den Befehl in seinem n&auml;chsten Zug befolgen. Der Zauber hat keine Auswirkungen, wenn das Ziel untot ist, es deine Sprache nicht versteht oder das Ausf&uuml;hren deines Befehls ihm unmittelbar schaden w&uuml;rde. Typische Befehle unten. Wenn du einen anderen Befehl nimmst, entscheidet der SL, wie das Ziel sich verh&auml;lt. Kann das Ziel deinem Befehl nicht folgen, endet der Zauber.&nbsp;&nbsp;</p><p>&nbsp;</p><p><strong>Komm</strong>: Das Ziel bewegt sich auf dem k&uuml;rzesten und direktesten Weg auf dich zu und beendet seinen Zug, wenn es sich die auf 1,5m gen&auml;hert hat.&nbsp;&nbsp;</p><p><strong>Fallenlassen</strong>: Das Ziel l&auml;sst fallen, was es in den H&auml;nden h&auml;lt und beendet dann seinen Zug.&nbsp;&nbsp;</p><p><strong>Flieh</strong>: Das Ziel verbringt seinen Zug damit, sich schnellstm&ouml;glich von dir wegzubewegen.&nbsp;&nbsp;</p><p><strong>Kriech</strong>: Das Ziel erh&auml;lt den Zustand liegend und beendet seinen Zug.&nbsp;</p><p><strong>Stopp</strong>: Das Ziel bewegt sich nicht und f&uuml;hrt keine Aktion aus. Eine fliegende Kreatur verbleibt schwebend an Ort und Stelle, wenn sie dazu imstande ist. Muss sie sich bewegen, um in der Luft zu bleiben, fliegt sie die Mindestentfernung, die notwendig ist, um nicht abzust&uuml;rzen.&nbsp;&nbsp;</p><p>&nbsp;</p><p>Wenn du diesen Spruch mit einem Zauberplatz des 2. Grades oder eines h&ouml;heren Grades wirkst, kannst du f&uuml;r jeden Grad &uuml;ber den 1. Hinaus eine zus&auml;tzliche Kreatur als Ziel w&auml;hlen. Die Kreaturen d&uuml;rfen nicht weiter als 9m voneinander entfernt sein, wenn du den Zauber auf sie wirkst.&nbsp;</p>",
+            "material": "",
+            "source": "PHB s. 216"
         }
-    ]
+    }
 }

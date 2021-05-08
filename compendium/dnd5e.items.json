@@ -1,10 +1,16 @@
 {
     "label": "Gegenstände (SRD)",
+    "mapping": {
+        "rarity": "data.rarity",
+        "source": "data.source"
+    },
     "entries": [
         {
-            "id": "",
-            "name": "",
-            "description": ""
+            "id": "Abacus",
+            "name": "Abakus",
+            "description": "<p>Der Abakus, auch Z&auml;hlrahmen genannt, ist ein Rechenwerkzeug.</p>",
+            "rarity":"Verbreitet",
+            "source": "PHB s. 150"
         }
     ]
 }
