@@ -1,6 +1,10 @@
 {
     "label": "Monster (SRD)",
     "mapping": {
+        "biography": {
+            "path": "data.details.biography.value",
+            "converter": "biography"
+        },
         "aligment" : {
             "path": "data.details.alignment",
             "converter": "aligment"
@@ -27,12 +31,29 @@
         {
             "id": "Skeleton",
             "name": "Skelett",
+            "biography": "",
             "aligment": "rechtschaffen böse",
             "race": "",
             "type": "Untoter",
             "source": "MM s. 256",
             "languages": "Versteht alle Sprachen, die es im Leben kannte, kann aber nicht sprechen",
-            "description": ""
+            "description": "",
+            "items": [
+                {
+                    "id": "Shortbow",
+                    "name": "Kurzbogen",
+                    "description": "<section class='secret'><p>Fernkampf-Waffenangriff: +4 zum Treffen, Reichweite 24/96 m., ein Ziel. Treffer: <strong>5 (1d6 + 2) <em>Stichschaden</em></strong>.</p></section><p>Das Skelett greift mit seinem Kurzbogen an.</p>",
+                    "source": "PHB s. 149",
+                    "rarity": "Verbreitet"
+                },
+                {
+                    "id": "Shortsword",
+                    "name": "Kurzschwert",
+                    "description": "<section class='secret'><p><em>Nahkampf-Waffenangriff: </em><strong>+4 zum Treffen, Reichweite</strong>&nbsp;<strong>1.5 m.,</strong> ein Ziel. Treffer: <strong>5 (1d6 + 2) <em>Stichschaden</em></strong>.</p></section><p>Das Skelett greift mit seinem Kurzschwert an.</p>",
+                    "source": "PHB s. 149",
+                    "rarity": "Verbreitet"
+                }
+            ]
         }
     ]
 }
