@@ -1,9 +1,12 @@
 
+import Actor from '../../systems/dnd5e/module/actor/sheets/character.js';
+import NPC from '../../systems/dnd5e/module/actor/sheets/npc.js';
 import config from './src/config.js';
+
+const module_id = 'FoundryVTT-dnd5e-DE';
 
 Hooks.once('init', () => {
     // Create settings
-    const module_id = 'FoundryVTT-dnd5e-DE';
     config.forEach((cfg) => {
         // Skip settings not applicable for this system version
         if ('onlyUntilSystemVersionIncluding' in cfg &&
@@ -53,6 +56,40 @@ Hooks.once('init', () => {
                 game.settings.get(module_id, 'overrideSkillSortAlpha')) {
                 sortSkillsAlpha();
             }
+        });
+    }
+});
+
+export class ActorSheet5eCharacter extends Actor {
+  static get defaultOptions () {
+    return mergeObject(super.defaultOptions, {
+      classes: ['dnd5e', 'sheet', 'actor', 'character'],
+      width: 800
+    });
+  }
+}
+
+export class ActorSheet5eNPC extends NPC {
+  static get defaultOptions () {
+    return mergeObject(super.defaultOptions, {
+      classes: ['dnd5e', 'sheet', 'actor', 'npc'],
+      width: 700
+    });
+  }
+}
+
+Hooks.once('ready', function () {
+    if (game.i18n.lang === 'de' &&
+        game.system.id === 'dnd5e' &&
+        game.settings.get(module_id, 'increaseSheetWidth')) {
+        Actors.registerSheet('dnd5e', ActorSheet5eCharacter, {
+            types: ['character'],
+            makeDefault: false
+        });
+
+        Actors.registerSheet('dnd5e', ActorSheet5eNPC, {
+            types: ['npc'],
+            makeDefault: false
         });
     }
 });

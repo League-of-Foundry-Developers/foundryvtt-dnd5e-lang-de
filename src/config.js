@@ -4,7 +4,7 @@ export default [
         onlyUntilSystemVersionIncluding: '1.2.4',
         data: {
             name: 'Fertigkeiten alphabetisch sortieren',
-            hint: 'Sortiert die Fertigkeitsliste alphabetisch.',
+            hint: 'Sortiert die Fertigkeitenliste alphabetisch.',
             scope: 'client',
             type: Boolean,
             config: true,
@@ -20,6 +20,18 @@ export default [
             type: Boolean,
             config: true,
             default: true,
+            onChange: () => window.location.reload()
+        }
+    },
+    {
+        name: 'increaseSheetWidth',
+        data: {
+            name: 'Breitere Charakterbögen',
+            hint: 'Verbreitet die Charakterbögen. Kann bei abgeschnittenem Text helfen. (Bei Änderung wird Foundry neu geladen.)',
+            scope: 'client',
+            type: Boolean,
+            config: true,
+            default: false,
             onChange: () => window.location.reload()
         }
     }
