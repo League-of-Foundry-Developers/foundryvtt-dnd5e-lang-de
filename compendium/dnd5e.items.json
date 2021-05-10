@@ -1,0 +1,30 @@
+{
+    "label": "Gegenstände (SRD)",
+    "mapping": {
+        "rarity": "data.rarity",
+        "source": "data.source"
+    },
+    "entries": [
+        {
+            "id": "Abacus",
+            "name": "Abakus",
+            "description": "<p>Der Abakus, auch Z&auml;hlrahmen genannt, ist ein Rechenwerkzeug.</p>",
+            "rarity":"Verbreitet",
+            "source": "PHB s. 150"
+        },
+        {
+            "id": "Shortbow",
+            "name": "Kurzbogen",
+            "description": "<section class='secret'><p>Fernkampf-Waffenangriff: +4 zum Treffen, Reichweite 24/96 m., ein Ziel. Treffer: <strong>5 (1d6 + 2) <em>Stichschaden</em></strong>.</p></section><p>Das Skelett greift mit seinem Kurzbogen an.</p>",
+            "source": "PHB s. 149",
+            "rarity": "Verbreitet"
+        },
+        {
+            "id": "Shortsword",
+            "name": "Kurzschwert",
+            "description": "<section class='secret'><p><em>Nahkampf-Waffenangriff: </em><strong>+4 zum Treffen, Reichweite</strong>&nbsp;<strong>1.5 m.,</strong> ein Ziel. Treffer: <strong>5 (1d6 + 2) <em>Stichschaden</em></strong>.</p></section><p>Das Skelett greift mit seinem Kurzschwert an.</p>",
+            "source": "PHB s. 149",
+            "rarity": "Verbreitet"
+        }
+    ]
+}

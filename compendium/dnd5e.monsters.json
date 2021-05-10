@@ -1,0 +1,43 @@
+{
+    "label": "Monster (SRD)",
+    "mapping": {
+        "biography": {
+            "path": "data.details.biography.value",
+            "converter": "biography"
+        },
+        "aligment" : {
+            "path": "data.details.alignment",
+            "converter": "aligment"
+        },
+        "race": {
+            "path": "data.details.race",
+            "converter": "race"
+
+        },
+        "type": { 
+            "path": "data.details.type",
+            "converter": "type"
+        },
+        "source": {
+            "path": "data.details.source",
+            "converter": "source"
+        },
+        "languages": {
+            "path": "data.traits.languages.custom",
+            "converter": "languages"
+        }
+    },
+    "entries": [
+        {
+            "id": "Skeleton",
+            "name": "Skelett",
+            "biography": "",
+            "aligment": "rechtschaffen böse",
+            "race": "",
+            "type": "Untoter",
+            "source": "MM s. 256",
+            "languages": "Versteht alle Sprachen, die es im Leben kannte, kann aber nicht sprechen",
+            "description": ""
+        }
+    ]
+}
