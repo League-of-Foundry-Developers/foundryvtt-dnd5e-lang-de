@@ -1,65 +1,80 @@
 {
     "label": "Klassen (SRD)",
+    "mapping": {
+        "source": "data.source"
+    },
     "entries": [
         {
             "id": "Sorcerer",
             "name": "Zauberer",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 114"
         },
         {
             "id": "Monk",
             "name": "Mönch",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 91"
         },
         {
             "id": "Warlock",
             "name": "Hexenmeister",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 62"
         },
         {
             "id": "Fighter",
             "name": "Kämpfer",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 69"
         },
         {
             "id": "Bard",
             "name": "Barde",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 51"
         },
         {
             "id": "Ranger",
             "name": "Waldläufer",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 109"
         },
         {
             "id": "Paladin",
             "name": "Paladin",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 97"
         },
         {
             "id": "Barbarian",
             "name": "Barbar",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 46"
         },
         {
             "id": "Cleric",
             "name": "Kleriker",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 75"
         },
         {
             "id": "Wizard",
             "name": "Magier",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 83"
         },
         {
             "id": "Rogue",
             "name": "Schurke",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 104"
         },
         {
             "id": "Druid",
             "name": "Druide",
-            "description": ""
+            "description": "",
+            "source": "SHB S. 56"
         }
     ]
 }
