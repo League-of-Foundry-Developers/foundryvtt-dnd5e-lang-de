@@ -5,6 +5,7 @@ import NPC from '../../systems/dnd5e/module/actor/sheets/npc.js';
 
 // Module
 import Config from './src/config.js';
+import Converters from './src/converters.js';
 
 const module_id = 'FoundryVTT-dnd5e-DE';
 const module_lang = 'de';
@@ -30,6 +31,7 @@ Hooks.once('init', () => {
             lang: module_lang,
             dir: 'compendium'
         });
+        Converters(module_id);
     }
 
     // Sort skills alphabetically
