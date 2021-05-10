@@ -8,61 +8,61 @@
             "id": "Dwarf",
             "name": "Zwerg",
             "description": "",
-            "source": "PHB s. 29"
+            "source": "SHB S. 29"
         },
         {
             "id": "High Elf",
             "name": "Hochelf",
             "description": "",
-            "source": "PHB s. 20"
+            "source": "SHB S. 20"
         },
         {
             "id": "Halfling",
             "name": "Halbling",
             "description": "",
-            "source": "PHB s. 23"
+            "source": "SHB S. 23"
         },
         {
             "id": "Half-Elf",
             "name": "Halbelfen",
             "description": "",
-            "source": "PHB s. 38"
+            "source": "SHB S. 38"
         },
         {
             "id": "Dragonborn",
             "name": "Drachenblütige",
             "description": "",
-            "source": "PHB s. 32"
+            "source": "SHB S. 32"
         },
         {
             "id": "Tiefling",
             "name": "Tieflinge",
             "description": "",
-            "source": "PHB s. 42"
+            "source": "SHB S. 42"
         },
         {
             "id": "Gnome",
             "name": "Gnome",
             "description": "",
-            "source": "PHB s. 35"
+            "source": "SHB S. 35"
         },
         {
             "id": "Half-Orc",
             "name": "Halborks",
             "description": "",
-            "source": "PHB s. 40"
+            "source": "SHB S. 40"
         },
         {
             "id": "Elf",
             "name": "Elf",
             "description": "",
-            "source": "PHB s. 18"
+            "source": "SHB S. 18"
         },
         {
             "id": "Human",
             "name": "Menschen",
             "description": "",
-            "source": "PHB s. 26"
+            "source": "SHB S. 26"
         }
     ]
 }
