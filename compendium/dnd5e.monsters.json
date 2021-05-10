@@ -5,16 +5,16 @@
             "path": "data.details.biography.value",
             "converter": "biography"
         },
-        "aligment" : {
+        "alignment" : {
             "path": "data.details.alignment",
-            "converter": "aligment"
+            "converter": "alignment"
         },
         "race": {
             "path": "data.details.race",
             "converter": "race"
 
         },
-        "type": { 
+        "type": {
             "path": "data.details.type",
             "converter": "type"
         },
@@ -32,7 +32,7 @@
             "id": "Skeleton",
             "name": "Skelett",
             "biography": "",
-            "aligment": "rechtschaffen böse",
+            "alignment": "rechtschaffen böse",
             "race": "",
             "type": "Untoter",
             "source": "MM s. 256",
