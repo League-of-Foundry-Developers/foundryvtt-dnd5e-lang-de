@@ -1,6 +1,5 @@
 # https://EditorConfig.org
 
-# top-most EditorConfig file
 root = true
 
 [*.{js,json,py}]
