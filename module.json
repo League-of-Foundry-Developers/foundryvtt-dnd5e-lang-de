@@ -2,12 +2,12 @@
   "name": "FoundryVTT-dnd5e-DE",
   "title": "DnD5e German Translation",
   "description": "German language support for the D&D5e system",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "minimumCoreVersion": "0.6.4",
   "compatibleCoreVersion": "0.8.2",
   "author": "Fallayn#6414, Hydroxi#0366, Smicman#1404, ThoGri#6692, Morvar#0915",
   "esmodules": [
-    "babele-register.js"
+    "dnd5e-de.js"
   ],
   "systems": ["dnd5e"],
   "minimumSystemVersion": "1.2.4",
@@ -17,7 +17,7 @@
     {
       "name": "babele",
       "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
-      "version": "1.24"
+      "version": "1.27"
     }
   ],
   "packs": [],
