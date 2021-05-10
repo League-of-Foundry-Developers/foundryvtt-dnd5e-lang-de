@@ -1,10 +1,18 @@
 
-import config from './src/config';
+import config from './src/config.js';
 
 Hooks.once('init', () => {
-    // Settings
+    // Create settings
     const module_id = 'FoundryVTT-dnd5e-DE';
-    config.forEach((cfg) => game.settings.register(module_id, cfg.name, cfg.data));
+    config.forEach((cfg) => {
+        // Skip settings not applicable for this system version
+        if ('onlyUntilSystemVersionIncluding' in cfg &&
+            isNewerVersion(game.system.data.version,
+                cfg.onlyUntilSystemVersionIncluding)) {
+            return;
+        }
+        game.settings.register(module_id, cfg.name, cfg.data);
+    });
 
     // Register Babele compendium translations if module is present
     if (typeof Babele !== 'undefined' &&
