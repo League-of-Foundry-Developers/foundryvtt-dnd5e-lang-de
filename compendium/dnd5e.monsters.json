@@ -12,7 +12,6 @@
         "race": {
             "path": "data.details.race",
             "converter": "race"
-
         },
         "type": {
             "path": "data.details.type",
