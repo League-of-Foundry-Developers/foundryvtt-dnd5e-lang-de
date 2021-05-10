@@ -1,13 +1,18 @@
 
+// Foundry
 import Actor from '../../systems/dnd5e/module/actor/sheets/character.js';
 import NPC from '../../systems/dnd5e/module/actor/sheets/npc.js';
-import config from './src/config.js';
+
+// Module
+import Config from './src/config.js';
 
 const module_id = 'FoundryVTT-dnd5e-DE';
+const module_lang = 'de';
+const module_sys = 'dnd5e';
 
 Hooks.once('init', () => {
     // Create settings
-    config.forEach((cfg) => {
+    Config.forEach((cfg) => {
         // Skip settings not applicable for this system version
         if ('onlyUntilSystemVersionIncluding' in cfg &&
             isNewerVersion(game.system.data.version,
@@ -22,7 +27,7 @@ Hooks.once('init', () => {
         game.settings.get(module_id, 'enableCompendiumTranslation')) {
         Babele.get().register({
             module: 'FoundryVTT-dnd5e-DE',
-            lang: 'de',
+            lang: module_lang,
             dir: 'compendium'
         });
     }
@@ -51,8 +56,8 @@ Hooks.once('init', () => {
         }
 
         Hooks.on('renderActorSheet', async function () {
-            if (game.i18n.lang === 'de' &&
-                game.system.id === 'dnd5e' &&
+            if (game.i18n.lang === module_lang &&
+                game.system.id === module_sys &&
                 game.settings.get(module_id, 'overrideSkillSortAlpha')) {
                 sortSkillsAlpha();
             }
@@ -60,10 +65,12 @@ Hooks.once('init', () => {
     }
 });
 
+// Option to increase sheet width
+
 export class ActorSheet5eCharacter extends Actor {
   static get defaultOptions () {
     return mergeObject(super.defaultOptions, {
-      classes: ['dnd5e', 'sheet', 'actor', 'character'],
+      classes: [module_sys, 'sheet', 'actor', 'character'],
       width: 800
     });
   }
@@ -72,22 +79,22 @@ export class ActorSheet5eCharacter extends Actor {
 export class ActorSheet5eNPC extends NPC {
   static get defaultOptions () {
     return mergeObject(super.defaultOptions, {
-      classes: ['dnd5e', 'sheet', 'actor', 'npc'],
+      classes: [module_sys, 'sheet', 'actor', 'npc'],
       width: 700
     });
   }
 }
 
 Hooks.once('ready', function () {
-    if (game.i18n.lang === 'de' &&
-        game.system.id === 'dnd5e' &&
+    if (game.i18n.lang === module_lang &&
+        game.system.id === module_sys &&
         game.settings.get(module_id, 'increaseSheetWidth')) {
-        Actors.registerSheet('dnd5e', ActorSheet5eCharacter, {
+        Actors.registerSheet(module_sys, ActorSheet5eCharacter, {
             types: ['character'],
             makeDefault: false
         });
 
-        Actors.registerSheet('dnd5e', ActorSheet5eNPC, {
+        Actors.registerSheet(module_sys, ActorSheet5eNPC, {
             types: ['npc'],
             makeDefault: false
         });
