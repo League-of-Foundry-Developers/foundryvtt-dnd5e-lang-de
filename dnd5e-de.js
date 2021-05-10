@@ -1,25 +1,10 @@
+
+import config from './src/config';
+
 Hooks.once('init', () => {
-    const module_id = 'FoundryVTT-dnd5e-DE';
-
     // Settings
-    game.settings.register(module_id, 'overrideSkillSortAlpha', {
-        name: 'Fertigkeiten alphabetisch sortieren',
-        hint: 'Sortiert die Fertigkeitsliste alphabetisch.',
-        scope: 'client',
-        type: Boolean,
-        config: true,
-        default: true
-    });
-
-    game.settings.register(module_id, 'enableCompendiumTranslation', {
-        name: 'Kompendiuminhalte übersetzen',
-        hint: 'Übersetzen der Kompendiuminhalte. Benötigt das Babele-Modul.',
-        scope: 'client',
-        type: Boolean,
-        config: true,
-        default: true
-    });
-
+    const module_id = 'FoundryVTT-dnd5e-DE';
+    config.forEach((cfg) => game.settings.register(module_id, cfg.name, cfg.data));
 
     // Register Babele compendium translations if module is present
     if (typeof Babele !== 'undefined' &&

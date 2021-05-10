@@ -7,7 +7,7 @@
   "compatibleCoreVersion": "0.8.2",
   "author": "Fallayn#6414, Hydroxi#0366, Smicman#1404, ThoGri#6692, Morvar#0915, crash#7509",
   "esmodules": [
-    "src/dnd5e-de.js"
+    "dnd5e-de.js"
   ],
   "systems": ["dnd5e"],
   "minimumSystemVersion": "1.2.4",
