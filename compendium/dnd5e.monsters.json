@@ -1,6 +1,10 @@
 {
     "label": "Monster (SRD)",
     "mapping": {
+        "name": {
+            "path": "name",
+            "converter": "monstername"
+        },
         "biography": {
             "path": "data.details.biography.value",
             "converter": "biography"
@@ -29,7 +33,6 @@
     "entries": [
         {
             "id": "Skeleton",
-            "name": "Skelett",
             "biography": "",
             "source": "MHB S. 256",
             "description": ""

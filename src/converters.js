@@ -1,3 +1,5 @@
+import { default as MonsterData } from '../data/monsters.js'
+
 export default function registerConverters(module_id) {
     if (typeof Babele === 'undefined' ||
         !game.settings.get(module_id, 'enableCompendiumTranslation')) {
@@ -19,7 +21,8 @@ export default function registerConverters(module_id) {
         },
         'race': (race) => {
             return convertRace(race)
-        }
+        },
+        'monstername': convertMonsterName
     });
 }
 
@@ -290,3 +293,35 @@ function convertLanguages(l) {
     return result.join("; ");
 }
 
+var monster_name_replacements = {
+    "will-o'-wisp": "Will-o-wisp",
+    "succubus/incubus": "Succubus",
+    "horned devil": "Horned Devil (Malebranche)",
+    "giant rat (diseased)": "Giant Rat",
+    "chain devil": "Chain Devil (Kyton)"
+}
+
+function getMonsterID(id) {
+    if (monster_name_replacements[id.toLowerCase()]) {
+        id = monster_name_replacements[id.toLowerCase()];
+    }
+    return id
+}
+
+var monster_name_additional = {
+    "succubus/incubus": "Sukkubus/Inkubus",
+    "horned devil": "Hornteufel",
+    "giant rat (diseased)": "Riesenratte (Erkrankt)",
+    "chain devil": "Kettenteufel",
+    "avatar of death": "Avatar des Todes"
+}
+
+function convertMonsterName(m, translation, data) {
+    if (monster_name_additional[m.toLowerCase()]) {
+        return monster_name_additional[m.toLowerCase()];
+    }
+
+    var id = getMonsterID(m);
+
+    return MonsterData.data[id] ? MonsterData.data[id].name : m;
+}
