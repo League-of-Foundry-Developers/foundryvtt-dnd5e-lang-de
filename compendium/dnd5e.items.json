@@ -19,12 +19,12 @@
         },
         {
             "id": "Shortbow",
-            "description": "<section class='secret'><p>Fernkampf-Waffenangriff: +4 zum Treffen, Reichweite 24/96 m., ein Ziel. Treffer: <strong>5 (1d6 + 2) <em>Stichschaden</em></strong>.</p></section><p>Das Skelett greift mit seinem Kurzbogen an.</p>",
+            "description": "<section class='secret'><p>Fernkampf-Waffenangriff: +4 zum Treffen, Reichweite 24/96 m., ein Ziel. Treffer: <strong>5 (1d6 + 2) <em>Stichschaden</em></strong>.</p></section><p>Die Kreatur greift mit dem Kurzbogen an.</p>",
             "source": "SHB S. 149"
         },
         {
             "id": "Shortsword",
-            "description": "<section class='secret'><p><em>Nahkampf-Waffenangriff: </em><strong>+4 zum Treffen, Reichweite</strong>&nbsp;<strong>1.5 m.,</strong> ein Ziel. Treffer: <strong>5 (1d6 + 2) <em>Stichschaden</em></strong>.</p></section><p>Das Skelett greift mit seinem Kurzschwert an.</p>",
+            "description": "<section class='secret'><p><em>Nahkampf-Waffenangriff: </em><strong>+4 zum Treffen, Reichweite</strong>&nbsp;<strong>1.5 m.,</strong> ein Ziel. Treffer: <strong>5 (1d6 + 2) <em>Stichschaden</em></strong>.</p></section><p>Die Kreatur greift mit dem Kurzschwert an.</p>",
             "source": "SHB S. 149"
         }
     ]
