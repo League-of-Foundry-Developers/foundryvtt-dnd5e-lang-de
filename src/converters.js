@@ -33,43 +33,33 @@ export default function registerConverters(id) {
     });
 }
 
-function toTitelCase(str) {
-    let upper = true
-    let newStr = ''
-    for (let i = 0, l = str.length; i < l; i++) {
-        if (str[i] == ' ') {
-            upper = true
-            newStr += str[i]
-            continue
-        }
-        newStr += upper ? str[i].toUpperCase() : str[i].toLowerCase()
-        upper = false
-    }
-    return newStr
-}
-
 // Alignments
 
 var alignments = {
-    'chaotic evil': 'chaotisch böse',
-    'chaotic neutral': 'chaotisch neutral',
-    'chaotic good': 'chaotisch gut',
-    'neutral evil': 'neutral böse',
-    'true neutral': 'neutral',
-    'neutral': 'neutral',
-    'neutral good': 'neutral gut',
-    'lawful evil': 'rechtschaffen böse',
-    'lawful neutral': 'rechtschaffen neutral',
-    'lawful good': 'rechtschaffen gut',
-    'chaotic good evil': 'chaotisch gut/böse',
-    'lawful chaotic evil': 'rechtschaffen/chaotisch böse',
-    'unaligned': 'gesinnungslos',
-    'any non-lawful': 'jede nicht rechtschaffende Gesinnung',
-    'any': 'jede Gesinnung',
+    'chaotic evil': 'Chaotisch Böse',
+    'chaotic neutral': 'Chaotisch Neutral',
+    'chaotic good': 'Chaotisch Gut',
+    'neutral evil': 'Neutral Böse',
+    'true neutral': 'Neutral',
+    'neutral': 'Neutral',
+    'neutral good': 'Neutral Gut',
+    'lawful evil': 'Rechtschaffen Böse',
+    'lawful neutral': 'Rechtschaffen Neutral',
+    'lawful good': 'Rechtschaffen Gut',
+    'chaotic good evil': 'Chaotisch Gut/Böse',
+    'lawful chaotic evil': 'Rechtschaffen/Chaotisch Böse',
+    'unaligned': 'Gesinnungslos',
+    'any non evil': 'Jede nicht böse Gesinnung',
+    'any non neutral': 'Jede nicht neutrale Gesinnung',
+    'any non good': 'Jede nicht gute Gesinnung',
+    'any non chaotic': 'Jede nicht chaotische Gesinnung',
+    'any non lawful': 'Jede nicht rechtschaffende Gesinnung',
+    'any': 'Jede Gesinnung',
 };
 
 function convertAlignment(a) {
-    return alignments[a.toLowerCase()] ? toTitelCase(alignments[a.toLowerCase()]) : a;
+    var id = a.toLowerCase().replace('-', ' ');
+    return alignments[id] ? alignments[id] : a;
 }
 
 // Rarity
