@@ -14,13 +14,13 @@ def main():
             with open(path + "diff.txt", "w", encoding="utf-8") as out:
                 a = json.load(diff1)
                 b = json.load(diff2)
-                
+
                 for key in a.keys():
                     if key not in b:
                         val = a[key]
                         out.write("\"{0}\": \"{1}\",\n".format(key, val))
                         count += 1
-    
+
     print("Found " + str(count) + " missing keys")
 
 if __name__ == "__main__":
