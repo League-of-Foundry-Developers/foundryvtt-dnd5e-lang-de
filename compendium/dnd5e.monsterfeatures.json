@@ -4,7 +4,7 @@
         {
             "id": "Bite",
             "name": "Biss",
-            "description": "<section class='secret'><p>Nahkampf-Waffenangriff: +11 zu treffen, 10 Fuß zu erreichen, ein Ziel. Treffer: 17 (2W10 + 6) Stichschaden.</p></section><p>Die {creature} greift mit ihrem Biss an.</p>"
+            "description": "<section class='secret'><p>Nahkampf-Waffenangriff: +11 zum Treffen, Reichweite 10 Fuß, ein Ziel. Treffer: 17 (2W10 + 6) Stichschaden.</p></section><p>Die Kreatur greift mit ihrem Biss an.</p>"
         }
     ]
 }
