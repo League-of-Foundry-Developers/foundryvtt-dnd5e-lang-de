@@ -298,7 +298,8 @@ var monster_name_replacements = {
     'succubus/incubus': 'Succubus',
     'horned devil': 'Horned Devil (Malebranche)',
     'giant rat (diseased)': 'Giant Rat',
-    'chain devil': 'Chain Devil (Kyton)'
+    'chain devil': 'Chain Devil (Kyton)',
+    'deep gnome': 'Deep Gnome (Svirfneblin)'
 }
 
 function getMonsterID(id) {
@@ -313,7 +314,8 @@ var monster_name_additional = {
     'horned devil': 'Hornteufel',
     'giant rat (diseased)': 'Riesenratte (Erkrankt)',
     'chain devil': 'Kettenteufel',
-    'avatar of death': 'Avatar des Todes'
+    'avatar of death': 'Avatar des Todes',
+    'deep gnome': 'Tiefen-Gnom'
 }
 
 function convertMonsterName(m, translation, data) {
