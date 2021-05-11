@@ -94,7 +94,7 @@ To add new translations:
 This is a bit more involved, as compendia are currently translated using the
 awesome [Babele](https://foundryvtt.com/packages/babele) module.
 The [Babele repository](https://gitlab.com/riccisi/foundryvtt-babele) has a
-brief tutorail.
+brief tutorial.
 
 In short, compendium translations live in `compendium/`
 ([here](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/tree/master/compendium)).
