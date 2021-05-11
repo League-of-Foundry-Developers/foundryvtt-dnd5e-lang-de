@@ -17,6 +17,21 @@ export default function registerConverters(module_id) {
     });
 }
 
+function toTitelCase(str) {
+    let upper = true
+    let newStr = ""
+    for (let i = 0, l = str.length; i < l; i++) {
+        if (str[i] == " ") {
+            upper = true
+            newStr += str[i]
+            continue
+        }
+        newStr += upper ? str[i].toUpperCase() : str[i].toLowerCase()
+        upper = false
+    }
+    return newStr
+}
+
 // Alignments
 
 var alignments = {
@@ -38,7 +53,7 @@ var alignments = {
 };
 
 function convertAlignment(a) {
-    return alignments[a.toLowerCase()] ? alignments[a.toLowerCase()] : a;
+    return alignments[a.toLowerCase()] ? toTitelCase(alignments[a.toLowerCase()]) : a;
 }
 
 // Rarity
