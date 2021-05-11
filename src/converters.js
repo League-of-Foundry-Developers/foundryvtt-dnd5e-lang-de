@@ -28,7 +28,8 @@ export default function registerConverters(id) {
         },
         'monstername': convertMonsterName,
         'monstersource': convertMonsterSource,
-        'monsterenvironment': convertMonsterEnvironment
+        'monsterenvironment': convertMonsterEnvironment,
+        'monstertoken': convertMonsterToken
     });
 }
 
@@ -330,6 +331,11 @@ function convertMonsterName(m, translation, data) {
     var id = getMonsterID(m);
 
     return MonsterData.data[id] ? MonsterData.data[id].name : m;
+}
+
+function convertMonsterToken(m, translation, data) {
+    m.name = convertMonsterName(m.name);
+    return m;
 }
 
 var source_book_replacements = {

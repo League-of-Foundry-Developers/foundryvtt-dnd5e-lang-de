@@ -32,6 +32,10 @@
         "languages": {
             "path": "data.traits.languages.custom",
             "converter": "languages"
+        },
+        "token": {
+            "path": "token",
+            "converter": "monstertoken"
         }
     },
     "entries": [
