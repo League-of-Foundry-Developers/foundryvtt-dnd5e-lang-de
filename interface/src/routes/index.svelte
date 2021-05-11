@@ -3,23 +3,23 @@
 </script>
 
 <script lang="ts">
-	// import { db } from '../db/db.js';
-	import * as deTradegoods from '../../../compendium/dnd5e.tradegoods.json';
+	// const Datastore = require("nedb");
+	import * as deTradegoods from '../compendium/dnd5e.tradegoods.json';
+	// const trade = new Datastore({ filename: "../packs/tradegoods.db", timestampData: true });
 
-	$: data = [];
+// 	trade.loadDatabase(err => {
 	
-	function showItems() {
-    db.find({})
-      .sort({ createdAt: -1 })
-      .exec(function(err, docs) {
-        data = docs;
-		console.log('i am here');
-		
-	});
-  }
+// 	if (err) {
+// 		console.error(err);
+// 	} else {
+// 		console.log("Connected to Tradegoods DB");
+// 	}
+	
+// });
 
+	// on click set
 	let shown = false;
-	showItems();
+	
 </script>
 
 <svelte:head>
@@ -30,17 +30,13 @@
 	
 	<div class="main">
 		<h1>
-		Foundry VTT DnD52 übersetzung
+		Foundry VTT DnD5e übersetzung
 		</h1>
 		<div class="wrapper">
 
 			<div class="en-translation">
 				<h2>Englisch</h2>
-				{#each data as item}
-					<p>
-						{item.name}
-					</p>
-				{/each}
+			
 			</div>
 			<div class="de-translation">
 				<h2>Deutsch</h2>
@@ -60,11 +56,14 @@
 							<h3>
 								Deutsche übersetzung
 							</h3>
-							<p>
+							{#if !shown}
+							<p class="de-word">
 								{tradegood.name}<button on:click={() => shown = !shown} class="edit">edit</button>
 							</p>
+							{/if}
 							{#if shown}
 								<input type="text" id="de.tradegood.name" name="dtname" value="{tradegood.name}">
+								<button on:click={() => shown = !shown} class="edit">Safe</button>
 							{/if}
 						</div>
 					</div>
@@ -108,6 +107,15 @@
 
 	.de-translation {
 		width: 480px;
+	}
+
+	.de-div {
+		flex: 0 260px;
+	}
+
+	.de-word {
+		display: flex;
+		justify-content: space-between;
 	}
 	.flex {
 		display: flex;
