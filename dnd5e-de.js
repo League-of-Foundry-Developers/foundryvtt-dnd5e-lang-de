@@ -27,7 +27,7 @@ Hooks.once('init', () => {
     if (typeof Babele !== 'undefined' &&
         game.settings.get(module_id, 'enableCompendiumTranslation')) {
         Babele.get().register({
-            module: 'FoundryVTT-dnd5e-DE',
+            module: module_id,
             lang: module_lang,
             dir: 'compendium'
         });
