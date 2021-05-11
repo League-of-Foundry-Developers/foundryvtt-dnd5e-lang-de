@@ -20,7 +20,7 @@ var alignments = {
     'chaotic evil': 'chaotisch böse',
     'chaotic neutral': 'chaotisch neutral',
     'chaotic good': 'chaotisch gut',
-    'neutral evil': 'chaotisch neutral',
+    'neutral evil': 'neutral böse',
     'true neutral': 'neutral',
     'neutral': 'neutral',
     'neutral good': 'neutral gut',
