@@ -1,6 +1,10 @@
 import { default as MonsterData } from '../data/monsters.js'
 
-export default function registerConverters(module_id) {
+var module_id = '';
+
+export default function registerConverters(id) {
+    module_id = id;
+
     if (typeof Babele === 'undefined' ||
         !game.settings.get(module_id, 'enableCompendiumTranslation')) {
         return
@@ -22,7 +26,8 @@ export default function registerConverters(module_id) {
         'race': (race) => {
             return convertRace(race)
         },
-        'monstername': convertMonsterName
+        'monstername': convertMonsterName,
+        'monstersource': convertMonsterSource
     });
 }
 
@@ -324,4 +329,33 @@ function convertMonsterName(m, translation, data) {
     var id = getMonsterID(m);
 
     return MonsterData.data[id] ? MonsterData.data[id].name : m;
+}
+
+var source_book_replacements = {
+    "MM": "MHB",
+    "PHB": "SHB",
+    "DMG": "SLHB",
+    "VGM": "VAM"
+}
+
+function convertMonsterSource(m, translation, data) {
+    if (!MonsterData.data[data.name]) {
+        return m;
+    }
+
+    var new_src = MonsterData.data[data.name].src + " S. " + MonsterData.data[data.name].src_pg;
+    new_src = new_src.replace(", SRD", "");
+    new_src = new_src.replace("SRD", "");
+
+    if (game.settings.get(module_id, 'compendiumSrcTranslateBooks')) {
+        for (var book in source_book_replacements) {
+            new_src = new_src.replace(book, source_book_replacements[book]);
+        }
+    }
+
+    if (game.settings.get(module_id, 'compendiumSrcKeepOriginal')) {
+        new_src = new_src + " (" + m.replace("pg.", "S.") + ")";
+    }
+
+    return new_src
 }

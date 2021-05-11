@@ -23,7 +23,7 @@
         },
         "source": {
             "path": "data.details.source",
-            "converter": "source"
+            "converter": "monstersource"
         },
         "languages": {
             "path": "data.traits.languages.custom",
@@ -34,7 +34,6 @@
         {
             "id": "Skeleton",
             "biography": "",
-            "source": "MHB S. 256",
             "description": ""
         }
     ]
