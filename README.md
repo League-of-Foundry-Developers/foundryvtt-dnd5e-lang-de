@@ -37,6 +37,37 @@ Every release afterwards is compatible with all Foundry versions >= 0.7.5.
 The module depends on the [german core translation](https://foundryvtt.com/packages/lang-de) for ease of use.
 The module also depends on [Babele](https://foundryvtt.com/packages/babele) for compendium translations.
 
+## Changelog
+
+Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
+
+### Version 0.8.0
+
+- Initial support for Foundry 0.8 and DND 5E system version 1.3.0
+
+### Version 0.7.4
+
+- Small fix for the description of general bonuses to saving throws in the special bonus section of character sheets.
+
+### Version 0.7.3
+
+- DND5E system version 1.2.1 support (new weapon/item properties)
+
+### Version 0.7.2
+
+- Add 15 new translations, fix 2 existing ones
+- Bump compatible Foundry version to 0.7.9
+- Fix paths in helper scripts
+- README additions
+
+### Version 0.7.1
+
+- The first release on Github
+
+Previous versions were by previous maintainers, including Hydroxi and ThoGri
+back on Gitlab, before Fallayn took over maintenance and transferred the module
+to Github the League. Thanks for all of your work!
+
 ## Contributing & adding translations
 
 Contributions are always welcome! Feel free to open Pull Requests or talk to
