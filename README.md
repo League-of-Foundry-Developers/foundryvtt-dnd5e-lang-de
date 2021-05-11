@@ -34,7 +34,7 @@ Every release up to and including version 0.4 is compatible with all Foundry ver
 Every release up to and including version 0.8 is compatible with all Foundry version >= 0.6.4.\
 Every release afterwards is compatible with all Foundry versions >= 0.7.5.
 
-The module depends on the [german core translation](https://foundryvtt.com/packages/lang-de) for ease of use.
+The module depends on the [german core translation](https://foundryvtt.com/packages/lang-de) for ease of use.\
 The module also depends on [Babele](https://foundryvtt.com/packages/babele) for compendium translations.
 
 ## Changelog
@@ -156,7 +156,8 @@ of the public domain.
 
 If that is not enough for you however, you may alternatively use all contents
 and source code that aren't owned by anyone else (e.g. Foundry, or other
-module authors) under the terms of either the [MIT](https://opensource.org/licenses/MIT) or
+module authors, or WotC SRD content) under the terms of either the
+[MIT](https://opensource.org/licenses/MIT) or
 the [Creative Commons Attribution 4.0 International
 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) licenses, whichever you prefer.
 
