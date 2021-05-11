@@ -41,15 +41,15 @@ function convertAlignment(a) {
 // Rarity
 
 var rarity = {
-	"Common": "Gewöhnlich",
-	"Uncommon": "Ungewöhnlich",
-	"Rare": "Selten",
-	"Very rare": "Sehr selten",
-    "Legendary": "Legendär",
-    "Artifact": "Artefakt",
-    "Unique": "Einzigartig"
+	"common": "Gewöhnlich",
+	"uncommon": "Ungewöhnlich",
+	"rare": "Selten",
+	"very rare": "Sehr selten",
+    "legendary": "Legendär",
+    "artifact": "Artefakt",
+    "unique": "Einzigartig"
 };
 
 function convertRarity(r) {
-    return rarity[r] ? rarity[r] : r;
+    return rarity[r.toLowerCase()] ? rarity[r.toLowerCase()] : r;
 }
