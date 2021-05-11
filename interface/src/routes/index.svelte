@@ -3,10 +3,23 @@
 </script>
 
 <script lang="ts">
-	import * as deTradegoods from '../../../compendium/dnd5e.tradegoods.json'
-	// import * as enTradegoods from '../packs/tradegoods.json'
-	// console.log('en', enTradegoods);
+	// import { db } from '../db/db.js';
+	import * as deTradegoods from '../../../compendium/dnd5e.tradegoods.json';
+
+	$: data = [];
+	
+	function showItems() {
+    db.find({})
+      .sort({ createdAt: -1 })
+      .exec(function(err, docs) {
+        data = docs;
+		console.log('i am here');
+		
+	});
+  }
+
 	let shown = false;
+	showItems();
 </script>
 
 <svelte:head>
@@ -23,6 +36,11 @@
 
 			<div class="en-translation">
 				<h2>Englisch</h2>
+				{#each data as item}
+					<p>
+						{item.name}
+					</p>
+				{/each}
 			</div>
 			<div class="de-translation">
 				<h2>Deutsch</h2>
