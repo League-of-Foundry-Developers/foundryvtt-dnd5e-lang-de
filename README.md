@@ -4,6 +4,9 @@ German translation of the
 [Dungeons & Dragons 5th Edition (dnd5e) system](https://foundryvtt.com/packages/dnd5e)
 for [Foundry Virtual Tabletop](https://foundryvtt.com/).
 
+Aims to provide consistent and usable translations in german for all 5E
+system content, including compendia via Babele.
+
 ## How to use
 
 Install via Foundry or by pasting the URL below into Foundry's module manager:
@@ -27,8 +30,8 @@ There you can find the link to the manifest of a specific release version to use
 
 You can see all past releases and compatible versions on the official package listing [here](https://foundryvtt.com/packages/FoundryVTT-dnd5e-DE).
 
-Every release up to and including version 0.4 is compatible with all Foundry version >= 0.6.x.
-Every release up to and including version 0.8 is compatible with all Foundry version >= 0.6.4.
+Every release up to and including version 0.4 is compatible with all Foundry version >= 0.6.x.\
+Every release up to and including version 0.8 is compatible with all Foundry version >= 0.6.4.\
 Every release afterwards is compatible with all Foundry versions >= 0.7.5.
 
 The module depends on the [german core translation](https://foundryvtt.com/packages/lang-de) for ease of use.
@@ -59,25 +62,30 @@ To add new translations:
 
 This is a bit more involved, as compendia are currently translated using the
 awesome [Babele](https://foundryvtt.com/packages/babele) module.
-The [Babele repository])(https://gitlab.com/riccisi/foundryvtt-babele) has a
+The [Babele repository](https://gitlab.com/riccisi/foundryvtt-babele) has a
 brief tutorail.
 
 In short, compendium translations live in `compendium/`
 ([here](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/tree/master/compendium)).
 
-In cases where there is only a small set of values for a field (like Alignments),
+In cases where there is only a small set of values for a field (like *Alignments*),
 those are translated using Babele converter functions in `src/`:
 https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/blob/compendia/src/converters.js
 
 Those are also useful for translation values that are used in multiple places,
-like Item Rarities.
+like *Item Rarities*.
 
 ## Contact
 
 You can reach out on the Discord of the
 [League of Extraordinary FoundryVTT Developers](https://discord.com/invite/2rHs78h).
+If you want to contact the current maintainer directly, feel free to message
+**Fallayn#6414** on Discord.
 
 ## Thanks and credits
+
+Thanks to all current, past and future contributors: \
+**Hydroxi, Smicman, ThoGri, Morvar, Fallayn, crash**
 
 Much love to [Foundry](https://foundryvtt.com/), Atropos & team and the awesome Foundry community,
 especially the [League](https://discord.com/invite/2rHs78h),
