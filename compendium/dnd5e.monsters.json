@@ -25,6 +25,10 @@
             "path": "data.details.source",
             "converter": "monstersource"
         },
+        "environment": {
+            "path": "data.details.environment",
+            "converter": "monsterenvironment"
+        },
         "languages": {
             "path": "data.traits.languages.custom",
             "converter": "languages"
@@ -33,8 +37,7 @@
     "entries": [
         {
             "id": "Skeleton",
-            "biography": "",
-            "description": ""
+            "biography": ""
         }
     ]
 }

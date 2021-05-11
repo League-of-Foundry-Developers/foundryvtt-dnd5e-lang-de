@@ -27,7 +27,8 @@ export default function registerConverters(id) {
             return convertRace(race)
         },
         'monstername': convertMonsterName,
-        'monstersource': convertMonsterSource
+        'monstersource': convertMonsterSource,
+        'monsterenvironment': convertMonsterEnvironment
     });
 }
 
@@ -358,4 +359,12 @@ function convertMonsterSource(m, translation, data) {
     }
 
     return new_src
+}
+
+function convertMonsterEnvironment(m, translation, data) {
+    if (!MonsterData.data[data.name]) {
+        return m;
+    }
+
+    return MonsterData.data[data.name].env;
 }
