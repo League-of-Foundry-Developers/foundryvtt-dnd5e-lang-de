@@ -161,6 +161,15 @@ module authors, or WotC SRD content) under the terms of either the
 the [Creative Commons Attribution 4.0 International
 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) licenses, whichever you prefer.
 
+We also explicitly agree to have others take over this module,
+including the repository and the listing on the
+Foundry package list and in the Foundry module manager in case the current
+maintainer(s) are absent (e.g. not responding to contact attempts on Discord)
+for more than three months. Please contact the League and/or Foundry if this
+is the case and you want to take over development. Be aware you may still
+contribute changes without this, for example via Pull Requests which the
+League is still able to merge, as they have control over this repository.
+
 In regards to Foundry, this is a work under the Limited License Agreement
 for module development, aus outlined [here](https://foundryvtt.com/article/license/).
 
