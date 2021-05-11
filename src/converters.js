@@ -1,4 +1,6 @@
 import { default as MonsterData } from '../data/monsters.js'
+import { default as ItemData } from '../data/items.js'
+import { default as MagicItemData } from '../data/magicitems.js'
 
 var module_id = '';
 
@@ -29,7 +31,8 @@ export default function registerConverters(id) {
         'monstername': convertMonsterName,
         'monstersource': convertMonsterSource,
         'monsterenvironment': convertMonsterEnvironment,
-        'monstertoken': convertMonsterToken
+        'monstertoken': convertMonsterToken,
+        'itemname': convertItemName
     });
 }
 
@@ -363,4 +366,35 @@ function convertMonsterEnvironment(m, translation, data) {
     }
 
     return MonsterData.data[data.name].env;
+}
+
+
+function convertItemName(m, translation, data) {
+    if (ItemData.data[m]) {
+        return ItemData.data[m].name;
+    }
+
+    if (MagicItemData.data[m]) {
+        return MagicItemData.data[m].name;
+    }
+
+    var mod = getMagicalItemModifier(m);
+    if (mod.length > 0) {
+        var basename = m.substring(0, m.length - mod.length).trim()
+        if (ItemData.data[basename]) {
+            return ItemData.data[basename].name + " " + mod;
+        }
+
+        if (MagicItemData.data[basename]) {
+            return MagicItemData.data[basename].name + " " + mod;
+        }
+    }
+
+    return m;
+}
+
+function getMagicalItemModifier(string)
+{
+    var match = string.match(/[\+\-][0-9]$/);
+    return match ? match[0] : '';
 }
