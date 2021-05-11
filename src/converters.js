@@ -16,6 +16,9 @@ export default function registerConverters(module_id) {
         },
         'languages': (language) => {
             return convertLanguages(language)
+        },
+        'race': (race) => {
+            return convertRace(race)
         }
     });
 }
@@ -142,6 +145,29 @@ var types = {
 
 function convertType(t) {
     return types[t.toLowerCase()] ? types[t.toLowerCase()] : t;
+}
+
+var races = {
+    "dragonborn": "Drachenblütiger",
+    "dwarf": "Zwerg",
+    "hill dwarf": "Hügelzwerg",
+    "mountain dwarf": "Gebirgszwerg",
+    "elf": "Elf",
+    "high elf": "Hochelf",
+    "gnome": "Gnom",
+    "rock gnome": "Felsengnom",
+    "half elf": "Halbelf",
+    "half-elf": "Halbelf",
+    "halfling": "Halbling",
+    "lightfoot halfling": "Leichtfuss-Halbling",
+    "half orc": "Halbork",
+    "human": "Mensch",
+    "variant human": "Mensch Variante",
+    "tiefling": "Tiefling"
+}
+
+function convertRace(r) {
+    return races[r.toLowerCase()] ? races[r.toLowerCase()] : r;
 }
 
 var languages = {

@@ -1,66 +1,60 @@
 {
     "label": "Völker (SRD)",
     "mapping": {
-        "source": "data.source"
+        "source": "data.source",
+        "name": {
+           "path": "name",
+           "converter": "race"
+        }
     },
     "entries": [
         {
             "id": "Dwarf",
-            "name": "Zwerg",
             "description": "",
             "source": "SHB S. 29"
         },
         {
             "id": "High Elf",
-            "name": "Hochelf",
             "description": "",
             "source": "SHB S. 20"
         },
         {
             "id": "Halfling",
-            "name": "Halbling",
             "description": "",
             "source": "SHB S. 23"
         },
         {
             "id": "Half-Elf",
-            "name": "Halbelfen",
             "description": "",
             "source": "SHB S. 38"
         },
         {
             "id": "Dragonborn",
-            "name": "Drachenblütige",
             "description": "",
             "source": "SHB S. 32"
         },
         {
             "id": "Tiefling",
-            "name": "Tieflinge",
             "description": "",
             "source": "SHB S. 42"
         },
         {
             "id": "Gnome",
-            "name": "Gnome",
             "description": "",
             "source": "SHB S. 35"
         },
         {
             "id": "Half-Orc",
-            "name": "Halborks",
             "description": "",
             "source": "SHB S. 40"
         },
         {
             "id": "Elf",
-            "name": "Elf",
             "description": "",
             "source": "SHB S. 18"
         },
         {
             "id": "Human",
-            "name": "Menschen",
             "description": "",
             "source": "SHB S. 26"
         }
