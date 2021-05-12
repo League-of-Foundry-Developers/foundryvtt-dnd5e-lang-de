@@ -5,7 +5,8 @@
 <script lang="ts">
 	// const Datastore = require("nedb");
 	import * as deTradegoods from '../compendium/dnd5e.tradegoods.json';
-	// const trade = new Datastore({ filename: "../packs/tradegoods.db", timestampData: true });
+// 	import * as Datastore from 'nedb';
+// 	const trade = new Datastore({ filename: "../packs/tradegoods.db", timestampData: true });
 
 // 	trade.loadDatabase(err => {
 	
@@ -16,9 +17,22 @@
 // 	}
 	
 // });
+// safe input
+
+	function safeAtJson(file, index, entry, value, position) {
+		
+		
+		console.log(entry[position])
+		var data = JSON.stringify({ position:value });
+		console.log(entry);
+		
+	}
 
 	// on click set
-	let shown = false;
+	const shown = [];
+
+	// const section
+
 	
 </script>
 
@@ -40,7 +54,7 @@
 			</div>
 			<div class="de-translation">
 				<h2>Deutsch</h2>
-				{#each deTradegoods.entries as tradegood}
+				{#each deTradegoods.entries as tradegood, i}
 				<div class="container">
 
 					<div class="flex">
@@ -56,15 +70,17 @@
 							<h3>
 								Deutsche übersetzung
 							</h3>
-							{#if !shown}
-							<p class="de-word">
-								{tradegood.name}<button on:click={() => shown = !shown} class="edit">edit</button>
-							</p>
-							{/if}
-							{#if shown}
-								<input type="text" id="de.tradegood.name" name="dtname" value="{tradegood.name}">
-								<button on:click={() => shown = !shown} class="edit">Safe</button>
-							{/if}
+								<input type="text" id="{tradegood.id}" name="dtname" bind:value="{tradegood.name}" disabled={!shown[i]}>
+								{#if !shown[i]}
+									<button on:click={() => shown[i] = !shown[i]} class="btn">Edit</button>
+								{:else}					
+									<button on:click={() => {
+										console.log(tradegood.name);
+										
+										safeAtJson(deTradegoods, i, tradegood, tradegood.name, 'name');
+										shown[i] = !shown[i];
+									}} class="edit">Safe</button>
+								{/if}
 						</div>
 					</div>
 						<div class="de-description">
