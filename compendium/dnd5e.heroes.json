@@ -1,40 +1,40 @@
 {
     "entries": {
         "Akra (Dragonborn Cleric)": {
-            "name": ""
+            "name": "Akra (Drachenblütiger Kleriker)"
         },
         "Aoth (Human Druid)": {
-            "name": ""
+            "name": "Aoth (Mensch Druide)"
         },
         "Beiro (Half-Elf Bard)": {
-            "name": ""
+            "name": "Beiro (Halbelf Barde)"
         },
         "Krusk (Half-Orc Paladin)": {
-            "name": ""
+            "name": "Krusk (Halbnork Paladin)"
         },
         "Merric (Halfling Barbarian)": {
-            "name": ""
+            "name": "Merric (Halbling Barbar)"
         },
         "Morthos (Tiefling Sorcerer)": {
-            "name": ""
+            "name": "Morthos (Tiefling Zauberer)"
         },
         "Perrin (Halfling Monk)": {
-            "name": ""
+            "name": "Perrin (Halbling Mönch)"
         },
         "Quillathe (Elf Ranger)": {
-            "name": ""
+            "name": "Quillate (Elf Waldläufer)"
         },
         "Randal (Human Fighter)": {
-            "name": ""
+            "name": "Randal (Mensch Kämpfer)"
         },
         "Riswynn (Dwarf Rogue)": {
-            "name": ""
+            "name": "Riswynn (Zwerg Schurke)"
         },
         "Sefris (Half-Elf Warlock)": {
-            "name": ""
+            "name": "Sefris (Halbelf Hexenmeister)"
         },
         "Zanna (Gnome Wizard)": {
-            "name": ""
+            "name": "Zanna (Gnom Magier)"
         }
     },
     "label": "Helden zum Starten",
@@ -56,4 +56,5 @@
             "path": "data.details.race"
         }
     }
-}
+}
+
