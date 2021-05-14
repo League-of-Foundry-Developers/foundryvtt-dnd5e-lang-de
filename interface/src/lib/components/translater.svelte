@@ -3,6 +3,7 @@
 </script>
 
 <script lang="ts">
+	export let file;
 	// const Datastore = require("nedb");
 	import * as deTradegoods from '$lib/compendium/dnd5e.tradegoods.json';
 // 	import * as Datastore from 'nedb';
