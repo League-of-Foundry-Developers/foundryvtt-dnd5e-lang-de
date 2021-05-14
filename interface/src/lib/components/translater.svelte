@@ -3,31 +3,26 @@
 </script>
 
 <script lang="ts">
-	export let file;
-	// const Datastore = require("nedb");
-	import * as deTradegoods from '$lib/compendium/dnd5e.tradegoods.json';
-// 	import * as Datastore from 'nedb';
-// 	const trade = new Datastore({ filename: "../packs/tradegoods.db", timestampData: true });
+import { onMount } from "svelte";
 
-// 	trade.loadDatabase(err => {
-	
-// 	if (err) {
-// 		console.error(err);
-// 	} else {
-// 		console.log("Connected to Tradegoods DB");
-// 	}
-	
-// });
+
+	export let file;
+	let deTradegoods = {
+		entries: []
+	};
+
+	// import * as deTradegoods from '$lib/compendium/' + file ;
+
 // safe input
 	const handelClick = (index) => {
 		if (shown[index]) safeAtJson(deTradegoods.entries[index]);
 		shown[index] = !shown[index];
 	} 
 	async function safeAtJson(entry) {	
-		entry.file = 'dnd5e.tradegoods.json'
+		entry.file = file;
 		var data = JSON.stringify(entry);
 		// ToDo Try Catcher
-		const result = await fetch(`/api/${entry.id}.json`, {method:'POST', body: data});
+		const result = await fetch(`/api.json`, {method:'POST', body: data});
 
 	}
 
@@ -36,7 +31,10 @@
 
 	// const section
 
-	
+onMount(async () => {
+	const response = await fetch('/api.json?file=' + file);
+	deTradegoods = await response.json()
+});
 </script>
 
 <svelte:head>

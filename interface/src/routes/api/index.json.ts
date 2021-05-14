@@ -13,12 +13,23 @@ const fullPath = (filePath) => path.join(projectRoot, filePath);
 const readFile = (filePath) => fs.readFileSync(fullPath(filePath), 'utf8');
 const writeFile = (filePath, content) => fs.writeFileSync(fullPath(filePath), content);
 
+export const get: RequestHandler<Locals, string> = (request) => {
+    console.log(request.query);
+    let body = '';
+    const file = request.query.get('file');
+    if (file) {
+        body = readFile(file);
+    }
+    return {
+        status: 200,
+        headers: {
+            'content-type': 'appliction/json'
+        },
+        body
+    }
+}
 
-
-// Post /api/:id.json
 export const post: RequestHandler<Locals, string> = async (request) => {
-    console.log(request.params.id);
-    console.log(request.body);
     const update = JSON.parse(request.body);
     const fileName = update.file;
     delete update.file;
