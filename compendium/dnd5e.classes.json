@@ -3,78 +3,66 @@
     "mapping": {
         "source": "data.source"
     },
-    "entries": [
-        {
-            "id": "Sorcerer",
+    "entries": {
+        "Sorcerer": {
             "name": "Zauberer",
             "description": "",
             "source": "SHB S. 114"
         },
-        {
-            "id": "Monk",
+        "Monk": {
             "name": "Mönch",
             "description": "",
             "source": "SHB S. 91"
         },
-        {
-            "id": "Warlock",
+        "Warlock": {
             "name": "Hexenmeister",
             "description": "",
             "source": "SHB S. 62"
         },
-        {
-            "id": "Fighter",
+        "Fighter": {
             "name": "Kämpfer",
             "description": "",
             "source": "SHB S. 69"
         },
-        {
-            "id": "Bard",
+        "Bard": {
             "name": "Barde",
             "description": "",
             "source": "SHB S. 51"
         },
-        {
-            "id": "Ranger",
+        "Ranger": {
             "name": "Waldläufer",
             "description": "",
             "source": "SHB S. 109"
         },
-        {
-            "id": "Paladin",
+        "Paladin": {
             "name": "Paladin",
             "description": "",
             "source": "SHB S. 97"
         },
-        {
-            "id": "Barbarian",
+        "Barbarian": {
             "name": "Barbar",
             "description": "",
             "source": "SHB S. 46"
         },
-        {
-            "id": "Cleric",
+        "Cleric": {
             "name": "Kleriker",
             "description": "",
             "source": "SHB S. 75"
         },
-        {
-            "id": "Wizard",
+        "Wizard": {
             "name": "Magier",
             "description": "",
             "source": "SHB S. 83"
         },
-        {
-            "id": "Rogue",
+        "Rogue": {
             "name": "Schurke",
             "description": "",
             "source": "SHB S. 104"
         },
-        {
-            "id": "Druid",
+        "Druid": {
             "name": "Druide",
             "description": "",
             "source": "SHB S. 56"
         }
-    ]
+    }
 }

@@ -38,10 +38,9 @@
             "converter": "monstertoken"
         }
     },
-    "entries": [
-        {
-            "id": "Skeleton",
+    "entries": {
+        "Skeleton": {
             "biography": ""
         }
-    ]
+    }
 }

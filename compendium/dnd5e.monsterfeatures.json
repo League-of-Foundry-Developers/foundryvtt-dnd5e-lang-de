@@ -1,10 +1,9 @@
 {
     "label": "Monsterfähigkeiten (SRD)",
-    "entries": [
-        {
-            "id": "Bite",
+    "entries": {
+        "Bite": {
             "name": "Biss",
             "description": "<section class='secret'><p>Nahkampf-Waffenangriff: +11 zum Treffen, Reichweite 10 Fuß, ein Ziel. Treffer: 17 (2W10 + 6) Stichschaden.</p></section><p>Die Kreatur greift mit ihrem Biss an.</p>"
         }
-    ]
+    }
 }

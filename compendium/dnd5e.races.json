@@ -7,56 +7,46 @@
            "converter": "race"
         }
     },
-    "entries": [
-        {
-            "id": "Dwarf",
+    "entries": {
+        "Dwarf": {
             "description": "",
             "source": "SHB S. 29"
         },
-        {
-            "id": "High Elf",
+        "High Elf": {
             "description": "",
             "source": "SHB S. 20"
         },
-        {
-            "id": "Halfling",
+        "Halfling": {
             "description": "",
             "source": "SHB S. 23"
         },
-        {
-            "id": "Half-Elf",
+        "Half-Elf": {
             "description": "",
             "source": "SHB S. 38"
         },
-        {
-            "id": "Dragonborn",
+        "Dragonborn": {
             "description": "",
             "source": "SHB S. 32"
         },
-        {
-            "id": "Tiefling",
+        "Tiefling": {
             "description": "",
             "source": "SHB S. 42"
         },
-        {
-            "id": "Gnome",
+        "Gnome": {
             "description": "",
             "source": "SHB S. 35"
         },
-        {
-            "id": "Half-Orc",
+        "Half-Orc": {
             "description": "",
             "source": "SHB S. 40"
         },
-        {
-            "id": "Elf",
+        "Elf": {
             "description": "",
             "source": "SHB S. 18"
         },
-        {
-            "id": "Human",
+        "Human": {
             "description": "",
             "source": "SHB S. 26"
         }
-    ]
+    }
 }
