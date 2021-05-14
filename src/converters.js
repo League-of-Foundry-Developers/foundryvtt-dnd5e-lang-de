@@ -24,7 +24,8 @@ export default function registerConverters(id) {
         'monsterenvironment': convertMonsterEnvironment,
         'monstertoken': convertMonsterToken,
         'itemname': convertItemName,
-        'spellname': convertSpellName
+        'spellname': convertSpellName,
+        'spellsource': convertSpellSource
     });
 }
 
@@ -399,4 +400,26 @@ function convertSpellName(name) {
     }
 
     return name;
+}
+
+function convertSpellSource(m, translation, data) {
+    if (!SpellData.data[data.name]) {
+        return m;
+    }
+
+    var new_src = SpellData.data[data.name].src + ' S. ' + SpellData.data[data.name].src_pg;
+    new_src = new_src.replace(', SRD', '');
+    new_src = new_src.replace('SRD', '');
+
+    if (game.settings.get(module_id, 'compendiumSrcTranslateBooks')) {
+        for (var book in source_book_replacements) {
+            new_src = new_src.replace(book, source_book_replacements[book]);
+        }
+    }
+
+    if (game.settings.get(module_id, 'compendiumSrcKeepOriginal')) {
+        new_src = new_src + ' (' + m.replace('pg.', 'S.') + ')';
+    }
+
+    return new_src
 }

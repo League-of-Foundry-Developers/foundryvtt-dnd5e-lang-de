@@ -968,7 +968,10 @@
             "converter": "range",
             "path": "data.range"
         },
-        "source": "data.source",
+        "source": {
+            "path": "data.source",
+            "converter": "spellsource"
+        },
         "target": {
             "converter": "target",
             "path": "data.target"
