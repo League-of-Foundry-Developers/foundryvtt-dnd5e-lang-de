@@ -13,21 +13,11 @@ export default function registerConverters(id) {
     }
 
     Babele.get().registerConverters({
-        'alignment': (alignment) => {
-            return convertAlignment(alignment)
-        },
-        'rarity': (rarity) => {
-            return convertRarity(rarity)
-        },
-        'type': (type) => {
-            return convertType(type)
-        },
-        'languages': (language) => {
-            return convertLanguages(language)
-        },
-        'race': (race) => {
-            return convertRace(race)
-        },
+        'alignment': convertAlignment,
+        'rarity': convertRarity,
+        'type': convertType,
+        'languages': convertLanguages,
+        'race': convertRace,
         'monstername': convertMonsterName,
         'monstersource': convertMonsterSource,
         'monsterenvironment': convertMonsterEnvironment,
