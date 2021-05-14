@@ -1,28 +1,2407 @@
 {
-    "label": "Gegenstände (SRD)",
-    "mapping": {
-        "name": {
-            "path": "name",
-            "converter": "itemname"
-        },
-        "rarity": {
-            "path": "data.rarity",
-            "converter": "rarity"
-        },
-        "source": "data.source"
-    },
     "entries": {
         "Abacus": {
             "description": "<p>Der Abakus, auch Z&auml;hlrahmen genannt, ist ein Rechenwerkzeug.</p>",
             "source": "SHB S. 150"
         },
+        "Acid (vial)": {
+            "name": ""
+        },
+        "Adamantine Breastplate": {
+            "name": ""
+        },
+        "Adamantine Chain Mail": {
+            "name": ""
+        },
+        "Adamantine Chain Shirt": {
+            "name": ""
+        },
+        "Adamantine Half Plate Armor": {
+            "name": ""
+        },
+        "Adamantine Plate Armor": {
+            "name": ""
+        },
+        "Adamantine Ring Mail": {
+            "name": ""
+        },
+        "Adamantine Scale Mail": {
+            "name": ""
+        },
+        "Adamantine Splint Armor": {
+            "name": ""
+        },
+        "Alchemist's Fire": {
+            "name": ""
+        },
+        "Alchemist's supplies": {
+            "name": ""
+        },
+        "Alchemy Jug": {
+            "name": ""
+        },
+        "Alms Box": {
+            "name": ""
+        },
+        "Amulet": {
+            "name": ""
+        },
+        "Amulet of Health": {
+            "name": ""
+        },
+        "Amulet of Proof against Detection and Location": {
+            "name": ""
+        },
+        "Amulet of the Planes": {
+            "name": ""
+        },
+        "Animated Shield": {
+            "name": ""
+        },
+        "Antitoxin": {
+            "name": ""
+        },
+        "Apparatus of the Crab": {
+            "name": ""
+        },
+        "Armor of Invulnerability": {
+            "name": ""
+        },
+        "Armor of Vulnerability": {
+            "name": ""
+        },
+        "Arrow +1": {
+            "name": ""
+        },
+        "Arrow +2": {
+            "name": ""
+        },
+        "Arrow +3": {
+            "name": ""
+        },
+        "Arrow of Slaying": {
+            "name": ""
+        },
+        "Arrow-Catching Shield": {
+            "name": ""
+        },
+        "Arrows": {
+            "name": ""
+        },
+        "Backpack": {
+            "name": ""
+        },
+        "Bag of Beans": {
+            "name": ""
+        },
+        "Bag of Devouring": {
+            "name": ""
+        },
+        "Bag of Holding": {
+            "name": ""
+        },
+        "Bag of Sand": {
+            "name": ""
+        },
+        "Bag of Tricks (Grey)": {
+            "name": ""
+        },
+        "Bag of Tricks (Rust)": {
+            "name": ""
+        },
+        "Bag of Tricks (Tan)": {
+            "name": ""
+        },
+        "Bagpipes": {
+            "name": ""
+        },
+        "Ball Bearings": {
+            "name": ""
+        },
+        "Barrel": {
+            "name": ""
+        },
+        "Basic Poison": {
+            "name": ""
+        },
+        "Basket": {
+            "name": ""
+        },
+        "Battleaxe": {
+            "name": ""
+        },
+        "Battleaxe +1": {
+            "name": ""
+        },
+        "Battleaxe +2": {
+            "name": ""
+        },
+        "Battleaxe +3": {
+            "name": ""
+        },
+        "Bead of Force": {
+            "name": ""
+        },
+        "Bedroll": {
+            "name": ""
+        },
+        "Bell": {
+            "name": ""
+        },
+        "Belt of Cloud Giant Strength": {
+            "name": ""
+        },
+        "Belt of Dwarvenkind": {
+            "name": ""
+        },
+        "Belt of Fire Giant Strength": {
+            "name": ""
+        },
+        "Belt of Frost Giant Strength": {
+            "name": ""
+        },
+        "Belt of Hill Giant Strength": {
+            "name": ""
+        },
+        "Belt of Stone Giant Strength": {
+            "name": ""
+        },
+        "Belt of Storm Giant Strength": {
+            "name": ""
+        },
+        "Berserker Battleaxe": {
+            "name": ""
+        },
+        "Berserker Greataxe": {
+            "name": ""
+        },
+        "Berserker Handaxe": {
+            "name": ""
+        },
+        "Blanket": {
+            "name": ""
+        },
+        "Block and Tackle": {
+            "name": ""
+        },
+        "Block of Incense": {
+            "name": ""
+        },
+        "Blowgun": {
+            "name": ""
+        },
+        "Blowgun +1": {
+            "name": ""
+        },
+        "Blowgun +2": {
+            "name": ""
+        },
+        "Blowgun +3": {
+            "name": ""
+        },
+        "Blowgun Needle": {
+            "name": ""
+        },
+        "Bolt of Slaying": {
+            "name": ""
+        },
+        "Book": {
+            "name": ""
+        },
+        "Book of Lore": {
+            "name": ""
+        },
+        "Book of Shadows": {
+            "name": ""
+        },
+        "Boots of Elvenkind": {
+            "name": ""
+        },
+        "Boots of Levitation": {
+            "name": ""
+        },
+        "Boots of Speed": {
+            "name": ""
+        },
+        "Boots of Striding and Springing": {
+            "name": ""
+        },
+        "Boots of the Winterlands": {
+            "name": ""
+        },
+        "Bowl of Commanding Water Elementals": {
+            "name": ""
+        },
+        "Bracers of Archery": {
+            "name": ""
+        },
+        "Bracers of Defense": {
+            "name": ""
+        },
+        "Brass Horn of Valhalla": {
+            "name": ""
+        },
+        "Brazier of Commanding Fire Elementals": {
+            "name": ""
+        },
+        "Breastplate": {
+            "name": ""
+        },
+        "Breastplate +1": {
+            "name": ""
+        },
+        "Breastplate +2": {
+            "name": ""
+        },
+        "Breastplate +3": {
+            "name": ""
+        },
+        "Breastplate Armor of Resistance": {
+            "name": ""
+        },
+        "Brewer's Supplies": {
+            "name": ""
+        },
+        "Bronze Horn of Valhalla": {
+            "name": ""
+        },
+        "Brooch of Shielding": {
+            "name": ""
+        },
+        "Broom of Flying": {
+            "name": ""
+        },
+        "Bucket": {
+            "name": ""
+        },
+        "Bullseye Lantern": {
+            "name": ""
+        },
+        "Calligrapher's Supplies": {
+            "name": ""
+        },
+        "Caltrops": {
+            "name": ""
+        },
+        "Candle": {
+            "name": ""
+        },
+        "Candle of Invocation": {
+            "name": ""
+        },
+        "Cape of the Mountebank": {
+            "name": ""
+        },
+        "Carpenter's Tools": {
+            "name": ""
+        },
+        "Carpet of Flying": {
+            "name": ""
+        },
+        "Cartographer's Tools": {
+            "name": ""
+        },
+        "Censer": {
+            "name": ""
+        },
+        "Censer of Controlling Air Elementals": {
+            "name": ""
+        },
+        "Chain (10 feet)": {
+            "name": ""
+        },
+        "Chain Mail": {
+            "name": ""
+        },
+        "Chain Mail +1": {
+            "name": ""
+        },
+        "Chain Mail +2": {
+            "name": ""
+        },
+        "Chain Mail +3": {
+            "name": ""
+        },
+        "Chain Mail Armor of Resistance": {
+            "name": ""
+        },
+        "Chain Shirt": {
+            "name": ""
+        },
+        "Chain Shirt +1": {
+            "name": ""
+        },
+        "Chain Shirt +2": {
+            "name": ""
+        },
+        "Chain Shirt +3": {
+            "name": ""
+        },
+        "Chain Shirt Armor of Resistance": {
+            "name": ""
+        },
+        "Chalk": {
+            "name": ""
+        },
+        "Chest": {
+            "name": ""
+        },
+        "Chime of Opening": {
+            "name": ""
+        },
+        "Circlet of Blasting": {
+            "name": ""
+        },
+        "Climber's Kit": {
+            "name": ""
+        },
+        "Cloak of Arachnida": {
+            "name": ""
+        },
+        "Cloak of Displacement": {
+            "name": ""
+        },
+        "Cloak of Elvenkind": {
+            "name": ""
+        },
+        "Cloak of Protection": {
+            "name": ""
+        },
+        "Cloak of the Bat": {
+            "name": ""
+        },
+        "Cloak of the Manta Ray": {
+            "name": ""
+        },
+        "Club": {
+            "name": ""
+        },
+        "Club +1": {
+            "name": ""
+        },
+        "Club +2": {
+            "name": ""
+        },
+        "Club +3": {
+            "name": ""
+        },
+        "Cobbler's Tools": {
+            "name": ""
+        },
+        "Common Clothes": {
+            "name": ""
+        },
+        "Component Pouch": {
+            "name": ""
+        },
+        "Cook's Utensils": {
+            "name": ""
+        },
+        "Costume Clothes": {
+            "name": ""
+        },
+        "Crossbow Bolt": {
+            "name": ""
+        },
+        "Crossbow Bolt +1": {
+            "name": ""
+        },
+        "Crossbow Bolt +2": {
+            "name": ""
+        },
+        "Crossbow Bolt +3": {
+            "name": ""
+        },
+        "Crossbow Bolt Case": {
+            "name": ""
+        },
+        "Crowbar": {
+            "name": ""
+        },
+        "Crystal": {
+            "name": ""
+        },
+        "Crystal Ball": {
+            "name": ""
+        },
+        "Crystal Ball of Mind Reading": {
+            "name": ""
+        },
+        "Crystal Ball of Telepathy": {
+            "name": ""
+        },
+        "Crystal Ball of True Seeing": {
+            "name": ""
+        },
+        "Cube of Force": {
+            "name": ""
+        },
+        "Cubic Gate": {
+            "name": ""
+        },
+        "Dagger": {
+            "name": ""
+        },
+        "Dagger +1": {
+            "name": ""
+        },
+        "Dagger +2": {
+            "name": ""
+        },
+        "Dagger +3": {
+            "name": ""
+        },
+        "Dagger of Venom": {
+            "name": ""
+        },
+        "Dancing Greatsword": {
+            "name": ""
+        },
+        "Dancing Longsword": {
+            "name": ""
+        },
+        "Dancing Rapier": {
+            "name": ""
+        },
+        "Dancing Scimitar": {
+            "name": ""
+        },
+        "Dancing Shortsword": {
+            "name": ""
+        },
+        "Dart": {
+            "name": ""
+        },
+        "Dart +1": {
+            "name": ""
+        },
+        "Dart +2": {
+            "name": ""
+        },
+        "Dart +3": {
+            "name": ""
+        },
+        "Decanter of Endless Water": {
+            "name": ""
+        },
+        "Deck of Illusions": {
+            "name": ""
+        },
+        "Deck of Many Things": {
+            "name": ""
+        },
+        "Defender Greatsword": {
+            "name": ""
+        },
+        "Defender Longsword": {
+            "name": ""
+        },
+        "Defender Rapier": {
+            "name": ""
+        },
+        "Defender Scimitar": {
+            "name": ""
+        },
+        "Defender Shortsword": {
+            "name": ""
+        },
+        "Demon Armor": {
+            "name": ""
+        },
+        "Dimensional Shackles": {
+            "name": ""
+        },
+        "Disguise Kit": {
+            "name": ""
+        },
+        "Dragon Scale Mail": {
+            "name": ""
+        },
+        "Dragon Slayer Greatsword": {
+            "name": ""
+        },
+        "Dragon Slayer Longsword": {
+            "name": ""
+        },
+        "Dragon Slayer Rapier": {
+            "name": ""
+        },
+        "Dragon Slayer Scimitar": {
+            "name": ""
+        },
+        "Dragon Slayer Shortsword": {
+            "name": ""
+        },
+        "Drum": {
+            "name": ""
+        },
+        "Dulcimer": {
+            "name": ""
+        },
+        "Dust of Disappearance": {
+            "name": ""
+        },
+        "Dust of Dryness": {
+            "name": ""
+        },
+        "Dust of Sneezing and Choking": {
+            "name": ""
+        },
+        "Dwarven Plate": {
+            "name": ""
+        },
+        "Dwarven Thrower": {
+            "name": ""
+        },
+        "Efficient Quiver": {
+            "name": ""
+        },
+        "Efreeti Bottle": {
+            "name": ""
+        },
+        "Elemental Gem of Air": {
+            "name": ""
+        },
+        "Elemental Gem of Earth": {
+            "name": ""
+        },
+        "Elemental Gem of Fire": {
+            "name": ""
+        },
+        "Elemental Gem of Water": {
+            "name": ""
+        },
+        "Elven Chain": {
+            "name": ""
+        },
+        "Emblem": {
+            "name": ""
+        },
+        "Eversmoking Bottle": {
+            "name": ""
+        },
+        "Eyes of Charming": {
+            "name": ""
+        },
+        "Eyes of Minute Seeing": {
+            "name": ""
+        },
+        "Eyes of the Eagle": {
+            "name": ""
+        },
+        "Feather Token Anchor": {
+            "name": ""
+        },
+        "Feather Token Bird": {
+            "name": ""
+        },
+        "Feather Token Fan": {
+            "name": ""
+        },
+        "Feather Token Swan Boat": {
+            "name": ""
+        },
+        "Feather Token Tree": {
+            "name": ""
+        },
+        "Feather Token Whip": {
+            "name": ""
+        },
+        "Figurine of Wondrous Power Bronze Griffon": {
+            "name": ""
+        },
+        "Figurine of Wondrous Power Ebony Fly": {
+            "name": ""
+        },
+        "Figurine of Wondrous Power Golden Lions": {
+            "name": ""
+        },
+        "Figurine of Wondrous Power Ivory Goat of Terror": {
+            "name": ""
+        },
+        "Figurine of Wondrous Power Ivory Goat of Travail": {
+            "name": ""
+        },
+        "Figurine of Wondrous Power Ivory Goat of Traveling": {
+            "name": ""
+        },
+        "Figurine of Wondrous Power Marble Elephant": {
+            "name": ""
+        },
+        "Figurine of Wondrous Power Obsidian Steed": {
+            "name": ""
+        },
+        "Figurine of Wondrous Power Onyx Dog": {
+            "name": ""
+        },
+        "Figurine of Wondrous Power Serpentine Owl": {
+            "name": ""
+        },
+        "Figurine of Wondrous Power Silver Raven": {
+            "name": ""
+        },
+        "Fine Clothes": {
+            "name": ""
+        },
+        "Fishing Tackle": {
+            "name": ""
+        },
+        "Flail": {
+            "name": ""
+        },
+        "Flail +1": {
+            "name": ""
+        },
+        "Flail +2": {
+            "name": ""
+        },
+        "Flail +3": {
+            "name": ""
+        },
+        "Flame Tongue Greatsword": {
+            "name": ""
+        },
+        "Flame Tongue Longsword": {
+            "name": ""
+        },
+        "Flame Tongue Rapier": {
+            "name": ""
+        },
+        "Flame Tongue Scimitar": {
+            "name": ""
+        },
+        "Flame Tongue Shortsword": {
+            "name": ""
+        },
+        "Flask": {
+            "name": ""
+        },
+        "Flask of Holy Water": {
+            "name": ""
+        },
+        "Flute": {
+            "name": ""
+        },
+        "Folding Boat": {
+            "name": ""
+        },
+        "Forgery Kit": {
+            "name": ""
+        },
+        "Frost Brand Greatsword": {
+            "name": ""
+        },
+        "Frost Brand Longsword": {
+            "name": ""
+        },
+        "Frost Brand Rapier": {
+            "name": ""
+        },
+        "Frost Brand Scimitar": {
+            "name": ""
+        },
+        "Frost Brand Shortsword": {
+            "name": ""
+        },
+        "Gaming Set": {
+            "name": ""
+        },
+        "Gaming Set of Chess": {
+            "name": ""
+        },
+        "Gaming Set of Dice": {
+            "name": ""
+        },
+        "Gaming Set of Playing Cards": {
+            "name": ""
+        },
+        "Gauntlets of Ogre Power": {
+            "name": ""
+        },
+        "Gem of Brightness": {
+            "name": ""
+        },
+        "Gem of Seeing": {
+            "name": ""
+        },
+        "Giant Slayer Battleaxe": {
+            "name": ""
+        },
+        "Giant Slayer Greataxe": {
+            "name": ""
+        },
+        "Giant Slayer Greatsword": {
+            "name": ""
+        },
+        "Giant Slayer Handaxe": {
+            "name": ""
+        },
+        "Giant Slayer Longsword": {
+            "name": ""
+        },
+        "Giant Slayer Rapier": {
+            "name": ""
+        },
+        "Giant Slayer Scimitar": {
+            "name": ""
+        },
+        "Giant Slayer Shortsword": {
+            "name": ""
+        },
+        "Glaive": {
+            "name": ""
+        },
+        "Glaive +1": {
+            "name": ""
+        },
+        "Glaive +2": {
+            "name": ""
+        },
+        "Glaive +3": {
+            "name": ""
+        },
+        "Glamoured Studded Leather": {
+            "name": ""
+        },
+        "Glass Bottle": {
+            "name": ""
+        },
+        "Glassblower's Tools": {
+            "name": ""
+        },
+        "Gloves of Missile Snaring": {
+            "name": ""
+        },
+        "Gloves of Swimming and Climbing": {
+            "name": ""
+        },
+        "Goggles of Night": {
+            "name": ""
+        },
+        "Grappling Hook": {
+            "name": ""
+        },
+        "Greataxe": {
+            "name": ""
+        },
+        "Greataxe +1": {
+            "name": ""
+        },
+        "Greataxe +2": {
+            "name": ""
+        },
+        "Greataxe +3": {
+            "name": ""
+        },
+        "Greatclub": {
+            "name": ""
+        },
+        "Greatclub +1": {
+            "name": ""
+        },
+        "Greatclub +2": {
+            "name": ""
+        },
+        "Greatclub +3": {
+            "name": ""
+        },
+        "Greatsword": {
+            "name": ""
+        },
+        "Greatsword +1": {
+            "name": ""
+        },
+        "Greatsword +2": {
+            "name": ""
+        },
+        "Greatsword +3": {
+            "name": ""
+        },
+        "Greatsword of Life Stealing": {
+            "name": ""
+        },
+        "Greatsword of Sharpness": {
+            "name": ""
+        },
+        "Greatsword of Wounding": {
+            "name": ""
+        },
+        "Halberd": {
+            "name": ""
+        },
+        "Halberd +1": {
+            "name": ""
+        },
+        "Halberd +2": {
+            "name": ""
+        },
+        "Halberd +3": {
+            "name": ""
+        },
+        "Half Plate Armor": {
+            "name": ""
+        },
+        "Half Plate Armor +1": {
+            "name": ""
+        },
+        "Half Plate Armor +2": {
+            "name": ""
+        },
+        "Half Plate Armor +3": {
+            "name": ""
+        },
+        "Half Plate Armor of Resistance": {
+            "name": ""
+        },
+        "Hammer": {
+            "name": ""
+        },
+        "Hammer of Thunderbolts": {
+            "name": ""
+        },
+        "Hand Crossbow": {
+            "name": ""
+        },
+        "Hand Crossbow +1": {
+            "name": ""
+        },
+        "Hand Crossbow +2": {
+            "name": ""
+        },
+        "Hand Crossbow +3": {
+            "name": ""
+        },
+        "Handaxe": {
+            "name": ""
+        },
+        "Handaxe +1": {
+            "name": ""
+        },
+        "Handaxe +2": {
+            "name": ""
+        },
+        "Handaxe +3": {
+            "name": ""
+        },
+        "Handy Haversack": {
+            "name": ""
+        },
+        "Hat of Disguise": {
+            "name": ""
+        },
+        "Headband of Intellect": {
+            "name": ""
+        },
+        "Healer's Kit": {
+            "name": ""
+        },
+        "Heavy Crossbow": {
+            "name": ""
+        },
+        "Heavy Crossbow +1": {
+            "name": ""
+        },
+        "Heavy Crossbow +2": {
+            "name": ""
+        },
+        "Heavy Crossbow +3": {
+            "name": ""
+        },
+        "Helm of Brilliance": {
+            "name": ""
+        },
+        "Helm of Comprehending Languages": {
+            "name": ""
+        },
+        "Helm of Telepathy": {
+            "name": ""
+        },
+        "Helm of Teleportation": {
+            "name": ""
+        },
+        "Hempen Rope (50 ft.)": {
+            "name": ""
+        },
+        "Herbalism Kit": {
+            "name": ""
+        },
+        "Hide Armor": {
+            "name": ""
+        },
+        "Hide Armor +1": {
+            "name": ""
+        },
+        "Hide Armor +2": {
+            "name": ""
+        },
+        "Hide Armor +3": {
+            "name": ""
+        },
+        "Hide Armor of Resistance": {
+            "name": ""
+        },
+        "Holy Avenger Greatsword": {
+            "name": ""
+        },
+        "Holy Avenger Longsword": {
+            "name": ""
+        },
+        "Holy Avenger Rapier": {
+            "name": ""
+        },
+        "Holy Avenger Scimitar": {
+            "name": ""
+        },
+        "Holy Avenger Shortsword": {
+            "name": ""
+        },
+        "Hooded Lantern": {
+            "name": ""
+        },
+        "Horn": {
+            "name": ""
+        },
+        "Horn of Blasting": {
+            "name": ""
+        },
+        "Horseshoes of Speed": {
+            "name": ""
+        },
+        "Horseshoes of a Zephyr": {
+            "name": ""
+        },
+        "Hourglass": {
+            "name": ""
+        },
+        "Hunting Trap": {
+            "name": ""
+        },
+        "Immovable Rod": {
+            "name": ""
+        },
+        "Ink Bottle": {
+            "name": ""
+        },
+        "Ink Pen": {
+            "name": ""
+        },
+        "Instant Fortress": {
+            "name": ""
+        },
+        "Ioun Stone of Absorption": {
+            "name": ""
+        },
+        "Ioun Stone of Agility": {
+            "name": ""
+        },
+        "Ioun Stone of Awareness": {
+            "name": ""
+        },
+        "Ioun Stone of Fortitude": {
+            "name": ""
+        },
+        "Ioun Stone of Greater Absorption": {
+            "name": ""
+        },
+        "Ioun Stone of Insight": {
+            "name": ""
+        },
+        "Ioun Stone of Intellect": {
+            "name": ""
+        },
+        "Ioun Stone of Leadership": {
+            "name": ""
+        },
+        "Ioun Stone of Mastery": {
+            "name": ""
+        },
+        "Ioun Stone of Protection": {
+            "name": ""
+        },
+        "Ioun Stone of Regeneration": {
+            "name": ""
+        },
+        "Ioun Stone of Reserve": {
+            "name": ""
+        },
+        "Ioun Stone of Strength": {
+            "name": ""
+        },
+        "Ioun Stone of Sustenance": {
+            "name": ""
+        },
+        "Iron Bands of Binding": {
+            "name": ""
+        },
+        "Iron Flask": {
+            "name": ""
+        },
+        "Iron Horn of Valhalla": {
+            "name": ""
+        },
+        "Iron Pot": {
+            "name": ""
+        },
+        "Iron Spike": {
+            "name": ""
+        },
+        "Javelin": {
+            "name": ""
+        },
+        "Javelin +1": {
+            "name": ""
+        },
+        "Javelin +2": {
+            "name": ""
+        },
+        "Javelin +3": {
+            "name": ""
+        },
+        "Javelin of Lightning": {
+            "name": ""
+        },
+        "Jeweler's Tools": {
+            "name": ""
+        },
+        "Jug": {
+            "name": ""
+        },
+        "Ladder (10-foot)": {
+            "name": ""
+        },
+        "Lamp": {
+            "name": ""
+        },
+        "Lance": {
+            "name": ""
+        },
+        "Lance +1": {
+            "name": ""
+        },
+        "Lance +2": {
+            "name": ""
+        },
+        "Lance +3": {
+            "name": ""
+        },
+        "Lantern of Revealing": {
+            "name": ""
+        },
+        "Leather Armor": {
+            "name": ""
+        },
+        "Leather Armor +1": {
+            "name": ""
+        },
+        "Leather Armor +2": {
+            "name": ""
+        },
+        "Leather Armor +3": {
+            "name": ""
+        },
+        "Leather Armor of Resistance": {
+            "name": ""
+        },
+        "Leatherworker's Tools": {
+            "name": ""
+        },
+        "Light Crossbow": {
+            "name": ""
+        },
+        "Light Crossbow +1": {
+            "name": ""
+        },
+        "Light Crossbow +2": {
+            "name": ""
+        },
+        "Light Crossbow +3": {
+            "name": ""
+        },
+        "Light Hammer": {
+            "name": ""
+        },
+        "Light Hammer +1": {
+            "name": ""
+        },
+        "Light Hammer +2": {
+            "name": ""
+        },
+        "Light Hammer +3": {
+            "name": ""
+        },
+        "Lock": {
+            "name": ""
+        },
+        "Longbow": {
+            "name": ""
+        },
+        "Longbow +1": {
+            "name": ""
+        },
+        "Longbow +2": {
+            "name": ""
+        },
+        "Longbow +3": {
+            "name": ""
+        },
+        "Longsword": {
+            "name": ""
+        },
+        "Longsword +1": {
+            "name": ""
+        },
+        "Longsword +2": {
+            "name": ""
+        },
+        "Longsword +3": {
+            "name": ""
+        },
+        "Longsword of Life Stealing": {
+            "name": ""
+        },
+        "Longsword of Sharpness": {
+            "name": ""
+        },
+        "Longsword of Wounding": {
+            "name": ""
+        },
+        "Luck Blade Greatsword": {
+            "name": ""
+        },
+        "Luck Blade Longsword": {
+            "name": ""
+        },
+        "Luck Blade Rapier": {
+            "name": ""
+        },
+        "Luck Blade Scimitar": {
+            "name": ""
+        },
+        "Luck Blade Shortsword": {
+            "name": ""
+        },
+        "Lute": {
+            "name": ""
+        },
+        "Lyre": {
+            "name": ""
+        },
+        "Mace": {
+            "name": ""
+        },
+        "Mace +1": {
+            "name": ""
+        },
+        "Mace +2": {
+            "name": ""
+        },
+        "Mace +3": {
+            "name": ""
+        },
+        "Mace of Disruption": {
+            "name": ""
+        },
+        "Mace of Smiting": {
+            "name": ""
+        },
+        "Mace of Terror": {
+            "name": ""
+        },
+        "Magnifying Glass": {
+            "name": ""
+        },
+        "Manacles": {
+            "name": ""
+        },
+        "Mantle of Spell Resistance": {
+            "name": ""
+        },
+        "Manual of Bodily Health": {
+            "name": ""
+        },
+        "Manual of Gainful Exercise": {
+            "name": ""
+        },
+        "Manual of Golems": {
+            "name": ""
+        },
+        "Manual of Quickness of Action": {
+            "name": ""
+        },
+        "Map or Scroll Case": {
+            "name": ""
+        },
+        "Mason's Tools": {
+            "name": ""
+        },
+        "Maul": {
+            "name": ""
+        },
+        "Maul +1": {
+            "name": ""
+        },
+        "Maul +2": {
+            "name": ""
+        },
+        "Maul +3": {
+            "name": ""
+        },
+        "Medallion of Thoughts": {
+            "name": ""
+        },
+        "Merchant's Scale": {
+            "name": ""
+        },
+        "Mess Kit": {
+            "name": ""
+        },
+        "Miner's Pick": {
+            "name": ""
+        },
+        "Mirror of Life Trapping": {
+            "name": ""
+        },
+        "Mithral Breastplate": {
+            "name": ""
+        },
+        "Mithral Chain Mail": {
+            "name": ""
+        },
+        "Mithral Chain Shirt": {
+            "name": ""
+        },
+        "Mithral Half Plate Armor": {
+            "name": ""
+        },
+        "Mithral Plate Armor": {
+            "name": ""
+        },
+        "Mithral Ring Mail": {
+            "name": ""
+        },
+        "Mithral Scale Mail": {
+            "name": ""
+        },
+        "Mithral Splint Armor": {
+            "name": ""
+        },
+        "Morningstar": {
+            "name": ""
+        },
+        "Morningstar +1": {
+            "name": ""
+        },
+        "Morningstar +2": {
+            "name": ""
+        },
+        "Morningstar +3": {
+            "name": ""
+        },
+        "Musical Instrument": {
+            "name": ""
+        },
+        "Navigator’s Tools": {
+            "name": ""
+        },
+        "Necklace of Adaptation": {
+            "name": ""
+        },
+        "Necklace of Fireballs": {
+            "name": ""
+        },
+        "Necklace of Prayer Beads": {
+            "name": ""
+        },
+        "Net": {
+            "name": ""
+        },
+        "Net +1": {
+            "name": ""
+        },
+        "Net +2": {
+            "name": ""
+        },
+        "Net +3": {
+            "name": ""
+        },
+        "Nine Lives Stealer Greatsword": {
+            "name": ""
+        },
+        "Nine Lives Stealer Longsword": {
+            "name": ""
+        },
+        "Nine Lives Stealer Rapier": {
+            "name": ""
+        },
+        "Nine Lives Stealer Scimitar": {
+            "name": ""
+        },
+        "Nine Lives Stealer Shortsword": {
+            "name": ""
+        },
+        "Oathbow": {
+            "name": ""
+        },
+        "Oil Flask": {
+            "name": ""
+        },
+        "Oil of Etherealness": {
+            "name": ""
+        },
+        "Oil of Sharpness": {
+            "name": ""
+        },
+        "Oil of Slipperiness": {
+            "name": ""
+        },
+        "Orb": {
+            "name": ""
+        },
+        "Orb of Dragonkind": {
+            "name": ""
+        },
+        "Padded Armor": {
+            "name": ""
+        },
+        "Padded Armor +1": {
+            "name": ""
+        },
+        "Padded Armor +2": {
+            "name": ""
+        },
+        "Padded Armor +3": {
+            "name": ""
+        },
+        "Padded Armor of Resistance": {
+            "name": ""
+        },
+        "Painter's Supplies": {
+            "name": ""
+        },
+        "Pan Flute": {
+            "name": ""
+        },
+        "Paper": {
+            "name": ""
+        },
+        "Parchment": {
+            "name": ""
+        },
+        "Pearl of Power": {
+            "name": ""
+        },
+        "Perfume": {
+            "name": ""
+        },
+        "Periapt of Health": {
+            "name": ""
+        },
+        "Periapt of Proof against Poison": {
+            "name": ""
+        },
+        "Periapt of Wound Closure": {
+            "name": ""
+        },
+        "Philter of Love": {
+            "name": ""
+        },
+        "Pike": {
+            "name": ""
+        },
+        "Pike +1": {
+            "name": ""
+        },
+        "Pike +2": {
+            "name": ""
+        },
+        "Pike +3": {
+            "name": ""
+        },
+        "Pipes of Haunting": {
+            "name": ""
+        },
+        "Pipes of the Sewers": {
+            "name": ""
+        },
+        "Pitcher": {
+            "name": ""
+        },
+        "Piton": {
+            "name": ""
+        },
+        "Plate Armor": {
+            "name": ""
+        },
+        "Plate Armor +1": {
+            "name": ""
+        },
+        "Plate Armor +2": {
+            "name": ""
+        },
+        "Plate Armor +3": {
+            "name": ""
+        },
+        "Plate Armor of Etherealness": {
+            "name": ""
+        },
+        "Plate Armor of Resistance": {
+            "name": ""
+        },
+        "Poisoner’s Kit": {
+            "name": ""
+        },
+        "Pole": {
+            "name": ""
+        },
+        "Portable Hole": {
+            "name": ""
+        },
+        "Portable Ram": {
+            "name": ""
+        },
+        "Potion of Acid Resistance": {
+            "name": ""
+        },
+        "Potion of Animal Friendship": {
+            "name": ""
+        },
+        "Potion of Clairvoyance": {
+            "name": ""
+        },
+        "Potion of Climbing": {
+            "name": ""
+        },
+        "Potion of Cloud Giant Strength": {
+            "name": ""
+        },
+        "Potion of Cold Resistance": {
+            "name": ""
+        },
+        "Potion of Diminution": {
+            "name": ""
+        },
+        "Potion of Fire Giant Strength": {
+            "name": ""
+        },
+        "Potion of Fire Resistance": {
+            "name": ""
+        },
+        "Potion of Flying": {
+            "name": ""
+        },
+        "Potion of Force Resistance": {
+            "name": ""
+        },
+        "Potion of Frost Giant Strength": {
+            "name": ""
+        },
+        "Potion of Gaseous Form": {
+            "name": ""
+        },
+        "Potion of Greater Healing": {
+            "name": ""
+        },
+        "Potion of Growth": {
+            "name": ""
+        },
+        "Potion of Healing": {
+            "name": ""
+        },
+        "Potion of Heroism": {
+            "name": ""
+        },
+        "Potion of Hill Giant Strength": {
+            "name": ""
+        },
+        "Potion of Invisibility": {
+            "name": ""
+        },
+        "Potion of Lightning Resistance": {
+            "name": ""
+        },
+        "Potion of Mind Reading": {
+            "name": ""
+        },
+        "Potion of Necrotic Resistance": {
+            "name": ""
+        },
+        "Potion of Poison": {
+            "name": ""
+        },
+        "Potion of Poison Resistance": {
+            "name": ""
+        },
+        "Potion of Psychic Resistance": {
+            "name": ""
+        },
+        "Potion of Radiant Resistance": {
+            "name": ""
+        },
+        "Potion of Speed": {
+            "name": ""
+        },
+        "Potion of Stone Giant Strength": {
+            "name": ""
+        },
+        "Potion of Storm Giant Strength": {
+            "name": ""
+        },
+        "Potion of Superior Healing": {
+            "name": ""
+        },
+        "Potion of Supreme Healing": {
+            "name": ""
+        },
+        "Potion of Thunder Resistance": {
+            "name": ""
+        },
+        "Potion of Water Breathing": {
+            "name": ""
+        },
+        "Potter's Tools": {
+            "name": ""
+        },
+        "Pouch": {
+            "name": ""
+        },
+        "Prayer Book": {
+            "name": ""
+        },
+        "Prayer Wheel": {
+            "name": ""
+        },
+        "Quarterstaff": {
+            "name": ""
+        },
+        "Quarterstaff +1": {
+            "name": ""
+        },
+        "Quarterstaff +2": {
+            "name": ""
+        },
+        "Quarterstaff +3": {
+            "name": ""
+        },
+        "Quiver": {
+            "name": ""
+        },
+        "Rapier": {
+            "name": ""
+        },
+        "Rapier +1": {
+            "name": ""
+        },
+        "Rapier +2": {
+            "name": ""
+        },
+        "Rapier +3": {
+            "name": ""
+        },
+        "Rapier of Life Stealing": {
+            "name": ""
+        },
+        "Rapier of Wounding": {
+            "name": ""
+        },
+        "Rations": {
+            "name": ""
+        },
+        "Reliquary": {
+            "name": ""
+        },
+        "Restorative Ointment": {
+            "name": ""
+        },
+        "Ring Mail": {
+            "name": ""
+        },
+        "Ring Mail +1": {
+            "name": ""
+        },
+        "Ring Mail +2": {
+            "name": ""
+        },
+        "Ring Mail +3": {
+            "name": ""
+        },
+        "Ring Mail Armor of Resistance": {
+            "name": ""
+        },
+        "Ring of Acid Resistance": {
+            "name": ""
+        },
+        "Ring of Air Elemental Command": {
+            "name": ""
+        },
+        "Ring of Animal Influence": {
+            "name": ""
+        },
+        "Ring of Cold Resistance": {
+            "name": ""
+        },
+        "Ring of Djinni Summoning": {
+            "name": ""
+        },
+        "Ring of Earth Elemental Command": {
+            "name": ""
+        },
+        "Ring of Evasion": {
+            "name": ""
+        },
+        "Ring of Feather Falling": {
+            "name": ""
+        },
+        "Ring of Fire Elemental Command": {
+            "name": ""
+        },
+        "Ring of Fire Resistance": {
+            "name": ""
+        },
+        "Ring of Force Resistance": {
+            "name": ""
+        },
+        "Ring of Free Action": {
+            "name": ""
+        },
+        "Ring of Invisibility": {
+            "name": ""
+        },
+        "Ring of Jumping": {
+            "name": ""
+        },
+        "Ring of Lightning Resistance": {
+            "name": ""
+        },
+        "Ring of Mind Shielding": {
+            "name": ""
+        },
+        "Ring of Necrotic Resistance": {
+            "name": ""
+        },
+        "Ring of Poison Resistance": {
+            "name": ""
+        },
+        "Ring of Protection": {
+            "name": ""
+        },
+        "Ring of Psychic Resistance": {
+            "name": ""
+        },
+        "Ring of Radiant Resistance": {
+            "name": ""
+        },
+        "Ring of Regeneration": {
+            "name": ""
+        },
+        "Ring of Shooting Stars": {
+            "name": ""
+        },
+        "Ring of Spell Storing": {
+            "name": ""
+        },
+        "Ring of Spell Turning": {
+            "name": ""
+        },
+        "Ring of Swimming": {
+            "name": ""
+        },
+        "Ring of Telekinesis": {
+            "name": ""
+        },
+        "Ring of Three Wishes": {
+            "name": ""
+        },
+        "Ring of Thunder Resistance": {
+            "name": ""
+        },
+        "Ring of Warmth": {
+            "name": ""
+        },
+        "Ring of Water Elemental Command": {
+            "name": ""
+        },
+        "Ring of Water Walking": {
+            "name": ""
+        },
+        "Ring of X-ray Vision": {
+            "name": ""
+        },
+        "Ring of the Ram": {
+            "name": ""
+        },
+        "Robe of Eyes": {
+            "name": ""
+        },
+        "Robe of Scintillating Colors": {
+            "name": ""
+        },
+        "Robe of Stars": {
+            "name": ""
+        },
+        "Robe of Useful Items": {
+            "name": ""
+        },
+        "Robe of the Archmagi": {
+            "name": ""
+        },
+        "Robes": {
+            "name": ""
+        },
+        "Rod": {
+            "name": ""
+        },
+        "Rod of Absorption": {
+            "name": ""
+        },
+        "Rod of Alertness": {
+            "name": ""
+        },
+        "Rod of Lordly Might": {
+            "name": ""
+        },
+        "Rod of Rulership": {
+            "name": ""
+        },
+        "Rod of Security": {
+            "name": ""
+        },
+        "Rope of Climbing": {
+            "name": ""
+        },
+        "Rope of Entanglement": {
+            "name": ""
+        },
+        "Sack": {
+            "name": ""
+        },
+        "Scale Mail": {
+            "name": ""
+        },
+        "Scale Mail +1": {
+            "name": ""
+        },
+        "Scale Mail +2": {
+            "name": ""
+        },
+        "Scale Mail +3": {
+            "name": ""
+        },
+        "Scale Mail Armor of Resistance": {
+            "name": ""
+        },
+        "Scarab of Protection": {
+            "name": ""
+        },
+        "Scimitar": {
+            "name": ""
+        },
+        "Scimitar +1": {
+            "name": ""
+        },
+        "Scimitar +2": {
+            "name": ""
+        },
+        "Scimitar +3": {
+            "name": ""
+        },
+        "Scimitar of Life Stealing": {
+            "name": ""
+        },
+        "Scimitar of Sharpness": {
+            "name": ""
+        },
+        "Scimitar of Speed": {
+            "name": ""
+        },
+        "Scimitar of Wounding": {
+            "name": ""
+        },
+        "Sealing Wax": {
+            "name": ""
+        },
+        "Shawm": {
+            "name": ""
+        },
+        "Shield": {
+            "name": ""
+        },
+        "Shield +1": {
+            "name": ""
+        },
+        "Shield +2": {
+            "name": ""
+        },
+        "Shield +3": {
+            "name": ""
+        },
+        "Shield of Missile Attraction": {
+            "name": ""
+        },
         "Shortbow": {
             "description": "<section class='secret'><p>Fernkampf-Waffenangriff: +4 zum Treffen, Reichweite 24/96 m., ein Ziel. Treffer: <strong>5 (1d6 + 2) <em>Stichschaden</em></strong>.</p></section><p>Die Kreatur greift mit dem Kurzbogen an.</p>",
             "source": "SHB S. 149"
         },
+        "Shortbow +1": {
+            "name": ""
+        },
+        "Shortbow +2": {
+            "name": ""
+        },
+        "Shortbow +3": {
+            "name": ""
+        },
         "Shortsword": {
             "description": "<section class='secret'><p><em>Nahkampf-Waffenangriff: </em><strong>+4 zum Treffen, Reichweite</strong>&nbsp;<strong>1.5 m.,</strong> ein Ziel. Treffer: <strong>5 (1d6 + 2) <em>Stichschaden</em></strong>.</p></section><p>Die Kreatur greift mit dem Kurzschwert an.</p>",
             "source": "SHB S. 149"
+        },
+        "Shortsword +1": {
+            "name": ""
+        },
+        "Shortsword +2": {
+            "name": ""
+        },
+        "Shortsword +3": {
+            "name": ""
+        },
+        "Shortsword of Life Stealing": {
+            "name": ""
+        },
+        "Shortsword of Wounding": {
+            "name": ""
+        },
+        "Shovel": {
+            "name": ""
+        },
+        "Sickle": {
+            "name": ""
+        },
+        "Sickle +1": {
+            "name": ""
+        },
+        "Sickle +2": {
+            "name": ""
+        },
+        "Sickle +3": {
+            "name": ""
+        },
+        "Signal Whistle": {
+            "name": ""
+        },
+        "Signet Ring": {
+            "name": ""
+        },
+        "Silk Rope (50 ft.)": {
+            "name": ""
+        },
+        "Silver Horn of Valhalla": {
+            "name": ""
+        },
+        "Sledgehammer": {
+            "name": ""
+        },
+        "Sling": {
+            "name": ""
+        },
+        "Sling +1": {
+            "name": ""
+        },
+        "Sling +2": {
+            "name": ""
+        },
+        "Sling +3": {
+            "name": ""
+        },
+        "Sling Bullet": {
+            "name": ""
+        },
+        "Sling Bullet +1": {
+            "name": ""
+        },
+        "Sling Bullet +2": {
+            "name": ""
+        },
+        "Sling Bullet +3": {
+            "name": ""
+        },
+        "Sling Bullet of Slaying": {
+            "name": ""
+        },
+        "Slippers of Spider Climbing": {
+            "name": ""
+        },
+        "Small Knife": {
+            "name": ""
+        },
+        "Smith's Tools": {
+            "name": ""
+        },
+        "Soap": {
+            "name": ""
+        },
+        "Sovereign Glue": {
+            "name": ""
+        },
+        "Spear": {
+            "name": ""
+        },
+        "Spear +1": {
+            "name": ""
+        },
+        "Spear +2": {
+            "name": ""
+        },
+        "Spear +3": {
+            "name": ""
+        },
+        "Spell Scroll 1st Level": {
+            "name": ""
+        },
+        "Spell Scroll 2nd Level": {
+            "name": ""
+        },
+        "Spell Scroll 3rd Level": {
+            "name": ""
+        },
+        "Spell Scroll 4th Level": {
+            "name": ""
+        },
+        "Spell Scroll 5th Level": {
+            "name": ""
+        },
+        "Spell Scroll 6th Level": {
+            "name": ""
+        },
+        "Spell Scroll 7th Level": {
+            "name": ""
+        },
+        "Spell Scroll 8th Level": {
+            "name": ""
+        },
+        "Spell Scroll 9th Level": {
+            "name": ""
+        },
+        "Spell Scroll Cantrip Level": {
+            "name": ""
+        },
+        "Spellbook": {
+            "name": ""
+        },
+        "Spellguard Shield": {
+            "name": ""
+        },
+        "Sphere of Annihilation": {
+            "name": ""
+        },
+        "Splint Armor": {
+            "name": ""
+        },
+        "Splint Armor +1": {
+            "name": ""
+        },
+        "Splint Armor +2": {
+            "name": ""
+        },
+        "Splint Armor +3": {
+            "name": ""
+        },
+        "Splint Armor of Resistance": {
+            "name": ""
+        },
+        "Sprig of Mistletoe": {
+            "name": ""
+        },
+        "Spyglass": {
+            "name": ""
+        },
+        "Staff": {
+            "name": ""
+        },
+        "Staff of Charming": {
+            "name": ""
+        },
+        "Staff of Fire": {
+            "name": ""
+        },
+        "Staff of Frost": {
+            "name": ""
+        },
+        "Staff of Healing": {
+            "name": ""
+        },
+        "Staff of Power": {
+            "name": ""
+        },
+        "Staff of Striking": {
+            "name": ""
+        },
+        "Staff of Swarming Insects": {
+            "name": ""
+        },
+        "Staff of Thunder and Lightning": {
+            "name": ""
+        },
+        "Staff of Withering": {
+            "name": ""
+        },
+        "Staff of the Magi": {
+            "name": ""
+        },
+        "Staff of the Python": {
+            "name": ""
+        },
+        "Staff of the Woodlands": {
+            "name": ""
+        },
+        "Steel Mirror": {
+            "name": ""
+        },
+        "Stick of Incense": {
+            "name": ""
+        },
+        "Stone of Controlling Earth Elementals": {
+            "name": ""
+        },
+        "Stone of Good Luck (Luckstone)": {
+            "name": ""
+        },
+        "Studded Leather Armor": {
+            "name": ""
+        },
+        "Studded Leather Armor +1": {
+            "name": ""
+        },
+        "Studded Leather Armor +2": {
+            "name": ""
+        },
+        "Studded Leather Armor +3": {
+            "name": ""
+        },
+        "Studded Leather Armor of Resistance": {
+            "name": ""
+        },
+        "Sun Blade": {
+            "name": ""
+        },
+        "Talisman of Pure Good": {
+            "name": ""
+        },
+        "Talisman of Ultimate Evil": {
+            "name": ""
+        },
+        "Talisman of the Sphere": {
+            "name": ""
+        },
+        "Tankard": {
+            "name": ""
+        },
+        "Thieves’ Tools": {
+            "name": ""
+        },
+        "Tinderbox": {
+            "name": ""
+        },
+        "Tinker's Tools": {
+            "name": ""
+        },
+        "Tome of Clear Thought": {
+            "name": ""
+        },
+        "Tome of Leadership and Influence": {
+            "name": ""
+        },
+        "Tome of Understanding": {
+            "name": ""
+        },
+        "Torch": {
+            "name": ""
+        },
+        "Totem": {
+            "name": ""
+        },
+        "Traveler's Clothes": {
+            "name": ""
+        },
+        "Trident": {
+            "name": ""
+        },
+        "Trident +1": {
+            "name": ""
+        },
+        "Trident +2": {
+            "name": ""
+        },
+        "Trident +3": {
+            "name": ""
+        },
+        "Trident of Fish Command": {
+            "name": ""
+        },
+        "Trinket": {
+            "name": ""
+        },
+        "Two-Person Tent": {
+            "name": ""
+        },
+        "Unarmed Strike": {
+            "name": ""
+        },
+        "Unarmed Strike (Monk)": {
+            "name": ""
+        },
+        "Universal Solvent": {
+            "name": ""
+        },
+        "Vestments": {
+            "name": ""
+        },
+        "Vial": {
+            "name": ""
+        },
+        "Vicious Battleaxe": {
+            "name": ""
+        },
+        "Vicious Blowgun": {
+            "name": ""
+        },
+        "Vicious Club": {
+            "name": ""
+        },
+        "Vicious Dagger": {
+            "name": ""
+        },
+        "Vicious Dart": {
+            "name": ""
+        },
+        "Vicious Flail": {
+            "name": ""
+        },
+        "Vicious Glaive": {
+            "name": ""
+        },
+        "Vicious Greataxe": {
+            "name": ""
+        },
+        "Vicious Greatclub": {
+            "name": ""
+        },
+        "Vicious Greatsword": {
+            "name": ""
+        },
+        "Vicious Halberd": {
+            "name": ""
+        },
+        "Vicious Hand Crossbow": {
+            "name": ""
+        },
+        "Vicious Handaxe": {
+            "name": ""
+        },
+        "Vicious Heavy Crossbow": {
+            "name": ""
+        },
+        "Vicious Javelin": {
+            "name": ""
+        },
+        "Vicious Lance": {
+            "name": ""
+        },
+        "Vicious Light Crossbow": {
+            "name": ""
+        },
+        "Vicious Light Hammer": {
+            "name": ""
+        },
+        "Vicious Longbow": {
+            "name": ""
+        },
+        "Vicious Longsword": {
+            "name": ""
+        },
+        "Vicious Mace": {
+            "name": ""
+        },
+        "Vicious Maul": {
+            "name": ""
+        },
+        "Vicious Morningstar": {
+            "name": ""
+        },
+        "Vicious Pike": {
+            "name": ""
+        },
+        "Vicious Quarterstaff": {
+            "name": ""
+        },
+        "Vicious Rapier": {
+            "name": ""
+        },
+        "Vicious Scimitar": {
+            "name": ""
+        },
+        "Vicious Shortbow": {
+            "name": ""
+        },
+        "Vicious Shortsword": {
+            "name": ""
+        },
+        "Vicious Sickle": {
+            "name": ""
+        },
+        "Vicious Sling": {
+            "name": ""
+        },
+        "Vicious Spear": {
+            "name": ""
+        },
+        "Vicious Trident": {
+            "name": ""
+        },
+        "Vicious War Pick": {
+            "name": ""
+        },
+        "Vicious Warhammer": {
+            "name": ""
+        },
+        "Vicious Whip": {
+            "name": ""
+        },
+        "Viol": {
+            "name": ""
+        },
+        "Vorpal Greatsword": {
+            "name": ""
+        },
+        "Vorpal Longsword": {
+            "name": ""
+        },
+        "Vorpal Scimitar": {
+            "name": ""
+        },
+        "Wand": {
+            "name": ""
+        },
+        "Wand of Binding": {
+            "name": ""
+        },
+        "Wand of Enemy Detection": {
+            "name": ""
+        },
+        "Wand of Fear": {
+            "name": ""
+        },
+        "Wand of Fireballs": {
+            "name": ""
+        },
+        "Wand of Lightning Bolts": {
+            "name": ""
+        },
+        "Wand of Magic Detection": {
+            "name": ""
+        },
+        "Wand of Magic Missiles": {
+            "name": ""
+        },
+        "Wand of Paralysis": {
+            "name": ""
+        },
+        "Wand of Polymorph": {
+            "name": ""
+        },
+        "Wand of Secrets": {
+            "name": ""
+        },
+        "Wand of Web": {
+            "name": ""
+        },
+        "Wand of Wonder": {
+            "name": ""
+        },
+        "Wand of the War Mage +1": {
+            "name": ""
+        },
+        "Wand of the War Mage +2": {
+            "name": ""
+        },
+        "Wand of the War Mage +3": {
+            "name": ""
+        },
+        "War Pick": {
+            "name": ""
+        },
+        "War Pick +1": {
+            "name": ""
+        },
+        "War Pick +2": {
+            "name": ""
+        },
+        "War Pick +3": {
+            "name": ""
+        },
+        "Warhammer": {
+            "name": ""
+        },
+        "Warhammer +1": {
+            "name": ""
+        },
+        "Warhammer +2": {
+            "name": ""
+        },
+        "Warhammer +3": {
+            "name": ""
+        },
+        "Waterskin": {
+            "name": ""
+        },
+        "Weaver's Tools": {
+            "name": ""
+        },
+        "Well of Many Worlds": {
+            "name": ""
+        },
+        "Whetstone": {
+            "name": ""
+        },
+        "Whip": {
+            "name": ""
+        },
+        "Whip +1": {
+            "name": ""
+        },
+        "Whip +2": {
+            "name": ""
+        },
+        "Whip +3": {
+            "name": ""
+        },
+        "Wind Fan": {
+            "name": ""
+        },
+        "Winged Boots": {
+            "name": ""
+        },
+        "Wings of Flying": {
+            "name": ""
+        },
+        "Woodcarver's Tools": {
+            "name": ""
+        },
+        "Wooden Staff": {
+            "name": ""
+        },
+        "Yew Wand": {
+            "name": ""
         }
+    },
+    "label": "Gegenstände (SRD)",
+    "mapping": {
+        "name": {
+            "converter": "itemname",
+            "path": "name"
+        },
+        "rarity": {
+            "converter": "rarity",
+            "path": "data.rarity"
+        },
+        "source": "data.source"
     }
-}
+}

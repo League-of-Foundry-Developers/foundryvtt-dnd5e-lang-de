@@ -1,52 +1,109 @@
 {
-    "label": "Völker (SRD)",
-    "mapping": {
-        "source": "data.source",
-        "name": {
-           "path": "name",
-           "converter": "race"
-        }
-    },
     "entries": {
-        "Dwarf": {
-            "description": "",
-            "source": "SHB S. 29"
+        "Artificer's Lore": {
+            "name": ""
         },
-        "High Elf": {
-            "description": "",
-            "source": "SHB S. 20"
+        "Brave": {
+            "name": ""
         },
-        "Halfling": {
-            "description": "",
-            "source": "SHB S. 23"
+        "Breath Weapon": {
+            "name": ""
         },
-        "Half-Elf": {
-            "description": "",
-            "source": "SHB S. 38"
+        "Damage Resistance": {
+            "name": ""
         },
         "Dragonborn": {
             "description": "",
             "source": "SHB S. 32"
         },
-        "Tiefling": {
+        "Dwarf": {
             "description": "",
-            "source": "SHB S. 42"
+            "source": "SHB S. 29"
         },
-        "Gnome": {
-            "description": "",
-            "source": "SHB S. 35"
-        },
-        "Half-Orc": {
-            "description": "",
-            "source": "SHB S. 40"
+        "Dwarven Resilience": {
+            "name": ""
         },
         "Elf": {
             "description": "",
             "source": "SHB S. 18"
         },
+        "Fey Ancestry": {
+            "name": ""
+        },
+        "Gnome": {
+            "description": "",
+            "source": "SHB S. 35"
+        },
+        "Gnome Cunning": {
+            "name": ""
+        },
+        "Half-Elf": {
+            "description": "",
+            "source": "SHB S. 38"
+        },
+        "Half-Orc": {
+            "description": "",
+            "source": "SHB S. 40"
+        },
+        "Halfling": {
+            "description": "",
+            "source": "SHB S. 23"
+        },
+        "Halfling Nimbleness": {
+            "name": ""
+        },
+        "Hellish Resistance": {
+            "name": ""
+        },
+        "High Elf": {
+            "description": "",
+            "source": "SHB S. 20"
+        },
+        "Hill Dwarf": {
+            "name": ""
+        },
         "Human": {
             "description": "",
             "source": "SHB S. 26"
+        },
+        "Infernal Legacy": {
+            "name": ""
+        },
+        "Lightfoot Halfling": {
+            "name": ""
+        },
+        "Lucky": {
+            "name": ""
+        },
+        "Naturally Stealthy": {
+            "name": ""
+        },
+        "Relentless Endurance": {
+            "name": ""
+        },
+        "Rock Gnome": {
+            "name": ""
+        },
+        "Savage Attacks": {
+            "name": ""
+        },
+        "Stonecunning": {
+            "name": ""
+        },
+        "Tiefling": {
+            "description": "",
+            "source": "SHB S. 42"
+        },
+        "Tinker": {
+            "name": ""
         }
+    },
+    "label": "Völker (SRD)",
+    "mapping": {
+        "name": {
+            "converter": "race",
+            "path": "name"
+        },
+        "source": "data.source"
     }
-}
+}

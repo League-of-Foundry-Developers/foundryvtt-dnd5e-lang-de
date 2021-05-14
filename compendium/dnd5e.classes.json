@@ -1,68 +1,68 @@
 {
+    "entries": {
+        "Barbarian": {
+            "description": "",
+            "name": "Barbar",
+            "source": "SHB S. 46"
+        },
+        "Bard": {
+            "description": "",
+            "name": "Barde",
+            "source": "SHB S. 51"
+        },
+        "Cleric": {
+            "description": "",
+            "name": "Kleriker",
+            "source": "SHB S. 75"
+        },
+        "Druid": {
+            "description": "",
+            "name": "Druide",
+            "source": "SHB S. 56"
+        },
+        "Fighter": {
+            "description": "",
+            "name": "Kämpfer",
+            "source": "SHB S. 69"
+        },
+        "Monk": {
+            "description": "",
+            "name": "Mönch",
+            "source": "SHB S. 91"
+        },
+        "Paladin": {
+            "description": "",
+            "name": "Paladin",
+            "source": "SHB S. 97"
+        },
+        "Ranger": {
+            "description": "",
+            "name": "Waldläufer",
+            "source": "SHB S. 109"
+        },
+        "Rogue": {
+            "description": "",
+            "name": "Schurke",
+            "source": "SHB S. 104"
+        },
+        "Sorcerer": {
+            "description": "",
+            "name": "Zauberer",
+            "source": "SHB S. 114"
+        },
+        "Warlock": {
+            "description": "",
+            "name": "Hexenmeister",
+            "source": "SHB S. 62"
+        },
+        "Wizard": {
+            "description": "",
+            "name": "Magier",
+            "source": "SHB S. 83"
+        }
+    },
     "label": "Klassen (SRD)",
     "mapping": {
         "source": "data.source"
-    },
-    "entries": {
-        "Sorcerer": {
-            "name": "Zauberer",
-            "description": "",
-            "source": "SHB S. 114"
-        },
-        "Monk": {
-            "name": "Mönch",
-            "description": "",
-            "source": "SHB S. 91"
-        },
-        "Warlock": {
-            "name": "Hexenmeister",
-            "description": "",
-            "source": "SHB S. 62"
-        },
-        "Fighter": {
-            "name": "Kämpfer",
-            "description": "",
-            "source": "SHB S. 69"
-        },
-        "Bard": {
-            "name": "Barde",
-            "description": "",
-            "source": "SHB S. 51"
-        },
-        "Ranger": {
-            "name": "Waldläufer",
-            "description": "",
-            "source": "SHB S. 109"
-        },
-        "Paladin": {
-            "name": "Paladin",
-            "description": "",
-            "source": "SHB S. 97"
-        },
-        "Barbarian": {
-            "name": "Barbar",
-            "description": "",
-            "source": "SHB S. 46"
-        },
-        "Cleric": {
-            "name": "Kleriker",
-            "description": "",
-            "source": "SHB S. 75"
-        },
-        "Wizard": {
-            "name": "Magier",
-            "description": "",
-            "source": "SHB S. 83"
-        },
-        "Rogue": {
-            "name": "Schurke",
-            "description": "",
-            "source": "SHB S. 104"
-        },
-        "Druid": {
-            "name": "Druide",
-            "description": "",
-            "source": "SHB S. 56"
-        }
     }
-}
+}
