@@ -972,6 +972,11 @@
         "target": {
             "converter": "target",
             "path": "data.target"
+        },
+        "name": {
+            "path": "name",
+            "converter": "spellname"
         }
     }
-}
+}
+

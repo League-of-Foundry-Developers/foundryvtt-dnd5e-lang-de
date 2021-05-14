@@ -1,6 +1,7 @@
 import { default as MonsterData } from '../data/monsters.js'
 import { default as ItemData } from '../data/items.js'
 import { default as MagicItemData } from '../data/magicitems.js'
+import { default as SpellData } from '../data/spells.js'
 
 var module_id = '';
 
@@ -22,7 +23,8 @@ export default function registerConverters(id) {
         'monstersource': convertMonsterSource,
         'monsterenvironment': convertMonsterEnvironment,
         'monstertoken': convertMonsterToken,
-        'itemname': convertItemName
+        'itemname': convertItemName,
+        'spellname': convertSpellName
     });
 }
 
@@ -389,4 +391,12 @@ function getMagicalItemModifier(string)
 {
     var match = string.match(/[\+\-][0-9]$/);
     return match ? match[0] : '';
+}
+
+function convertSpellName(name) {
+    if (SpellData.data[name]) {
+        return SpellData.data[name].name;
+    }
+
+    return name;
 }
