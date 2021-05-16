@@ -15,7 +15,7 @@ import { onMount } from "svelte";
 
 // safe input
 	const handelClick = (index) => {
-		if (shown[index]) safeAtJson(deTradegoods.entries[index]);
+		if (shown[index]) safeAtJson(deTradegoods.entries[index]);	
 		shown[index] = !shown[index];
 	} 
 	async function safeAtJson(entry) {	
@@ -79,11 +79,19 @@ onMount(async () => {
 					</div>
 						<div class="de-description">
 							<h3>Beschreibung</h3>
-							{tradegood.description}
+							<textarea type="text" id="{file + '.discription.' + [i]}" bind:value="{tradegood.description}" cols="50" rows="10" disabled={!shown[i]}>
+								
+							</textarea>
+							<button on:click={() => handelClick(i)} class="btn" id="{file + '.discription.' + [i]}">
+								{shown[i] ? 'safe' : 'Edit'}
+							</button>
 						</div>
 						<div class="de-source">
 							<h3>Seite im Buch</h3>
-							{tradegood.source}
+							<input type="text" id="{'source ' + [i]}" name="dtsource" bind:value="{tradegood.source}" disabled={!shown[i]}>
+							<button on:click={() => handelClick(i)} class="btn">
+								{shown[i] ?'safe' : 'Edit'}
+							</button>					
 						</div>
 				</div>
 				{/each}
