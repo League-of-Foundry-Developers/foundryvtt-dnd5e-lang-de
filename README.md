@@ -41,13 +41,22 @@ The module also depends on [Babele](https://foundryvtt.com/packages/babele) for 
 
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
 
+### Version 1.0.0
+
+- Added compendium content translations using the Babele module
+- Many things in the compendia are already translated, further translations will follow with further updates
+- Skills on character sheets are now sorted alphabetically
+- Added a settings menu: Whether compendiums are translated, whether original source page number(s) are kept, overriden, or kept in addition to the german source references can all be set and changed here
+- Fixed tons of small UI issues with the 5E sheets
+- Many translation improvements, improving consistency
+
 ### Version 0.8.0
 
 - Initial support for Foundry 0.8 and DND 5E system version 1.3.0
 
 ### Version 0.7.4
 
-- Small fix for the description of general bonuses to saving throws in the special bonus section of character sheets.
+- Small fix for the description of general bonuses to saving throws in the special bonus section of character sheets
 
 ### Version 0.7.3
 

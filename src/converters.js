@@ -1,6 +1,7 @@
 import { default as MonsterData } from '../data/monsters.js'
 import { default as ItemData } from '../data/items.js'
 import { default as MagicItemData } from '../data/magicitems.js'
+import { default as SpellData } from '../data/spells.js'
 
 var module_id = '';
 
@@ -13,26 +14,18 @@ export default function registerConverters(id) {
     }
 
     Babele.get().registerConverters({
-        'alignment': (alignment) => {
-            return convertAlignment(alignment)
-        },
-        'rarity': (rarity) => {
-            return convertRarity(rarity)
-        },
-        'type': (type) => {
-            return convertType(type)
-        },
-        'languages': (language) => {
-            return convertLanguages(language)
-        },
-        'race': (race) => {
-            return convertRace(race)
-        },
+        'alignment': convertAlignment,
+        'rarity': convertRarity,
+        'type': convertType,
+        'languages': convertLanguages,
+        'race': convertRace,
         'monstername': convertMonsterName,
         'monstersource': convertMonsterSource,
         'monsterenvironment': convertMonsterEnvironment,
         'monstertoken': convertMonsterToken,
-        'itemname': convertItemName
+        'itemname': convertItemName,
+        'spellname': convertSpellName,
+        'spellsource': convertSpellSource
     });
 }
 
@@ -399,4 +392,34 @@ function getMagicalItemModifier(string)
 {
     var match = string.match(/[\+\-][0-9]$/);
     return match ? match[0] : '';
+}
+
+function convertSpellName(name) {
+    if (SpellData.data[name]) {
+        return SpellData.data[name].name;
+    }
+
+    return name;
+}
+
+function convertSpellSource(m, translation, data) {
+    if (!SpellData.data[data.name]) {
+        return m;
+    }
+
+    var new_src = SpellData.data[data.name].src + ' S. ' + SpellData.data[data.name].src_pg;
+    new_src = new_src.replace(', SRD', '');
+    new_src = new_src.replace('SRD', '');
+
+    if (game.settings.get(module_id, 'compendiumSrcTranslateBooks')) {
+        for (var book in source_book_replacements) {
+            new_src = new_src.replace(book, source_book_replacements[book]);
+        }
+    }
+
+    if (game.settings.get(module_id, 'compendiumSrcKeepOriginal')) {
+        new_src = new_src + ' (' + m.replace('pg.', 'S.') + ')';
+    }
+
+    return new_src
 }
