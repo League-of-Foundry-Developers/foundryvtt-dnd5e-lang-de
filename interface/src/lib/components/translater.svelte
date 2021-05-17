@@ -14,15 +14,16 @@ import { onMount } from "svelte";
 	// import * as deTradegoods from '$lib/compendium/' + file ;
 
 // safe input
-	const handelClick = (index) => {
+	const handelClick = (index) => { 
 		if (shown[index]) safeAtJson(deTradegoods.entries[index]);	
 		shown[index] = !shown[index];
-	} 
+	}
+
 	async function safeAtJson(entry) {	
 		entry.file = file;
 		var data = JSON.stringify(entry);
 		// ToDo Try Catcher
-		const result = await fetch(`/api.json`, {method:'POST', body: data});
+		const result = await fetch(`/api/file`, {method:'POST', body: data});
 
 	}
 
@@ -32,7 +33,7 @@ import { onMount } from "svelte";
 	// const section
 
 onMount(async () => {
-	const response = await fetch('/api.json?file=' + file);
+	const response = await fetch('/api/file?file=' + file);
 	deTradegoods = await response.json()
 });
 </script>
@@ -79,9 +80,7 @@ onMount(async () => {
 					</div>
 						<div class="de-description">
 							<h3>Beschreibung</h3>
-							<textarea type="text" id="{file + '.discription.' + [i]}" bind:value="{tradegood.description}" cols="50" rows="10" disabled={!shown[i]}>
-								
-							</textarea>
+							<textarea type="text" id="{file + '.discription.' + [i]}" bind:value="{tradegood.description}" cols="50" rows="10" disabled={!shown[i]}></textarea>
 							<button on:click={() => handelClick(i)} class="btn" id="{file + '.discription.' + [i]}">
 								{shown[i] ? 'safe' : 'Edit'}
 							</button>
