@@ -11,6 +11,11 @@ import { onMount } from "svelte";
 		entries: []
 	};
 
+	console.log(Object.entries(deTradegoods));
+	console.log(Object.entries(deTradegoods.entries{}));
+
+	
+
 	// import * as deTradegoods from '$lib/compendium/' + file ;
 
 // safe input
@@ -56,7 +61,7 @@ onMount(async () => {
 			</div>
 			<div class="de-translation">
 				<h2>Deutsch</h2>
-				{#each deTradegoods.entries as tradegood, i}
+				{#each Object.entries(deTradegoods) as [title, description, name, source], i}
 				<div class="container">
 
 					<div class="flex">
@@ -65,14 +70,14 @@ onMount(async () => {
 								Englisches Original
 							</h3>
 							<p>
-								{tradegood.id}
+								{title}
 							</p>
 						</div>
 						<div class="de-div">
 							<h3>
 								Deutsche übersetzung
 							</h3>
-								<input type="text" id="{tradegood.id}" name="dtname" bind:value="{tradegood.name}" disabled={!shown[i]}>
+								<input type="text" id="{name}" name="dtname" bind:value="{name}" disabled={!shown[i]}>
 								<button on:click={() => handelClick(i)} class="btn">
 									{shown[i] ?'safe' : 'Edit'}
 								</button>
@@ -80,14 +85,14 @@ onMount(async () => {
 					</div>
 						<div class="de-description">
 							<h3>Beschreibung</h3>
-							<textarea type="text" id="{file + '.discription.' + [i]}" bind:value="{tradegood.description}" cols="50" rows="10" disabled={!shown[i]}></textarea>
-							<button on:click={() => handelClick(i)} class="btn" id="{file + '.discription.' + [i]}">
+							<textarea type="text" id="{file + '.description.' + [i]}" bind:value="{description}" cols="50" rows="10" disabled={!shown[i]}></textarea>
+							<button on:click={() => handelClick(i)} class="btn" id="{file + '.description.' + [i]}">
 								{shown[i] ? 'safe' : 'Edit'}
 							</button>
 						</div>
 						<div class="de-source">
 							<h3>Seite im Buch</h3>
-							<input type="text" id="{'source ' + [i]}" name="dtsource" bind:value="{tradegood.source}" disabled={!shown[i]}>
+							<input type="text" id="{'source ' + [i]}" name="dtsource" bind:value="{source}" disabled={!shown[i]}>
 							<button on:click={() => handelClick(i)} class="btn">
 								{shown[i] ?'safe' : 'Edit'}
 							</button>					
