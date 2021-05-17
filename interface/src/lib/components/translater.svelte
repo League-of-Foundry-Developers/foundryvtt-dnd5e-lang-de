@@ -23,7 +23,7 @@ import { onMount } from "svelte";
 		entry.file = file;
 		var data = JSON.stringify(entry);
 		// ToDo Try Catcher
-		const result = await fetch(`/api/file`, {method:'POST', body: data});
+		const result = await fetch(`/api.json`, {method:'POST', body: data});
 
 	}
 
@@ -33,7 +33,7 @@ import { onMount } from "svelte";
 	// const section
 
 onMount(async () => {
-	const response = await fetch('/api/file?file=' + file);
+	const response = await fetch('/api.json?file=' + file);
 	deTradegoods = await response.json()
 });
 </script>
