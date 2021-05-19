@@ -48,11 +48,5 @@ export const post: RequestHandler<Locals, string> = async (request) => {
         status: 200,
         body: 'go home'
     }
-
-    
-	// return api(request, `todos/${request.locals.userid}/${request.params.uid}`, {
-	// 	text: request.body.get('text'),
-	// 	done: request.body.has('done') ? !!request.body.get('done') : undefined
-	// });
 };
 
