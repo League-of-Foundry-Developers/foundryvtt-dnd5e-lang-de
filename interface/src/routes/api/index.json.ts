@@ -39,6 +39,7 @@ export const post: RequestHandler<Locals, string> = async (request) => {
         json.entries[update.id] = {
             name: update.name,
             description: update.description,
+            material: update.material,
             source: update.source,
         };
         writeFile(fileName, JSON.stringify(json));  

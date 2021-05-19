@@ -28,6 +28,7 @@ import { onMount } from "svelte";
 	const shown = {
 		desc : [],
 		name: [],
+		material: [],
 		source: [],
 	};
 	// const section
@@ -35,7 +36,6 @@ import { onMount } from "svelte";
 onMount(async () => {
 	const response = await fetch('/api.json?file=' + file);
 	const json = await response.json();
-	console.log(json.label);
 	filename = json.label
 	items = Object.entries(json.entries)
 		.map(([key, value]) => {
@@ -55,7 +55,7 @@ onMount(async () => {
 		<h1>
 		Foundry VTT DnD5e übersetzung
 		</h1>
-		<h2>{filename}</h2>
+		<h2 class="w-100 f-20 text-center">{filename}</h2>
 		<div class="wrapper">
 
 			<div class="en-translation">
@@ -94,6 +94,15 @@ onMount(async () => {
 								{shown.desc[i] ? 'safe' : 'Edit'}
 							</button>
 						</div>
+						{#if filename === 'Zauber (SRD)'}
+							<div class="de-material">
+								<h3>Verbrauchs Material</h3>
+								<input type="text" id="{file + '.material.' + [i]}" bind:value="{item.material}" disabled={!shown.material[i]}>
+								<button on:click={() => handelClick(i, 'material')} class="btn" id="{file + '.material.' + [i]}">
+									{shown.material[i] ? 'safe' : 'Edit'}
+								</button>
+							</div>
+						{/if}
 						<div class="de-source">
 							<h3>Seite im Buch</h3>
 							<input type="text" id="{'source ' + [i]}" name="dtsource" bind:value="{item.source}" disabled={!shown.source[i]}>
@@ -117,6 +126,18 @@ onMount(async () => {
 
 	h1 {
 		width: 100%;
+	}
+
+	.w-100 {
+		width: 100%
+	}
+
+	.f-20 {
+		font-size: 20px;
+	}
+
+	.text-center {
+		text-align: center;
 	}
 	.wrapper {
 		display: flex;
