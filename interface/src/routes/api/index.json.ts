@@ -6,7 +6,6 @@ import path from 'path';
 const __dirname = path.resolve();
 
 const projectRoot = path.join(__dirname, 'src/lib/compendium');
-console.log(projectRoot);
 
 const fullPath = (filePath) => path.join(projectRoot, filePath);
 
@@ -14,7 +13,6 @@ const readFile = (filePath) => fs.readFileSync(fullPath(filePath), 'utf8');
 const writeFile = (filePath, content) => fs.writeFileSync(fullPath(filePath), content);
 
 export const get: RequestHandler<Locals, string> = (request) => {
-    console.log(request.query);
     let body = '';
     const file = request.query.get('file');
     if (file) {
@@ -37,12 +35,14 @@ export const post: RequestHandler<Locals, string> = async (request) => {
     const json = JSON.parse(file);
     
     // new files, some entfernen
-    const didUpdate = json.entries.some((entry, index) => {
-        if(entry.id != update.id) return false;
-        json.entries[index] = update;
-        return true;
-    })
-    if (didUpdate) writeFile(fileName, JSON.stringify(json));
+    if (json.entries[update.id]) {
+        json.entries[update.id] = {
+            name: update.name,
+            description: update.description,
+            source: update.source,
+        };
+        writeFile(fileName, JSON.stringify(json));  
+    }  
     return {
         status: 200,
         body: 'go home'
