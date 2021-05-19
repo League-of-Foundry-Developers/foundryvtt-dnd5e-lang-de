@@ -16,8 +16,16 @@
 		</svg>
 		<ul>
 			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
-			<li class:active={$page.path === '/todos'}><a sveltekit:prefetch href="/todos">Todos</a></li>
+			<li class:active={$page.path === '/classes'}><a sveltekit:prefetch href="/classes">Classes</a></li>
+			<li class:active={$page.path === '/classfeatures'}><a sveltekit:prefetch href="/classfeatures">Class features</a></li>
+			<li class:active={$page.path === '/heroes'}><a sveltekit:prefetch href="/heroes">Heroes</a></li>
+			<li class:active={$page.path === '/items'}><a sveltekit:prefetch href="/items">Items</a></li>
+			<li class:active={$page.path === '/monsterfeatures'}><a sveltekit:prefetch href="/monsterfeatures">Monster features</a></li>
+			<li class:active={$page.path === '/monster'}><a sveltekit:prefetch href="/monster">Monster</a></li>
+			<li class:active={$page.path === '/races'}><a sveltekit:prefetch href="/races">Races</a></li>
+			<li class:active={$page.path === '/rules'}><a sveltekit:prefetch href="/rules">Rules</a></li>
+			<li class:active={$page.path === '/spells'}><a sveltekit:prefetch href="/spells">Spells</a></li>
+			<li class:active={$page.path === '/tradegoods'}><a sveltekit:prefetch href="/tradegoods">Tragegoods</a></li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
