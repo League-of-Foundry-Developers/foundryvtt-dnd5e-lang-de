@@ -4,29 +4,18 @@
 
 <script lang="ts">
 import { onMount } from "svelte";
-
-
 	export let file;
 	let deTradegoods = {
 		entries: []
 	};
 
-	console.log(deTradegoods);
-	
-
-	console.log(Object.entries(deTradegoods));
-	console.log(Object.entries(deTradegoods.entries{}));
-
-	
-
 	// import * as deTradegoods from '$lib/compendium/' + file ;
 
 // safe input
-	const handelClick = (index) => { 
-		if (shown[index]) safeAtJson(deTradegoods.entries[index]);	
+	const handelClick = (index) => {
+		if (shown[index]) safeAtJson(deTradegoods.entries[index]);
 		shown[index] = !shown[index];
-	}
-
+	} 
 	async function safeAtJson(entry) {	
 		entry.file = file;
 		var data = JSON.stringify(entry);
@@ -37,8 +26,6 @@ import { onMount } from "svelte";
 
 	// on click set
 	const shown = [];
-	console.log(shown);
-	
 
 	// const section
 
@@ -66,7 +53,7 @@ onMount(async () => {
 			</div>
 			<div class="de-translation">
 				<h2>Deutsch</h2>
-				{#each Object.entries(deTradegoods) as [title, description, name, source], i}
+				{#each deTradegoods.entries as tradegood, i}
 				<div class="container">
 
 					<div class="flex">
@@ -75,14 +62,14 @@ onMount(async () => {
 								Englisches Original
 							</h3>
 							<p>
-								{title}
+								{tradegood.id}
 							</p>
 						</div>
 						<div class="de-div">
 							<h3>
 								Deutsche übersetzung
 							</h3>
-								<input type="text" id="{name}" name="dtname" bind:value="{name}" disabled={!shown[i]}>
+								<input type="text" id="{tradegood.id}" name="dtname" bind:value="{tradegood.name}" disabled={!shown[i]}>
 								<button on:click={() => handelClick(i)} class="btn">
 									{shown[i] ?'safe' : 'Edit'}
 								</button>
@@ -90,17 +77,11 @@ onMount(async () => {
 					</div>
 						<div class="de-description">
 							<h3>Beschreibung</h3>
-							<textarea type="text" id="{file + '.description.' + [i]}" bind:value="{description}" cols="50" rows="10" disabled={!shown[i]}></textarea>
-							<button on:click={() => handelClick(i)} class="btn" id="{file + '.description.' + [i]}">
-								{shown[i] ? 'safe' : 'Edit'}
-							</button>
+							{tradegood.description}
 						</div>
 						<div class="de-source">
 							<h3>Seite im Buch</h3>
-							<input type="text" id="{'source ' + [i]}" name="dtsource" bind:value="{source}" disabled={!shown[i]}>
-							<button on:click={() => handelClick(i)} class="btn">
-								{shown[i] ?'safe' : 'Edit'}
-							</button>					
+							{tradegood.source}
 						</div>
 				</div>
 				{/each}
