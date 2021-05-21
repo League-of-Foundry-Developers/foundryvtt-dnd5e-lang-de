@@ -1,11 +1,12 @@
 import type { RequestHandler } from '@sveltejs/kit';
 import type { Locals } from '$lib/types';
+import { dev } from '$app/env';
 import * as fs from 'fs';
 // import * as path from 'path';
 import path from 'path';
 const __dirname = path.resolve();
 
-const projectRoot = path.join(__dirname, 'src/lib/compendium');
+const projectRoot = path.join(__dirname, dev ? 'static/compendium' : 'assets/compendium');
 
 const fullPath = (filePath) => path.join(projectRoot, filePath);
 
