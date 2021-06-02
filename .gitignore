@@ -3,6 +3,11 @@ en.json
 
 *.log
 *.temp
+*.tmp
+temp/
+tmp/
+
+compendium/*.db
 
 # Python
 __pycache__/

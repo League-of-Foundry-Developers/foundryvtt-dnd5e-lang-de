@@ -1,0 +1,716 @@
+{
+    "entries": {
+        "Ability Score Improvement": {
+            "name": ""
+        },
+        "Ability Score Improvement (Fighter)": {
+            "name": ""
+        },
+        "Ability Score Improvement (Rogue)": {
+            "name": ""
+        },
+        "Action Surge": {
+            "name": ""
+        },
+        "Additional Fighting Style": {
+            "name": ""
+        },
+        "Additional Magical Secrets": {
+            "name": ""
+        },
+        "Arcane Recovery": {
+            "name": ""
+        },
+        "Arcane Tradition": {
+            "name": ""
+        },
+        "Archdruid": {
+            "name": ""
+        },
+        "Aura of Courage": {
+            "name": ""
+        },
+        "Aura of Devotion": {
+            "name": ""
+        },
+        "Aura of Protection": {
+            "name": ""
+        },
+        "Bard College": {
+            "name": ""
+        },
+        "Bardic Inspiration": {
+            "name": ""
+        },
+        "Beast Spells": {
+            "name": ""
+        },
+        "Blessed Healer": {
+            "name": ""
+        },
+        "Blindsense": {
+            "name": ""
+        },
+        "Bonus Cantrip (Druid)": {
+            "name": ""
+        },
+        "Bonus Proficiencies (College of Lore)": {
+            "name": ""
+        },
+        "Bonus Proficiency (Life Domain)": {
+            "name": ""
+        },
+        "Brutal Critical": {
+            "name": ""
+        },
+        "Channel Divinity (Cleric)": {
+            "name": ""
+        },
+        "Channel Divinity (Paladin)": {
+            "name": ""
+        },
+        "Channel Divinity: Preserve Life": {
+            "name": ""
+        },
+        "Channel Divinity: Sacred Weapon": {
+            "name": ""
+        },
+        "Channel Divinity: Turn Undead": {
+            "name": ""
+        },
+        "Channel Divinity: Turn the Unholy": {
+            "name": ""
+        },
+        "Circle Spells": {
+            "name": ""
+        },
+        "Cleansing Touch": {
+            "name": ""
+        },
+        "Countercharm": {
+            "name": ""
+        },
+        "Cunning Action": {
+            "name": ""
+        },
+        "Cutting Words": {
+            "name": ""
+        },
+        "Danger Sense": {
+            "name": ""
+        },
+        "Dark One's Blessing": {
+            "name": ""
+        },
+        "Dark One's Own Luck": {
+            "name": ""
+        },
+        "Defensive Tactics": {
+            "name": ""
+        },
+        "Defensive Tactics: Escape the Horde": {
+            "name": ""
+        },
+        "Defensive Tactics: Multiattack Defense": {
+            "name": ""
+        },
+        "Defensive Tactics: Steel Will": {
+            "name": ""
+        },
+        "Deflect Missiles": {
+            "name": ""
+        },
+        "Destroy Undead": {
+            "name": ""
+        },
+        "Disciple of Life": {
+            "name": ""
+        },
+        "Divine Domain": {
+            "name": ""
+        },
+        "Divine Health": {
+            "name": ""
+        },
+        "Divine Intervention": {
+            "name": ""
+        },
+        "Divine Sense": {
+            "name": ""
+        },
+        "Divine Smite": {
+            "name": ""
+        },
+        "Divine Strike": {
+            "name": ""
+        },
+        "Draconic Presence": {
+            "name": ""
+        },
+        "Draconic Resilience": {
+            "name": ""
+        },
+        "Dragon Ancestor": {
+            "name": ""
+        },
+        "Dragon Wings": {
+            "name": ""
+        },
+        "Druid Circle": {
+            "name": ""
+        },
+        "Druidic": {
+            "name": ""
+        },
+        "Eldritch Invocations": {
+            "name": ""
+        },
+        "Eldritch Master": {
+            "name": ""
+        },
+        "Elemental Affinity": {
+            "name": ""
+        },
+        "Elusive": {
+            "name": ""
+        },
+        "Empowered Evocation": {
+            "name": ""
+        },
+        "Evasion": {
+            "name": ""
+        },
+        "Evocation Savant": {
+            "name": ""
+        },
+        "Expanded Spell List": {
+            "name": ""
+        },
+        "Expertise (Bard)": {
+            "name": ""
+        },
+        "Expertise (Rogue)": {
+            "name": ""
+        },
+        "Extra Attack": {
+            "name": ""
+        },
+        "Extra Attack (Fighter)": {
+            "name": ""
+        },
+        "Fast Hands": {
+            "name": ""
+        },
+        "Fast Movement": {
+            "name": ""
+        },
+        "Favored Enemy": {
+            "name": ""
+        },
+        "Feral Instinct": {
+            "name": ""
+        },
+        "Feral Senses": {
+            "name": ""
+        },
+        "Fiendish Resilience": {
+            "name": ""
+        },
+        "Fighting Style": {
+            "name": ""
+        },
+        "Fighting Style: Archery": {
+            "name": ""
+        },
+        "Fighting Style: Defense": {
+            "name": ""
+        },
+        "Fighting Style: Dueling": {
+            "name": ""
+        },
+        "Fighting Style: Great Weapon Fighting": {
+            "name": ""
+        },
+        "Fighting Style: Protection": {
+            "name": ""
+        },
+        "Fighting Style: Two Weapon Fighting": {
+            "name": ""
+        },
+        "Foe Slayer": {
+            "name": ""
+        },
+        "Font of Inspiration": {
+            "name": ""
+        },
+        "Font of Magic": {
+            "name": ""
+        },
+        "Frenzy": {
+            "name": ""
+        },
+        "Grappler": {
+            "name": ""
+        },
+        "Hide in Plain Sight": {
+            "name": ""
+        },
+        "Holy Nimbus": {
+            "name": ""
+        },
+        "Hunter's Prey": {
+            "name": ""
+        },
+        "Hunter's Prey: Colossus Slayer": {
+            "name": ""
+        },
+        "Hunter's Prey: Giant Killer": {
+            "name": ""
+        },
+        "Hunter's Prey: Horde Breaker": {
+            "name": ""
+        },
+        "Hurl Through Hell": {
+            "name": ""
+        },
+        "Improved Critical": {
+            "name": ""
+        },
+        "Improved Divine Smite": {
+            "name": ""
+        },
+        "Indomitable": {
+            "name": ""
+        },
+        "Indomitable Might": {
+            "name": ""
+        },
+        "Intimidating Presence": {
+            "name": ""
+        },
+        "Invocation: Agonizing Blast": {
+            "name": ""
+        },
+        "Invocation: Armor of Shadows": {
+            "name": ""
+        },
+        "Invocation: Ascendant Step": {
+            "name": ""
+        },
+        "Invocation: Beast Speech": {
+            "name": ""
+        },
+        "Invocation: Beguiling Influence": {
+            "name": ""
+        },
+        "Invocation: Bewitching Whispers": {
+            "name": ""
+        },
+        "Invocation: Book of Ancient Secrets": {
+            "name": ""
+        },
+        "Invocation: Chains of Carceri": {
+            "name": ""
+        },
+        "Invocation: Devil's Sight": {
+            "name": ""
+        },
+        "Invocation: Dreadful Word": {
+            "name": ""
+        },
+        "Invocation: Eldritch Sight": {
+            "name": ""
+        },
+        "Invocation: Eldritch Spear": {
+            "name": ""
+        },
+        "Invocation: Eyes of the Rune Keeper": {
+            "name": ""
+        },
+        "Invocation: Fiendish Vigor": {
+            "name": ""
+        },
+        "Invocation: Gaze of Two Minds": {
+            "name": ""
+        },
+        "Invocation: Life Drinker": {
+            "name": ""
+        },
+        "Invocation: Mask of Many Faces": {
+            "name": ""
+        },
+        "Invocation: Master of Myriad Forms": {
+            "name": ""
+        },
+        "Invocation: Minions of Chaos": {
+            "name": ""
+        },
+        "Invocation: Mire the Mind": {
+            "name": ""
+        },
+        "Invocation: Misty Visions": {
+            "name": ""
+        },
+        "Invocation: One With Shadows": {
+            "name": ""
+        },
+        "Invocation: Otherwordly Leap": {
+            "name": ""
+        },
+        "Invocation: Repelling Blast": {
+            "name": ""
+        },
+        "Invocation: Sculptor of Flesh": {
+            "name": ""
+        },
+        "Invocation: Sign of Ill Omen": {
+            "name": ""
+        },
+        "Invocation: Thief of Five Fates": {
+            "name": ""
+        },
+        "Invocation: Thirsting Blade": {
+            "name": ""
+        },
+        "Invocation: Visions of Distant Realms": {
+            "name": ""
+        },
+        "Invocation: Voice of the Chain Master": {
+            "name": ""
+        },
+        "Invocation: Whispers of the Grave": {
+            "name": ""
+        },
+        "Invocation: Witch Sight": {
+            "name": ""
+        },
+        "Jack of All Trades": {
+            "name": ""
+        },
+        "Ki": {
+            "name": ""
+        },
+        "Ki-Empowered Strikes": {
+            "name": ""
+        },
+        "Ki: Diamond Soul": {
+            "name": ""
+        },
+        "Ki: Empty Body": {
+            "name": ""
+        },
+        "Ki: Flurry of Blows": {
+            "name": ""
+        },
+        "Ki: Patient Defense": {
+            "name": ""
+        },
+        "Ki: Quivering Palm": {
+            "name": ""
+        },
+        "Ki: Step of the Wind": {
+            "name": ""
+        },
+        "Ki: Stunning Strike": {
+            "name": ""
+        },
+        "Land's Stride (Circle of the Land)": {
+            "name": ""
+        },
+        "Land's Stride (Ranger)": {
+            "name": ""
+        },
+        "Lay on Hands": {
+            "name": ""
+        },
+        "Magical Secrets": {
+            "name": ""
+        },
+        "Martial Archetype": {
+            "name": ""
+        },
+        "Martial Arts": {
+            "name": ""
+        },
+        "Metamagic": {
+            "name": ""
+        },
+        "Metamagic: Careful Spell": {
+            "name": ""
+        },
+        "Metamagic: Distant Spell": {
+            "name": ""
+        },
+        "Metamagic: Empowered Spell": {
+            "name": ""
+        },
+        "Metamagic: Extended Spell": {
+            "name": ""
+        },
+        "Metamagic: Heightened Spell": {
+            "name": ""
+        },
+        "Metamagic: Quickened Spell": {
+            "name": ""
+        },
+        "Metamagic: Subtle Spell": {
+            "name": ""
+        },
+        "Metamagic: Twinned Spell": {
+            "name": ""
+        },
+        "Mindless Rage": {
+            "name": ""
+        },
+        "Monastic Tradition": {
+            "name": ""
+        },
+        "Multiattack": {
+            "name": ""
+        },
+        "Multiattack: Volley": {
+            "name": ""
+        },
+        "Multiattack: Whirlwind Attack": {
+            "name": ""
+        },
+        "Mystic Arcanum (6th-Level Spell)": {
+            "name": ""
+        },
+        "Mystic Arcanum (7th-Level Spell)": {
+            "name": ""
+        },
+        "Mystic Arcanum (8th-Level Spell)": {
+            "name": ""
+        },
+        "Mystic Arcanum (9th-Level Spell)": {
+            "name": ""
+        },
+        "Natural Explorer": {
+            "name": ""
+        },
+        "Natural Recovery": {
+            "name": ""
+        },
+        "Nature's Sanctuary": {
+            "name": ""
+        },
+        "Nature's Ward": {
+            "name": ""
+        },
+        "Open Hand Technique": {
+            "name": ""
+        },
+        "Otherworldly Patron": {
+            "name": ""
+        },
+        "Overchannel": {
+            "name": ""
+        },
+        "Pact Boon": {
+            "name": ""
+        },
+        "Pact Magic": {
+            "name": ""
+        },
+        "Pact of the Blade": {
+            "name": ""
+        },
+        "Pact of the Chain": {
+            "name": ""
+        },
+        "Pact of the Tome": {
+            "name": ""
+        },
+        "Peerless Skill": {
+            "name": ""
+        },
+        "Perfect Self": {
+            "name": ""
+        },
+        "Persistent Rage": {
+            "name": ""
+        },
+        "Potent Cantrip": {
+            "name": ""
+        },
+        "Primal Champion": {
+            "name": ""
+        },
+        "Primal Path": {
+            "name": ""
+        },
+        "Primeval Awareness": {
+            "name": ""
+        },
+        "Purity of Body": {
+            "name": ""
+        },
+        "Purity of Spirit": {
+            "name": ""
+        },
+        "Rage": {
+            "name": ""
+        },
+        "Ranger Archetype": {
+            "name": ""
+        },
+        "Reckless Attack": {
+            "name": ""
+        },
+        "Relentless Rage": {
+            "name": ""
+        },
+        "Reliable Talent": {
+            "name": ""
+        },
+        "Remarkable Athlete": {
+            "name": ""
+        },
+        "Retaliation": {
+            "name": ""
+        },
+        "Roguish Archetype": {
+            "name": ""
+        },
+        "Sacred Oath": {
+            "name": ""
+        },
+        "Sculpt Spells": {
+            "name": ""
+        },
+        "Second Wind": {
+            "name": ""
+        },
+        "Second-Story Work": {
+            "name": ""
+        },
+        "Signature Spells (First Spell)": {
+            "name": ""
+        },
+        "Signature Spells (Second Spell)": {
+            "name": ""
+        },
+        "Slippery Mind": {
+            "name": ""
+        },
+        "Slow Fall": {
+            "name": ""
+        },
+        "Sneak Attack": {
+            "name": ""
+        },
+        "Song of Rest": {
+            "name": ""
+        },
+        "Sorcerous Origins": {
+            "name": ""
+        },
+        "Sorcerous Restoration": {
+            "name": ""
+        },
+        "Spell Mastery": {
+            "name": ""
+        },
+        "Spellcasting (Bard)": {
+            "name": ""
+        },
+        "Spellcasting (Cleric)": {
+            "name": ""
+        },
+        "Spellcasting (Druid)": {
+            "name": ""
+        },
+        "Spellcasting (Paladin)": {
+            "name": ""
+        },
+        "Spellcasting (Ranger)": {
+            "name": ""
+        },
+        "Spellcasting (Sorcerer)": {
+            "name": ""
+        },
+        "Spellcasting (Wizard)": {
+            "name": ""
+        },
+        "Stillness of Mind": {
+            "name": ""
+        },
+        "Stroke of Luck": {
+            "name": ""
+        },
+        "Superior Critical": {
+            "name": ""
+        },
+        "Superior Hunter's Defense": {
+            "name": ""
+        },
+        "Superior Hunter's Defense: Evasion": {
+            "name": ""
+        },
+        "Superior Hunter's Defense: Stand Against the Tide": {
+            "name": ""
+        },
+        "Superior Hunter's Defense: Uncanny Dodge": {
+            "name": ""
+        },
+        "Superior Inspiration": {
+            "name": ""
+        },
+        "Supreme Healing": {
+            "name": ""
+        },
+        "Supreme Sneak": {
+            "name": ""
+        },
+        "Survivor": {
+            "name": ""
+        },
+        "Thief's Reflexes": {
+            "name": ""
+        },
+        "Thieves' Cant": {
+            "name": ""
+        },
+        "Timeless Body (Druid)": {
+            "name": ""
+        },
+        "Timeless Body (Monk)": {
+            "name": ""
+        },
+        "Tongue of the Sun and Moon": {
+            "name": ""
+        },
+        "Tranquility": {
+            "name": ""
+        },
+        "Unarmored Defense (Barbarian)": {
+            "name": ""
+        },
+        "Unarmored Defense (Monk)": {
+            "name": ""
+        },
+        "Unarmored Movement": {
+            "name": ""
+        },
+        "Unarmored Movement (Monk)": {
+            "name": ""
+        },
+        "Uncanny Dodge": {
+            "name": ""
+        },
+        "Use Magic Device": {
+            "name": ""
+        },
+        "Vanish": {
+            "name": ""
+        },
+        "Wholeness of Body": {
+            "name": ""
+        },
+        "Wild Shape": {
+            "name": ""
+        }
+    },
+    "label": "Klassenfähigkeiten (SRD)"
+}
