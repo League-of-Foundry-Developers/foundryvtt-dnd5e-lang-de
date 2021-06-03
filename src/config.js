@@ -12,6 +12,18 @@ export default [
         },
     },
     {
+        name: 'oglOverrideSkillSortAlpha',
+        onlyUntilSystemVersionIncluding: '1.3.3',
+        data: {
+            name: 'Fertigkeiten alphabetisch sortieren im 5e OGL Character Sheet',
+            hint: 'Sortiert die Fertigkeitenliste alphabetisch.',
+            scope: 'client',
+            type: Boolean,
+            config: true,
+            default: false
+        },
+    },
+    {
         name: 'enableCompendiumTranslation',
         data: {
             name: 'Kompendiuminhalte übersetzen',
