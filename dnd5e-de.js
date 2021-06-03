@@ -37,8 +37,7 @@ Hooks.once('init', () => {
     // Sort skills alphabetically
     // Thanks to Elvis Pereira for the polish translation
     // Fixed in upstream 1.3.0 (https://gitlab.com/foundrynet/dnd5e/-/issues/1070)
-    if (!isNewerVersion(game.system.data.version, '1.3.3') || !isNewerVersion(game.system.data.version, '1.3.3') && game.modules.get('5e-ogl-character-sheet')?.active) {
-        console.log('TTTT');
+    if (!isNewerVersion(game.system.data.version, '1.3.3')) {
         async function sortSkillsAlpha() { 
             const lists = document.getElementsByClassName('skills-list');
             for (let list of lists) {
@@ -59,6 +58,14 @@ Hooks.once('init', () => {
         }
 
         Hooks.on('renderActorSheet', async function () {
+            // Sort the skills from 5e OGL Character Sheet
+            if (game.modules.get('5e-ogl-character-sheet')?.active &&
+                game.i18n.lang === module_lang &&
+                game.system.id === module_sys &&
+                game.settings.get(module_id, 'oglOverrideSkillSortAlpha')) {
+                    sortSkillsAlpha();
+                }
+
             if (game.i18n.lang === module_lang &&
                 game.system.id === module_sys &&
                 game.settings.get(module_id, 'overrideSkillSortAlpha')) {
