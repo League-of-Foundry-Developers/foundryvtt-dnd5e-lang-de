@@ -41,6 +41,11 @@ The module also depends on [Babele](https://foundryvtt.com/packages/babele) for 
 
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
 
+### Version 1.0.1
+- update the Module to Foundry Version 0.8.6 and DND 5E system version 1.3.3
+- include sorted alphabetically for D&D 5e OGL Character Sheet. [Project page](https://foundryvtt.com/packages/5e-ogl-character-sheet)
+- new option to active the alphabetically sorted for 5e OGL Character Sheet
+
 ### Version 1.0.0
 
 - Added compendium content translations using the Babele module
