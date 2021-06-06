@@ -7,6 +7,8 @@ for [Foundry Virtual Tabletop](https://foundryvtt.com/).
 Aims to provide consistent and usable translations in german for all 5E
 system content, including compendia via Babele.
 
+**Note: The compendium content is currently in the process of being translated. This is still ongoing. Some or even most compendium content still remaining in english isn't an error on your side. we're working on it! More news soon.**
+
 ## How to use
 
 Install via Foundry or by pasting the URL below into Foundry's module manager:
