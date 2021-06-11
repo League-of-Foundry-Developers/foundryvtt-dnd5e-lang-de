@@ -1,4 +1,5 @@
 # foundryvtt-dnd5e-lang-de
+![FoundryVTT German [D&D5E] Module Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Ffoundryvtt-dnd5e-lang-de.json)
 
 German translation of the
 [Dungeons & Dragons 5th Edition (dnd5e) system](https://foundryvtt.com/packages/dnd5e)
