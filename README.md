@@ -1,4 +1,5 @@
 # foundryvtt-dnd5e-lang-de
+![FoundryVTT German [D&D5E] Module Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Ffoundryvtt-dnd5e-lang-de.json)
 
 German translation of the
 [Dungeons & Dragons 5th Edition (dnd5e) system](https://foundryvtt.com/packages/dnd5e)
@@ -6,6 +7,8 @@ for [Foundry Virtual Tabletop](https://foundryvtt.com/).
 
 Aims to provide consistent and usable translations in german for all 5E
 system content, including compendia via Babele.
+
+**Note: The compendium content is currently in the process of being translated. This is still ongoing. Some or even most compendium content still remaining in english isn't an error on your side. We're working on it! More news soon.**
 
 ## How to use
 
