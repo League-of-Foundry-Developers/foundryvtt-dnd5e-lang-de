@@ -54,7 +54,7 @@ var alignments = {
 };
 
 function convertAlignment(a) {
-    var id = a.toLowerCase().replace('-', ' ');
+    var id = a.toString().toLowerCase().replace('-', ' ');
     return alignments[id] ? alignments[id] : a;
 }
 
@@ -71,7 +71,7 @@ var rarity = {
 };
 
 function convertRarity(r) {
-    return rarity[r.toLowerCase()] ? rarity[r.toLowerCase()] : r;
+    return rarity[r.toString().toLowerCase()] ? rarity[r.toString().toLowerCase()] : r;
 }
 
 var types = {
@@ -140,7 +140,7 @@ var types = {
 }
 
 function convertType(t) {
-    return types[t.toLowerCase()] ? types[t.toLowerCase()] : t;
+    return types[t.toString().toLowerCase()] ? types[t.toString().toLowerCase()] : t;
 }
 
 var races = {
@@ -163,7 +163,7 @@ var races = {
 }
 
 function convertRace(r) {
-    return races[r.toLowerCase()] ? races[r.toLowerCase()] : r;
+    return races[r.toString().toLowerCase()] ? races[r.toString().toLowerCase()] : r;
 }
 
 var languages = {
@@ -261,16 +261,16 @@ function convertLanguages(l) {
         part = part.trim();
 
         // First, check simple match against languages
-        if (languages[part.toLowerCase()]) {
-            part = languages[part.toLowerCase()]
+        if (languages[part.toString().toLowerCase()]) {
+            part = languages[part.toString().toLowerCase()]
         } else {
             // Check if it has a suffix listed in languages_suffixes,
             // if so, remove suffix and match against languages again
             for (var suffix in languages_suffixes) {
-                if (part.toLowerCase().endsWith(suffix)) {
+                if (part.toString().toLowerCase().endsWith(suffix)) {
                     var without_suffix = part.substring(0, part.length - suffix.length);
-                    if (languages[without_suffix.toLowerCase()]) {
-                        part = languages[without_suffix.toLowerCase()];
+                    if (languages[without_suffix.toString().toLowerCase()]) {
+                        part = languages[without_suffix.toString().toLowerCase()];
                         part = part + languages_suffixes[suffix];
                     }
                     break;
@@ -296,8 +296,8 @@ var monster_name_replacements = {
 }
 
 function getMonsterID(id) {
-    if (monster_name_replacements[id.toLowerCase()]) {
-        id = monster_name_replacements[id.toLowerCase()];
+    if (monster_name_replacements[id.toString().toLowerCase()]) {
+        id = monster_name_replacements[id.toString().toLowerCase()];
     }
     return id
 }
@@ -312,8 +312,8 @@ var monster_name_additional = {
 }
 
 function convertMonsterName(m, translation, data) {
-    if (monster_name_additional[m.toLowerCase()]) {
-        return monster_name_additional[m.toLowerCase()];
+    if (monster_name_additional[m.toString().toLowerCase()]) {
+        return monster_name_additional[m.toString().toLowerCase()];
     }
 
     var id = getMonsterID(m);
