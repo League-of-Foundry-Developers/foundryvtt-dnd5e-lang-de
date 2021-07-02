@@ -2,9 +2,9 @@
   "name": "FoundryVTT-dnd5e-DE",
   "title": "DnD5e German Translation (Deutsch)",
   "description": "German language support for the D&D5e system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minimumCoreVersion": "0.7.5",
-  "compatibleCoreVersion": "0.8.2",
+  "compatibleCoreVersion": "0.8.6",
   "author": "Fallayn#6414, Hydroxi#0366, Smicman#1404, ThoGri#6692, Morvar#0915, crash#7509",
   "esmodules": [
       "dnd5e-de.js"
