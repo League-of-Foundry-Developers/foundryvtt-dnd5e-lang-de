@@ -140,6 +140,9 @@ var types = {
 }
 
 function convertType(t) {
+    if (!t) {
+        return t;
+    }
     return types[t.toString().toLowerCase()] ? types[t.toString().toLowerCase()] : t;
 }
 
