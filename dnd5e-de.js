@@ -67,8 +67,7 @@ Hooks.once('init', () => {
         Hooks.on('renderActorSheet', async function () {
             if (game.i18n.lang === module_lang &&
                 game.system.id === module_sys &&
-                (game.settings.get(module_id, 'overrideSkillSortAlpha') ||
-                 game.modules.get('5e-ogl-character-sheet')?.active &&
+                (game.modules.get('5e-ogl-character-sheet')?.active &&
                  game.settings.get(module_id, 'oglOverrideSkillSortAlpha'))) {
                 sortSkillsAlpha();
             }
