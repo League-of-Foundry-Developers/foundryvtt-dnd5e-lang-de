@@ -196,3 +196,7 @@ for module development, aus outlined [here](https://foundryvtt.com/article/licen
 SRD content is licensed from Wizards of the Coast under the terms of the
 Open Gaming License (OGL), as outlined
 [here](https://dnd.wizards.com/articles/features/systems-reference-document-srd).
+
+Copyrighted content is licensed or used with permission. If you believe there
+to be an error, please feel free to contact us on Discord or by creating an Issue
+[here](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/issues).
