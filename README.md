@@ -51,7 +51,7 @@ Also see the [releases page](https://github.com/League-of-Foundry-Developers/fou
 ### Version 1.1.0
 
 - Update to Foundry Version 0.8.8 and D&D 5E system version 1.3.6
-- Support skill sorting for the [D&D 5e OGL Character Sheet](https://foundryvtt.com/packages/5e-ogl-character-sheet). (thanks @stilldev)
+- Support skill sorting for the [D&D 5e OGL Character Sheet](https://foundryvtt.com/packages/5e-ogl-character-sheet). (thanks @stillday)
 - Small translation improvements/fixes
 
 ### Version 1.0.0
