@@ -159,6 +159,8 @@ compendium contents would be hard to impossible. Thanks!
 And thanks to [henry4k](https://gitlab.com/henry4k/) who provides the german
 core translation, letting us focus on the 5E system translations.
 
+Finally, thanks to WotC for the support and all the wonderful authors - for everything.
+
 Based on work by Hydroxi at https://gitlab.com/Hydroxi/foundryvtt-dnd5e-lang-de
 
 ## Legal & license
@@ -174,7 +176,7 @@ of the public domain.
 
 If that is not enough for you however, you may alternatively use all contents
 and source code that aren't owned by anyone else (e.g. Foundry, or other
-module authors, or WotC SRD content) under the terms of either the
+module authors, or WotC) under the terms of either the
 [MIT](https://opensource.org/licenses/MIT) or
 the [Creative Commons Attribution 4.0 International
 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) licenses, whichever you prefer.
@@ -194,8 +196,3 @@ for module development, aus outlined [here](https://foundryvtt.com/article/licen
 SRD content is licensed from Wizards of the Coast under the terms of the
 Open Gaming License (OGL), as outlined
 [here](https://dnd.wizards.com/articles/features/systems-reference-document-srd).
-
-Note that while we try to stay consistent with the official german translations
-by GF9 / Ulisses Spiele, we take great care to not use any of their translated
-copy but instead do our own translations from english based on free or
-licensed sources, OGL or otherwise.
