@@ -48,6 +48,11 @@ The module also depends on [Babele](https://foundryvtt.com/packages/babele) for 
 
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
 
+### Version 1.2.0
+
+- Update to D&D 5E system version 1.4.0
+- Additional small fixes and improvements
+
 ### Version 1.1.0
 
 - Update to Foundry Version 0.8.8 and D&D 5E system version 1.3.6
