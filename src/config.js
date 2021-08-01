@@ -1,7 +1,7 @@
 export default [
     {
         name: 'overrideSkillSortAlpha',
-        onlyUntilSystemVersionIncluding: '1.2.4',
+        onlyUntilSystemVersionIncluding: '1.3.3',
         data: {
             name: 'Fertigkeiten alphabetisch sortieren',
             hint: 'Sortiert die Fertigkeitenliste alphabetisch.',

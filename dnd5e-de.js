@@ -33,7 +33,7 @@ Hooks.once('init', () => {
         });
         Converters(module_id);
     }
-
+  
     // Sort skills alphabetically
     // Thanks to Elvis Pereira for the polish translation
     // Fixed in upstream 1.3.0 (https://gitlab.com/foundrynet/dnd5e/-/issues/1070)
@@ -65,6 +65,14 @@ Hooks.once('init', () => {
         }
 
         Hooks.on('renderActorSheet', async function () {
+            // Sort the skills from 5e OGL Character Sheet
+            if (game.modules.get('5e-ogl-character-sheet')?.active &&
+                game.i18n.lang === module_lang &&
+                game.system.id === module_sys &&
+                game.settings.get(module_id, 'oglOverrideSkillSortAlpha')) {
+                    sortSkillsAlpha();
+                }
+
             if (game.i18n.lang === module_lang &&
                 game.system.id === module_sys &&
                 (game.modules.get('5e-ogl-character-sheet')?.active &&
