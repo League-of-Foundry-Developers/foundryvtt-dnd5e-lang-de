@@ -27,6 +27,7 @@ export default function registerConverters(id) {
         'spellname': convertSpellName,
         'spellsource': convertSpellSource,
         'range': convertRange,
+        'weight': convertWeight,
     });
 }
 
@@ -458,4 +459,14 @@ function convertRange(range) {
     }
 
     return range;
+}
+
+// Weight
+
+function lbToKg(lb) {
+	return parseInt(lb)/2;
+}
+
+function convertWeight(value) {
+    return lbToKg(value);
 }
