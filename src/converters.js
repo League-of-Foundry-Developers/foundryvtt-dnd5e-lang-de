@@ -25,7 +25,8 @@ export default function registerConverters(id) {
         'monstertoken': convertMonsterToken,
         'itemname': convertItemName,
         'spellname': convertSpellName,
-        'spellsource': convertSpellSource
+        'spellsource': convertSpellSource,
+        'range': convertRange,
     });
 }
 
@@ -425,4 +426,36 @@ function convertSpellSource(m, translation, data) {
     }
 
     return new_src
+}
+
+// Range
+
+function round(num) {
+	return Math.round((num + Number.EPSILON) * 100) / 100;
+}
+
+function footsToMeters(ft) {
+	return round(parseInt(ft) * 0.3);
+}
+
+function milesToKilometers(mi) {
+	return round(parseInt(mi) * 1.5);
+}
+
+function convertRange(range) {
+    if (range.units === 'ft') {
+        if (range.long) {
+            range = mergeObject(range, { long: footsToMeters(range.long) });
+        }
+        return mergeObject(range, { value: footsToMeters(range.value), units: 'm' });
+    }
+
+    if(range.units === 'mi') {
+        if(range.long) {
+            range = mergeObject(range, { long: milesToKilometers(range.long) });
+        }
+        return mergeObject(range, { value: milesToKilometers(range.value), units: 'km' });
+    }
+
+    return range;
 }
