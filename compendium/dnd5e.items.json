@@ -2398,10 +2398,19 @@
             "converter": "itemname",
             "path": "name"
         },
+        "weight": {
+            "path": "data.weight",
+            "converter": "weight"
+        },
+        "range": {
+            "path": "data.range",
+            "converter": "range"
+        },
         "rarity": {
             "converter": "rarity",
             "path": "data.rarity"
         },
         "source": "data.source"
     }
-}
+}
+
