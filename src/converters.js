@@ -444,6 +444,10 @@ function milesToKilometers(mi) {
 }
 
 function convertRange(range) {
+    if (!game.settings.get(module_id, 'enableRangeTranslation')) {
+        return;
+    }
+
     if (range.units === 'ft') {
         if (range.long) {
             range = mergeObject(range, { long: footsToMeters(range.long) });
@@ -468,5 +472,9 @@ function lbToKg(lb) {
 }
 
 function convertWeight(value) {
+    if (!game.settings.get(module_id, 'enableWeightTranslation')) {
+        return;
+    }
+
     return lbToKg(value);
 }

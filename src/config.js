@@ -35,6 +35,28 @@ export default [
         }
     },
     {
+        name: 'enableRangeTranslation',
+        data: {
+            name: 'Reichweite übersetzen',
+            hint: 'Die Reichweite von Gegenständen und Zaubern wird in Meter (m) bzw. Kilometer (km) umgerechnet.',
+            scope: 'client',
+            type: Boolean,
+            config: true,
+            default: true
+        }
+    },
+    {
+        name: 'enableWeightTranslation',
+        data: {
+            name: 'Gewicht übersetzen',
+            hint: 'Das Gewicht von Gegenständen wird in Kilogramm (kg) umgerechnet.',
+            scope: 'client',
+            type: Boolean,
+            config: true,
+            default: true
+        }
+    },
+    {
         name: 'compendiumSrcTranslateBooks',
         data: {
             name: 'Buchtitel-Abkürzungen für Quellen übersetzen',
