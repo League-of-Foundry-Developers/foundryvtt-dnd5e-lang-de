@@ -1,7 +1,8 @@
 {
     "entries": {
         "Abacus": {
-            "description": "<p>Der Abakus, auch Z&auml;hlrahmen genannt, ist ein Rechenwerkzeug.</p>",
+            "name": "Abakus",
+            "description": "<p>Der Abakus, auch Zählrahmen genannt, ist ein Rechenwerkzeug.</p>",
             "source": "SHB S. 150"
         },
         "Acid (vial)": {
@@ -2404,4 +2405,4 @@
         },
         "source": "data.source"
     }
-}
+}
