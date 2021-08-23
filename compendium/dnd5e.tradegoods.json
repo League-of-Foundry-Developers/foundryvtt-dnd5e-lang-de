@@ -1,8 +1,8 @@
 {
     "entries": {
         "Canvas": {
-            "name": "Segeltuch",
             "description": "<p>Ein Quadratmeter Segeltuch von durchschnittlicher Qualität und durchschnittlichem Gewicht. Wird für alle Artikel und Kleidungsstücke verwendet.</p>\n<p>Je niedriger die Zahl, desto besser die Qualität und desto schwerer das Gewicht. Das Segeltuch Nr. 1 wiegt etwa 1,7 Pfund pro Quadratmeter, während das schwächere, leichtere Segeltuch Nr. 12 nur 0,7 Pfund wiegen kann.</p>",
+            "name": "Segeltuch",
             "source": "SHB S. 157"
         },
         "Chicken": {
@@ -11,7 +11,7 @@
             "source": "SHB S. 157"
         },
         "Cinnamon": {
-            "description": "<p>Ziegen sind nützliche Lebewesen für Kleinbauern und Hochlandbewohner und verhindern wirksam das Überwachsen von Wiesen, während sie Milch, Käse und schließlich Häute und Fleisch liefern.</p>\n<p>Je nach Rasse können erwachsene Ziegen von 45 Pfund bis zu 300 Pfund reichen.</p>",
+            "description": "<p>Aus der inneren Rinde des Zimtbaums gewonnen, ein beliebtes, wenn auch etwas selteneres Gewürz, bei Köchen der Welt. Wird von Kindern geliebt, wenn es mit Zucker kombiniert wird, um viele Arten von Leckereien herzustellen.</p>",
             "name": "Zimt",
             "source": "SHB S. 157"
         },
