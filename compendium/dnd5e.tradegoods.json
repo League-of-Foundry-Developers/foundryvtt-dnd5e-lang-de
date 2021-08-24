@@ -11,8 +11,8 @@
             "source": "SHB S. 157"
         },
         "Cinnamon": {
-            "description": "<p>Ziegen sind nützliche Lebewesen für Kleinbauern und Hochlandbewohner und verhindern wirksam das Überwachsen von Wiesen, während sie Milch, Käse und schließlich Häute und Fleisch liefern.</p>\n<p>Je nach Rasse können erwachsene Ziegen von 45 Pfund bis zu 300 Pfund reichen.</p>",
             "name": "Zimt",
+            "description": "<p>Aus der inneren Rinde des Zimtbaums gewonnen, ein beliebtes, wenn auch etwas selteneres Gewürz, bei Köchen der Welt. Wird von Kindern geliebt, wenn es mit Zucker kombiniert wird, um viele Arten von Leckereien herzustellen.</p>",
             "source": "SHB S. 157"
         },
         "Cloves": {
@@ -61,8 +61,8 @@
             "source": "SHB S. 157"
         },
         "Linen": {
-            "description": "<p>Ein Quadratmeter Leinen von durchschnittlicher Qualität und durchschnittlichem Gewicht. Wird für alle Artikel und Kleidungsstücke verwendet.</p>\n<p>Aufgrund seiner Haltbarkeit und Atmungsaktivität ist es länger haltbar als Baumwolle und wird besonders in warmen Klimazonen geschätzt.</p>\n<p>Es gibt verschiedene Arten von Leinen, wobei leichtere Gewebe ab 6 Unzen pro Quadratmeter beginnen und der Rest bis zu 15 Unzen.</p>",
             "name": "Leinen",
+            "description": "<p>Ein Quadratmeter Leinen von durchschnittlicher Qualität und durchschnittlichem Gewicht. Wird für alle Artikel und Kleidungsstücke verwendet.</p>\n<p>Aufgrund seiner Haltbarkeit und Atmungsaktivität ist es länger haltbar als Baumwolle und wird besonders in warmen Klimazonen geschätzt.</p>\n<p>Es gibt verschiedene Arten von Leinen, wobei leichtere Gewebe ab 6 Unzen pro Quadratmeter beginnen und der Rest bis zu 15 Unzen.</p>",
             "source": "SHB S. 157"
         },
         "Ox": {
@@ -124,4 +124,4 @@
         },
         "source": "data.source"
     }
-}
+}

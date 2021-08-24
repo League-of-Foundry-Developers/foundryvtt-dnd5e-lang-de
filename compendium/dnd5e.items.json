@@ -1,14 +1,17 @@
 {
     "entries": {
         "Abacus": {
-            "description": "<p>Der Abakus, auch Z&auml;hlrahmen genannt, ist ein Rechenwerkzeug.</p>",
+            "name": "Abakus",
+            "description": "<p>Der Abakus, auch Zählrahmen genannt, ist ein Rechenwerkzeug.</p>",
             "source": "SHB S. 150"
         },
         "Acid (vial)": {
-            "name": ""
+            "name": "Säure (Phiole)",
+            "description": "<p>Als Aktion kannst du den Inhalt dieser Phiole auf eine Kreatur innerhalb von 1,5 m verspritzen oder die Phiole bis zu 6 m weit werfen, wo sie beim Aufprall zerbricht. In beiden Fällen führst du gegen das Objekt oder die Kreatur einen Fernkampfangriff aus, bei dem die Säure als improvisierte Waffe behandelt wird. Bei einem Treffer erleidet das Ziel 2W6 Säureschaden.</p>",
+            "source": "SHB S. 153"
         },
         "Adamantine Breastplate": {
-            "name": ""
+            "name": "Adamantin Brustplatte"
         },
         "Adamantine Chain Mail": {
             "name": ""
@@ -32,19 +35,26 @@
             "name": ""
         },
         "Alchemist's Fire": {
-            "name": ""
+            "name": "Alchemistenfeuer",
+            "description": "<p>Diese zähe, klebrige Flüssigkeit entzündet sich, wenn sie in Kontakt mit Luft kommt. Als Aktion kannst du das Fläschchen bis zu 6 m weit werfen, wo es beim Aufprall zerspringt. Führe einen Fernkampfangriff gegen ein Objekt oder eine Kreatur aus, wobei das Alchemistenfeuer als improvisierte Waffe behandelt wird. Bei einem Treffer erleidet das Ziel zu Beginn jedes seiner Züge 1W4 Feuerschaden. Eine Kreatur kann diesen Schaden beenden, indem es Aktion aufwendet und einen Geschicklichkeitswurf gegen SG 10 ablegt, um die Flammen zu löschen.</p>",
+            "source": "SHB S. 148"
         },
         "Alchemist's supplies": {
-            "name": ""
+            "name": "Alchemistenlabor",
+            "description": "<p>Zu diesen Spezialwerkzeugen gehören die Gegenstände, die benötigt werden, um ein Handwerk oder einen Handel mit Alchemie auszuüben.</p>\n<p> </p>\n<p>Wenn du mit einem Set von Handwerkswerkzeugen beherrschst, kannst du deinen Fähigkeitsbonus zu allen Fähigkeitswürfen hinzufügen, die du mit den Werkzeugen in deinem Handwerk machst. Jede Art von Handwerkerwerkzeugen erfordert eine separate Befähigung.</p>",
+            "source": "SHB S. 154"
         },
         "Alchemy Jug": {
             "name": ""
         },
         "Alms Box": {
-            "name": ""
+            "name": "Almosenbox",
+            "description": "<p>Eine Kiste mit Geldschlitz und abnehmbarem Boden, die hauptsächlich von Priestern und dergleichen zum Sammeln von Almosen verwendet wird.</p>"
         },
         "Amulet": {
-            "name": ""
+            "name": "Amulett",
+            "description": "<p>Ein Amulett, das ein Symbol darstellt, das eine Gottheit darstellt, durch das ein wahrer Gläubiger seine Kraft hervorrufen und so den Glauben verbreiten kann.</p>\n<p> </p>\n<p>Zauberspruch Fokus. Ein Kleriker oder Paladin kann ein heiliges Symbol als Zauberfokus verwenden. Um das Symbol auf diese Weise zu verwenden, muss der Zaubernde es in der Hand halten, sichtbar tragen oder auf einem Schild tragen.</p>",
+            "source": "SHB S. 150"
         },
         "Amulet of Health": {
             "name": ""
@@ -59,7 +69,9 @@
             "name": ""
         },
         "Antitoxin": {
-            "name": ""
+            "name": "Gegengift (Phiole)",
+            "description": "<p>Eine Kreatur, die diese Phiole mit Flüssigkeit trinkt, ist für die nächste Stunde bei ihren Rettungswürfen gegen Gifte im Vorteil. Untote und Konstrukte können diesen Vorteil nicht erhalten.</p>",
+            "source": "SHB S. 151"
         },
         "Apparatus of the Crab": {
             "name": ""
@@ -86,10 +98,14 @@
             "name": ""
         },
         "Arrows": {
-            "name": ""
+            "name": "Pfeile",
+            "description": "<p>Standardmunition für Bögen aller Art. Diese mondänen Pfeile bestehen aus glatten Holzschäften mit Gänsefedernbefiederung und Hammermetall-Spitzen.</p>",
+            "source": "SHB S. 150"
         },
         "Backpack": {
-            "name": ""
+            "name": "Rucksack",
+            "description": "<p>Ein Rucksack hat 30 Liter Fassungsvermögen oder kann 30 Pfund/ 14 Kg Ausrüstung aufnehmen. Sie können auch Gegenstände wie eine Schlafsack oder eine Seil an der Außenseite eines Rucksacks befestigen.</p>",
+            "source": "SHB S. 153"
         },
         "Bag of Beans": {
             "name": ""
@@ -101,7 +117,9 @@
             "name": ""
         },
         "Bag of Sand": {
-            "name": ""
+            "name": "Beutel mit Sand",
+            "description": "<p>Ein kleiner Beutel mit Sand, der von Gelehrten verwendet wird, um frisch gefärbte Briefe und Korrespondenz schnell und sicher für den schnellen Versand zu trocknen.</p>",
+            "source": ""
         },
         "Bag of Tricks (Grey)": {
             "name": ""
@@ -113,10 +131,14 @@
             "name": ""
         },
         "Bagpipes": {
-            "name": ""
+            "name": "Dudelsack",
+            "description": "<p>Ein Dudelsack, um bei Ihrem Publikum Ehrfurcht, Staunen oder Angst zu wecken.</p>\n<p> </p>\n<p>Wenn Sie ein bestimmtes Musikinstrument beherrschen, können Sie Ihren Fähigkeitsbonus zu allen Fertigkeitswürfen für das Musizieren mit dem Instrument hinzufügen. Ein Barde kann ein Musikinstrument als Zauberfokus verwenden. Jede Art von Musikinstrument erfordert eine eigene Befähigung.</p>",
+            "source": "SHB S. 154"
         },
         "Ball Bearings": {
-            "name": ""
+            "name": "Metallkügelchen ",
+            "description": "<p>Als Aktion kannst du die kleinen Metallkugeln auf einer Fläche verschütten,  die höchstens 3 m pro Seite misst. Eine Kreatur, die sich über die bedeckte Fläche (die eben sein muss) bewegt, muss einen erfolgreichen Geschicklichkeitsrettungswurf gegen SG 10 ablegen, um nicht hinzufallen und den Zustand liegend zu erhalten. Eine Kreatur, die sich nur mit halber Bewegungsrate durch diesen Bereich bewegt, muss keinen Rettungswurf ablegen.</p>",
+            "source": "SHB S. 152"
         },
         "Barrel": {
             "name": ""
@@ -2404,4 +2426,4 @@
         },
         "source": "data.source"
     }
-}
+}
