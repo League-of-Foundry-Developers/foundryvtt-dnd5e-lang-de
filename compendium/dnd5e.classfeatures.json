@@ -759,142 +759,185 @@
             "source": "SHB S. 106"
         },
         "Sacred Oath": {
-            "name": ""
+            "name": "Heiliger Schwur",
+            "source": "SHB S. 100"
         },
         "Sculpt Spells": {
-            "name": ""
+            "name": "Zauber formen",
+            "source": "SHB S. 88"
         },
         "Second Wind": {
-            "name": ""
+            "name": "Durchschnaufen",
+            "source": "SHB S. 71"
         },
         "Second-Story Work": {
-            "name": ""
+            "name": "Kletteraffe",
+            "source": "SHB S. 108"
         },
         "Signature Spells (First Spell)": {
-            "name": ""
+            "name": "Lieblingszauber (Erster Zauber)"
         },
         "Signature Spells (Second Spell)": {
-            "name": ""
+            "name": "Lieblingszauber (Zweiter Zauber)"
         },
         "Slippery Mind": {
-            "name": ""
+            "name": "Entschlüpfender Geist",
+            "source": "SHB S. 106"
         },
         "Slow Fall": {
-            "name": ""
+            "name": "Sturz abfedern",
+            "source": "SHB S. 93"
         },
         "Sneak Attack": {
-            "name": ""
+            "name": "Hinterhältiger Angriff",
+            "source": "SHB S. 106"
         },
         "Song of Rest": {
-            "name": ""
+            "name": "Lied der Erholung",
+            "source": "SHB S. 54"
         },
         "Sorcerous Origins": {
-            "name": ""
+            "name": "Ursprung der Zauberei",
+            "source": "SHB S. 116"
         },
         "Sorcerous Restoration": {
-            "name": ""
+            "name": "Zaubereiauffrischung",
+            "source": "SHB S. 117"
         },
         "Spell Mastery": {
-            "name": ""
+            "name": "Zaubermeisterschaft",
+            "source": "SHB S. 86"
         },
         "Spellcasting (Bard)": {
-            "name": ""
+            "name": "Zauberwirken (Barde)",
+            "source": "SHB S. 52"
         },
         "Spellcasting (Cleric)": {
-            "name": ""
+            "name": "Zauberwirken (Kleriker)",
+            "source": "SHB S. 77"
         },
         "Spellcasting (Druid)": {
-            "name": ""
+            "name": "Zauberwirken (Druide)",
+            "source": "SHB S. 58"
         },
         "Spellcasting (Paladin)": {
-            "name": ""
+            "name": "Zauberwirken (Paladin)",
+            "source": "SHB S. 99"
         },
         "Spellcasting (Ranger)": {
-            "name": ""
+            "name": "Zauberwirken (Waldläufer)",
+            "source": "SHB S. 111"
         },
         "Spellcasting (Sorcerer)": {
-            "name": ""
+            "name": "Zauberwirken (Zauberer)",
+            "source": "SHB S. 116"
         },
         "Spellcasting (Wizard)": {
-            "name": ""
+            "name": "Zauberwirken (Magier)",
+            "source": "SHB S. 85"
         },
         "Stillness of Mind": {
-            "name": ""
+            "name": "Ruhiger Geist",
+            "source": "SHB S. 94"
         },
         "Stroke of Luck": {
-            "name": ""
+            "name": "Glückstreffer",
+            "source": "SHB S. 107"
         },
         "Superior Critical": {
-            "name": ""
+            "name": "Überlegener kritischer Treffer",
+            "source": "SHB S. 72"
         },
         "Superior Hunter's Defense": {
-            "name": ""
+            "name": "Ausserordentliche Verteidigung des Jägers",
+            "source": "SHB S. 113"
         },
         "Superior Hunter's Defense: Evasion": {
-            "name": ""
+            "name": "Ausserordentliche Verteidigung des Jägers: Entrinnen",
+            "source": "SHB S. 113"
         },
         "Superior Hunter's Defense: Stand Against the Tide": {
-            "name": ""
+            "name": "Ausserordentliche Verteidigung des Jägers: Gegen den Strom",
+            "source": "SHB S. 113"
         },
         "Superior Hunter's Defense: Uncanny Dodge": {
-            "name": ""
+            "name": "Ausserordentliche Verteidigung des Jägers: Unglaubliches Ausweichen",
+            "source": "SHB S. 113"
         },
         "Superior Inspiration": {
-            "name": ""
+            "name": "Überlegene Inspiration",
+            "source": "SHB S. 54"
         },
         "Supreme Healing": {
-            "name": ""
+            "name": "Überlegene Heilung",
+            "source": "SHB S. 79"
         },
         "Supreme Sneak": {
-            "name": ""
+            "name": "Ausserordentliches Schleichen",
+            "source": "SHB S. 108"
         },
         "Survivor": {
-            "name": ""
+            "name": "Der Überlebende",
+            "source": "SHB S. 72"
         },
         "Thief's Reflexes": {
-            "name": ""
+            "name": "Die Reflexe des Diebes",
+            "source": "SHB S. 108"
         },
         "Thieves' Cant": {
-            "name": ""
+            "name": "Diebessprache",
+            "source": "SHB S. 106"
         },
         "Timeless Body (Druid)": {
-            "name": ""
+            "name": "Zeitloser Körper (Druide)",
+            "source": "SHB S. 59"
         },
         "Timeless Body (Monk)": {
-            "name": ""
+            "name": "Zeitloser Körper (Mönch)"
         },
         "Tongue of the Sun and Moon": {
-            "name": ""
+            "name": "Sprache von Sonne und Mond",
+            "source": "SHB S. 94"
         },
         "Tranquility": {
-            "name": ""
+            "name": "Innere Ruhe",
+            "source": "SHB S. 94"
         },
         "Unarmored Defense (Barbarian)": {
-            "name": ""
+            "name": "Ungerüstete Verteidigung (Barbar)",
+            "source": "SHB S. 48"
         },
         "Unarmored Defense (Monk)": {
-            "name": ""
+            "name": "Ungerüstete Verteidigung (Mönch)",
+            "source": "SHB S. 93"
         },
         "Unarmored Movement": {
-            "name": ""
+            "name": "Ungerüstete Bewegung",
+            "source": "SHB S. 93"
         },
         "Unarmored Movement (Monk)": {
-            "name": ""
+            "name": "Ungerüstete Bewegung (Mönch)",
+            "source": "SHB S. 93"
         },
         "Uncanny Dodge": {
-            "name": ""
+            "name": "Unglaubliches Ausweichen",
+            "source": "SHB S. 106"
         },
         "Use Magic Device": {
-            "name": ""
+            "name": "Magischen Gegenstand benutzen",
+            "source": "SHB S. 108"
         },
         "Vanish": {
-            "name": ""
+            "name": "Verschwinden",
+            "source": "SHB S. 112"
         },
         "Wholeness of Body": {
-            "name": ""
+            "name": "Unversehrtheit des Körpers",
+            "source": "SHB S. 94"
         },
         "Wild Shape": {
-            "name": ""
+            "name": "Tiergestalt",
+            "source": "SHB S. 58"
         }
     },
     "label": "Klassenfähigkeiten (SRD)"

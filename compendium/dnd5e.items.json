@@ -2,7 +2,7 @@
     "entries": {
         "Abacus": {
             "name": "Abakus",
-            "description": "<p>Der Abakus, auch Zählrahmen genannt, ist ein Rechenwerkzeug.</p>",
+            "description": "<p>Der Abakus, auch Zählrahmen genannt, ist ein Rechenwerkzeug.</p>",
             "source": "SHB S. 150"
         },
         "Acid (vial)": {
@@ -11,28 +11,44 @@
             "source": "SHB S. 153"
         },
         "Adamantine Breastplate": {
-            "name": "Adamantin Brustplatte"
+            "name": "Adamantin Brustplatte",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S. 150"
         },
         "Adamantine Chain Mail": {
-            "name": ""
+            "name": "Adamantin Kettenhemd",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Chain Shirt": {
-            "name": ""
+            "name": "Hemd mit Adamantinkette",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Half Plate Armor": {
-            "name": ""
+            "name": "Adamantine halbe Plattenrüstung",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Plate Armor": {
-            "name": ""
+            "name": "Adamantine Plattenrüstung",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Ring Mail": {
-            "name": ""
+            "name": "",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Scale Mail": {
-            "name": ""
+            "name": "Adamantinschuppenpanzer",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Splint Armor": {
-            "name": ""
+            "name": "Adamantine Schienenrüstung",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Alchemist's Fire": {
             "name": "Alchemistenfeuer",
@@ -45,7 +61,9 @@
             "source": "SHB S. 154"
         },
         "Alchemy Jug": {
-            "name": ""
+            "name": "Alchemiekrug",
+            "description": "<p><em>Wundersamer Gegenstand</em></p>\n<p>Dieser Keramikkrug scheint in der Lage zu sein, 4 Liter Flüssigkeit zu fassen, und er wiegt 12 Pfund, egal ob voll oder leer. Man kann schwappende Geräusche hören, wenn der Krug geschüttelt wird, selbst wenn er eigentlich leer ist.<br />Du kannst eine Aktion aufwenden und eine der Flüssigkeiten aus der Tabelle unten nennen, um den Krug dazu zu bringen, sich mit dieser Flüssigkeit zu füllen. Danach kannst du als eine Aktion den Korgen aus dem Krug ziehen und die Flüssigkeit herauslaufen lassen, bis zu 8 Liter pro Minute. Die maximale Menge der Flüssigkeit, die der Krug produzieren kann, ist abhängig von der von dir genannten Flüssigkeit.<br />Sobald der Krug anfängt, eine Flüssigkeit zu produzieren, kann er bis zur nächsten Dämmerung keine andere herstellen, und auch nicht mehr von der Flüssigkeit, deren Maximum erreicht wurde.<br /><br /></p>\n<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 46.6318%;\"><strong>Flüssigkeit</strong></td>\n<td style=\"width: 46.6318%;\"><strong>Maximale Menge</strong></td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Bier</td>\n<td style=\"width: 46.6318%;\">16 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Einfaches Gift</td>\n<td style=\"width: 46.6318%;\">15 Milliliter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Essig</td>\n<td style=\"width: 46.6318%;\">8 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Honig</td>\n<td style=\"width: 46.6318%;\">4 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Mayonnaise</td>\n<td style=\"width: 46.6318%;\">8 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Öl</td>\n<td style=\"width: 46.6318%;\">1 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Säure</td>\n<td style=\"width: 46.6318%;\">240 Milliliter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Wasser, frisch</td>\n<td style=\"width: 46.6318%;\">32 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Wasser, salzig</td>\n<td style=\"width: 46.6318%;\">48 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Wein</td>\n<td style=\"width: 46.6318%;\">4 Liter</td>\n</tr>\n</tbody>\n</table>\n<p> </p>",
+            "source": "SLH S.150"
         },
         "Alms Box": {
             "name": "Almosenbox",
@@ -57,7 +75,9 @@
             "source": "SHB S. 150"
         },
         "Amulet of Health": {
-            "name": ""
+            "name": "Amulett der Gesundheit",
+            "description": "<p><em>Wundersamer Gegenstand, selten (benötigt Einstimmung)</em></p>\n<p>Dein Konstitutionswert ist 19, während du dieses Amulett trägst. Es hat keinen Effekt, wenn dein Konstitutionswert ohne das Amulett bereits 19 oder höher ist.</p>",
+            "source": "SLH S. 150"
         },
         "Amulet of Proof against Detection and Location": {
             "name": ""
