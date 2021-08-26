@@ -2,53 +2,82 @@
     "entries": {
         "Abacus": {
             "name": "Abakus",
-            "description": "<p>Der Abakus, auch Zählrahmen genannt, ist ein Rechenwerkzeug.</p>",
+            "description": "<p>Der Abakus, auch Zählrahmen genannt, ist ein Rechenwerkzeug.</p>",
             "source": "SHB S. 150"
         },
         "Acid (vial)": {
-            "name": ""
+            "name": "Säure (Phiole)",
+            "description": "<p>Als Aktion kannst du den Inhalt dieser Phiole auf eine Kreatur innerhalb von 1,5 m verspritzen oder die Phiole bis zu 6 m weit werfen, wo sie beim Aufprall zerbricht. In beiden Fällen führst du gegen das Objekt oder die Kreatur einen Fernkampfangriff aus, bei dem die Säure als improvisierte Waffe behandelt wird. Bei einem Treffer erleidet das Ziel 2W6 Säureschaden.</p>",
+            "source": "SHB S. 153"
         },
         "Adamantine Breastplate": {
-            "name": ""
+            "name": "Adamantin Brustplatte",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S. 150"
         },
         "Adamantine Chain Mail": {
-            "name": ""
+            "name": "Adamantin Kettenhemd",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Chain Shirt": {
-            "name": ""
+            "name": "Hemd mit Adamantinkette",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Half Plate Armor": {
-            "name": ""
+            "name": "Adamantine halbe Plattenrüstung",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Plate Armor": {
-            "name": ""
+            "name": "Adamantine Plattenrüstung",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Ring Mail": {
-            "name": ""
+            "name": "",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Scale Mail": {
-            "name": ""
+            "name": "Adamantinschuppenpanzer",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Adamantine Splint Armor": {
-            "name": ""
+            "name": "Adamantine Schienenrüstung",
+            "description": "<p>Die Rüstung ist mit Adamant verstärkt, eines der härtesten Materialien, die es gibt.<br /><br />Jeder kritischer Treffer, der dich trifft, wird zu einem normalen Treffer, während du dieses Rüstung trägst.</p>",
+            "source": "SLH S.150"
         },
         "Alchemist's Fire": {
-            "name": ""
+            "name": "Alchemistenfeuer",
+            "description": "<p>Diese zähe, klebrige Flüssigkeit entzündet sich, wenn sie in Kontakt mit Luft kommt. Als Aktion kannst du das Fläschchen bis zu 6 m weit werfen, wo es beim Aufprall zerspringt. Führe einen Fernkampfangriff gegen ein Objekt oder eine Kreatur aus, wobei das Alchemistenfeuer als improvisierte Waffe behandelt wird. Bei einem Treffer erleidet das Ziel zu Beginn jedes seiner Züge 1W4 Feuerschaden. Eine Kreatur kann diesen Schaden beenden, indem es Aktion aufwendet und einen Geschicklichkeitswurf gegen SG 10 ablegt, um die Flammen zu löschen.</p>",
+            "source": "SHB S. 148"
         },
         "Alchemist's supplies": {
-            "name": ""
+            "name": "Alchemistenlabor",
+            "description": "<p>Zu diesen Spezialwerkzeugen gehören die Gegenstände, die benötigt werden, um ein Handwerk oder einen Handel mit Alchemie auszuüben.</p>\n<p> </p>\n<p>Wenn du mit einem Set von Handwerkswerkzeugen beherrschst, kannst du deinen Fähigkeitsbonus zu allen Fähigkeitswürfen hinzufügen, die du mit den Werkzeugen in deinem Handwerk machst. Jede Art von Handwerkerwerkzeugen erfordert eine separate Befähigung.</p>",
+            "source": "SHB S. 154"
         },
         "Alchemy Jug": {
-            "name": ""
+            "name": "Alchemiekrug",
+            "description": "<p><em>Wundersamer Gegenstand</em></p>\n<p>Dieser Keramikkrug scheint in der Lage zu sein, 4 Liter Flüssigkeit zu fassen, und er wiegt 12 Pfund, egal ob voll oder leer. Man kann schwappende Geräusche hören, wenn der Krug geschüttelt wird, selbst wenn er eigentlich leer ist.<br />Du kannst eine Aktion aufwenden und eine der Flüssigkeiten aus der Tabelle unten nennen, um den Krug dazu zu bringen, sich mit dieser Flüssigkeit zu füllen. Danach kannst du als eine Aktion den Korgen aus dem Krug ziehen und die Flüssigkeit herauslaufen lassen, bis zu 8 Liter pro Minute. Die maximale Menge der Flüssigkeit, die der Krug produzieren kann, ist abhängig von der von dir genannten Flüssigkeit.<br />Sobald der Krug anfängt, eine Flüssigkeit zu produzieren, kann er bis zur nächsten Dämmerung keine andere herstellen, und auch nicht mehr von der Flüssigkeit, deren Maximum erreicht wurde.<br /><br /></p>\n<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 46.6318%;\"><strong>Flüssigkeit</strong></td>\n<td style=\"width: 46.6318%;\"><strong>Maximale Menge</strong></td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Bier</td>\n<td style=\"width: 46.6318%;\">16 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Einfaches Gift</td>\n<td style=\"width: 46.6318%;\">15 Milliliter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Essig</td>\n<td style=\"width: 46.6318%;\">8 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Honig</td>\n<td style=\"width: 46.6318%;\">4 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Mayonnaise</td>\n<td style=\"width: 46.6318%;\">8 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Öl</td>\n<td style=\"width: 46.6318%;\">1 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Säure</td>\n<td style=\"width: 46.6318%;\">240 Milliliter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Wasser, frisch</td>\n<td style=\"width: 46.6318%;\">32 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Wasser, salzig</td>\n<td style=\"width: 46.6318%;\">48 Liter</td>\n</tr>\n<tr>\n<td style=\"width: 46.6318%;\">Wein</td>\n<td style=\"width: 46.6318%;\">4 Liter</td>\n</tr>\n</tbody>\n</table>\n<p> </p>",
+            "source": "SLH S.150"
         },
         "Alms Box": {
-            "name": ""
+            "name": "Almosenbox",
+            "description": "<p>Eine Kiste mit Geldschlitz und abnehmbarem Boden, die hauptsächlich von Priestern und dergleichen zum Sammeln von Almosen verwendet wird.</p>"
         },
         "Amulet": {
-            "name": ""
+            "name": "Amulett",
+            "description": "<p>Ein Amulett, das ein Symbol darstellt, das eine Gottheit darstellt, durch das ein wahrer Gläubiger seine Kraft hervorrufen und so den Glauben verbreiten kann.</p>\n<p> </p>\n<p>Zauberspruch Fokus. Ein Kleriker oder Paladin kann ein heiliges Symbol als Zauberfokus verwenden. Um das Symbol auf diese Weise zu verwenden, muss der Zaubernde es in der Hand halten, sichtbar tragen oder auf einem Schild tragen.</p>",
+            "source": "SHB S. 150"
         },
         "Amulet of Health": {
-            "name": ""
+            "name": "Amulett der Gesundheit",
+            "description": "<p><em>Wundersamer Gegenstand, selten (benötigt Einstimmung)</em></p>\n<p>Dein Konstitutionswert ist 19, während du dieses Amulett trägst. Es hat keinen Effekt, wenn dein Konstitutionswert ohne das Amulett bereits 19 oder höher ist.</p>",
+            "source": "SLH S. 150"
         },
         "Amulet of Proof against Detection and Location": {
             "name": ""
@@ -60,7 +89,9 @@
             "name": ""
         },
         "Antitoxin": {
-            "name": ""
+            "name": "Gegengift (Phiole)",
+            "description": "<p>Eine Kreatur, die diese Phiole mit Flüssigkeit trinkt, ist für die nächste Stunde bei ihren Rettungswürfen gegen Gifte im Vorteil. Untote und Konstrukte können diesen Vorteil nicht erhalten.</p>",
+            "source": "SHB S. 151"
         },
         "Apparatus of the Crab": {
             "name": ""
@@ -87,10 +118,14 @@
             "name": ""
         },
         "Arrows": {
-            "name": ""
+            "name": "Pfeile",
+            "description": "<p>Standardmunition für Bögen aller Art. Diese mondänen Pfeile bestehen aus glatten Holzschäften mit Gänsefedernbefiederung und Hammermetall-Spitzen.</p>",
+            "source": "SHB S. 150"
         },
         "Backpack": {
-            "name": ""
+            "name": "Rucksack",
+            "description": "<p>Ein Rucksack hat 30 Liter Fassungsvermögen oder kann 30 Pfund/ 14 Kg Ausrüstung aufnehmen. Sie können auch Gegenstände wie eine Schlafsack oder eine Seil an der Außenseite eines Rucksacks befestigen.</p>",
+            "source": "SHB S. 153"
         },
         "Bag of Beans": {
             "name": ""
@@ -102,7 +137,9 @@
             "name": ""
         },
         "Bag of Sand": {
-            "name": ""
+            "name": "Beutel mit Sand",
+            "description": "<p>Ein kleiner Beutel mit Sand, der von Gelehrten verwendet wird, um frisch gefärbte Briefe und Korrespondenz schnell und sicher für den schnellen Versand zu trocknen.</p>",
+            "source": ""
         },
         "Bag of Tricks (Grey)": {
             "name": ""
@@ -114,10 +151,14 @@
             "name": ""
         },
         "Bagpipes": {
-            "name": ""
+            "name": "Dudelsack",
+            "description": "<p>Ein Dudelsack, um bei Ihrem Publikum Ehrfurcht, Staunen oder Angst zu wecken.</p>\n<p> </p>\n<p>Wenn Sie ein bestimmtes Musikinstrument beherrschen, können Sie Ihren Fähigkeitsbonus zu allen Fertigkeitswürfen für das Musizieren mit dem Instrument hinzufügen. Ein Barde kann ein Musikinstrument als Zauberfokus verwenden. Jede Art von Musikinstrument erfordert eine eigene Befähigung.</p>",
+            "source": "SHB S. 154"
         },
         "Ball Bearings": {
-            "name": ""
+            "name": "Metallkügelchen ",
+            "description": "<p>Als Aktion kannst du die kleinen Metallkugeln auf einer Fläche verschütten,  die höchstens 3 m pro Seite misst. Eine Kreatur, die sich über die bedeckte Fläche (die eben sein muss) bewegt, muss einen erfolgreichen Geschicklichkeitsrettungswurf gegen SG 10 ablegen, um nicht hinzufallen und den Zustand liegend zu erhalten. Eine Kreatur, die sich nur mit halber Bewegungsrate durch diesen Bereich bewegt, muss keinen Rettungswurf ablegen.</p>",
+            "source": "SHB S. 152"
         },
         "Barrel": {
             "name": ""
