@@ -262,7 +262,10 @@
             "source": "SHB. S. 289"
         },
         "Cone of Cold": {
-            "name": ""
+            "name": "Kältekegel",
+            "description": "<p>Ein Stoß aus eiskalter Luft fährt aus deinen Händen. Jede Kreatur innerhalb eines Kegels von 18 m muss einen Konstitutionsrettungswurf ablegen. Bei einem Misserfolg erleidet eine Kreatur 8W8 Kälteschaden oder halb so viel Schaden bei einem erfolgreichen Rettungswurf. Eine Kreatur, die auf diese Weise getötet wird, wird zu einer gefrorenen Statue, bis sie taut.</p>\n<p><strong>Auf höheren Graden:</strong> Wenn du diesen Spruch mit einem Zauberplatz des 6. oder eines höheren Grades wirkst, steigt der Schaden für jeden Grad über den 5. hinaus um 1W8.</p>",
+            "material": "ein kleiner Kegel aus Kristall oder Glas",
+            "source": "SHB S. 242"
         },
         "Confusion": {
             "name": ""
@@ -271,25 +274,36 @@
             "name": ""
         },
         "Conjure Celestial": {
-            "name": ""
+            "name": "Himmlische Wesen beschwören",
+            "description": "<p>Du beschwörst ein himmlisches Wesen mit Herausforderungsgrad 4 oder niedriger, das in einem nicht besetzten Bereich erscheint, der sich in Reichweite befindet und den du sehen kannst. Das himmlische Wesen verschwindet, wenn seine Trefferpunkte auf 0 fallen oder der Zauber endet.</p>\n<p>Für die Wirkungsdauer ist das himmlische Wesen mit dir und deinen Gefährten verbündet. Würfle seine Initiative, da es eigenen Züge ausführt. Es gehorcht allen verbalen Befehlen, die du ihm erteilst (dazu brauchst du keine Aktion aufwenden), solange diese nicht gegen seine Gesinnung verstoßen. Ohne Befehle verteidigt es sich gegen feindliche Kreaturen, führt aber ansonsten keine Aktionen aus. Der SL hat die Spielwerte des himmlischen Wesens zur Verfügung.</p>\n<p><strong>Auf höheren Graden:</strong> Wenn du diesen Spruch mit einem Zauberplatz des 9. Grades wirkst, beschwörst du ein himmlisches Wesen mit Herausforderungsgrad 5 oder niedriger.</p>",
+            "source": "SHB S. 240"
         },
         "Conjure Elemental": {
             "name": ""
         },
         "Conjure Fey": {
-            "name": ""
+            "name": "Feenwesen beschwören",
+            "description": "<p>Du beschwörst ein Feenwesen mit Herausforderungsgrad 6 oder niedriger oder einen Feengeist, der die Gestalt eines Tieres mit Herausforderungsgrad 6 oder niedriger annimmt. Das Wesen erscheint in einem nicht besetzten Bereich in Reichweite, den du sehen kannst. Das Feenwesen verschwindet, wenn seine Trefferpunkte auf 0 fallen oder der Zauber endet.</p>\n<p>Für die Wirkungsdauer ist das Feenwesen mit dir und deinen Gefährten verbündet. Würfle seine Initiative, da es eigene Züge ausführt. Das Feenwesen gehorcht allen verbalen Befehlen, die du ihm erteilst (dazu musst du keine Aktion aufwenden), solange diese nicht gegen seine Gesinnung verstoßen. Ohne Befehle verteidigt es sich gegen feindliche Kreaturen, führt aber ansonsten keine Aktionen aus.</p>\n<p>Wenn deine Konzentration unterbrochen wird, verschwindet das Feenwesen nicht, sondern du verlierst die Kontrolle über es. Das Feenwesen wird dir und deinen Gefährten gegenüber feindlich und könnte angreifen. Ein unkontrolliertes Feenwesen kann von dir nicht fortgeschickt werden und verschwindet 1 Stunde, nachdem du es beschworen hast. Der SL hat die Spielwerte des Feenwesens zur Verfügung.</p>\n<p><strong>Auf höheren Graden:</strong> Wenn du diesen Spruch mit einem Zauberplatz des 7. oder eines höheren Grades wirkst, steigt der Herausforderungsgrad des Feenwesens für jeden Grad über den 6. hinaus um 1.</p>",
+            "source": "SHB S. 228"
         },
         "Conjure Minor Elementals": {
             "name": ""
         },
         "Conjure Woodland Beings": {
-            "name": ""
+            "name": "Wesen des Waldes beschwören",
+            "description": "<p>Du beschwörst Feenwesen, die in nicht besetzten Bereichen in Reichweite erscheinen, die du sehen kannst. Wähle aus den folgenden Möglichkeiten, was erscheint:</p>\n<ul>\n<li>ein Feenwesen mit Herausforderungsgrad 2 oder weniger</li>\n<li>zwei Feenwesen mit Herausforderungsgrad 1 oder weniger</li>\n<li>vier Feenwesen mit Herausforderungsgrad 1/2 oder weniger</li>\n<li>acht Feenwesen mit Herausforderungsgrad 1/4 oder weniger</li>\n</ul>\n<p>Die Feenwesen verschwinden, wenn sie auf 0 Trefferpunkte reduziert werden oder der Zauber endet. Sie sind mit dir und deinen Gefährten verbündet. Würfle die Initiative für die beschworenen Kreaturen als Gruppe, die ihre eigenen Züge ausführt. Sie folgen allen verbalen Befehlen, die du ihnen erteilst (dazu musst du keine Aktion aufwenden). Ohne Befehle verteidigen sie sich gegen feindliche Kreaturen, führen aber ansonsten keine Aktionen aus. Der SL hat die Spielwerte der Feenwesen zur Verfügung.</p>\n<p><strong>Auf höheren Graden:</strong> Wenn du diesen Spruch mit einem Zauberplatz eines höheren Grades wirkst, wählst du eine der oben beschriebenen Beschwörungsoptionen und mehr Kreaturen erscheinen: doppelt so viele bei einem Zauberplatz des 6. Grades und dreimal so viele bei einem des 8. Grades.</p>",
+            "material": "eine Stechpalmenbeere pro beschworener Kreatur",
+            "source": "SHB S. 285"
         },
         "Contact Other Plane": {
-            "name": ""
+            "name": "Kontakt zu anderen Ebenen",
+            "description": "<p>Du trittst geistig in Kontakt mit einem Halbgott, dem Geist eines lange verstorbenen Gelehrten oder einer anderen geheimnisvollen Wesenheit einer anderen Ebene. Dieser Kontakt kann deinen Geist überfordern oder sogar brechen. Wenn du den Zauber wirkst, musst du einen Intelligenzrettungswurf gegen SG 15 ablegen. Bei einem Misserfolg erleidest du 6W6 psychischen Schaden und bist wahnsinnig, bis du eine lange Rast beendest. Solange du wahnsinnig bist, kannst du keine Aktionen ausführen, nicht verstehen, was andere Kreaturen sagen, kannst nicht lesen und sprichst nur Kauderwelsch. Wird der Zauber <em>Vollständige Genesung</em> auf dich gewirkt, endet dieser Effekt.</p>\n<p>Bei einem erfolgreichen Rettungswurf kannst du der Wesenheit bis zu fünf Fragen stellen. Du musst deine Fragen aussprechen, ehe der Zauber endet. Die Wesenheit beantwortet jede Frage mit einem einzigen Wort, wie „nein“, „vielleicht“, „niemals“, „irrelevant“ oder „unklar“ (wenn sie die Antwort auf die Frage nicht kennt). Falls eine Antwort von nur einem einzigen Wort irreführend sein könnte, kann die Wesenheit auch in einem kurzen Satz antworten (nach Entscheidung des SL).</p>",
+            "source": "SHB S. 243"
         },
         "Contagion": {
-            "name": ""
+            "name": "Ansteckung",
+            "description": "<p>Deine Berührung löst Krankheiten aus. Führe einen Nahkampf-Zauberangriff gegen eine Kreatur innerhalb deiner Reichweite aus. Bei einem Treffer wird das Ziel vergiftet, wähle aus den unten beschriebenen Effekten.</p>\n<p>Am Ende eines jeden seiner Züge muss da Ziel einen Konstitutionsrettungswurf ablegen. Gelingen drei dieser Rettungswürfe, ist das Ziel nicht länger vergiftet und der Zauber endet. Misslingen drei Würfe, ist das Ziel nicht länger vergiftet, du kannst aber eine der unten beschriebenen Krankheiten wählen. Diese Krankheit gilt bis zum Ende der Zauberwirkung.</p>\n<p>Da dieser Zauber das Ziel mit einer natürlichen Krankheit ansteckt, sind alle Effekte wirksam, die Krankheiten heilen oder anderweitig lindern.</p>\n<p><strong>Blendendes Siechtum:</strong> Schmerzen erfassen den Verstand der Kreatur und ihre Augen werden milchig weiß. Sie ist im Nachteil bei Weisheitswürfen sowie Weisheitsrettungswürfen und gilt als blind.</p>\n<p><strong>Fleischfäule:</strong> Das Fleisch der Kreatur verfault. Sie ist im Nachteil bei Charismawürfen und erhält eine Anfälligkeit gegenüber jeglichem Schaden.</p>\n<p><strong>Gedankenfeuer:</strong> Der Verstand der Kreatur wird vom Fieber verwirrt. Sie ist im Nachteil bei Intelligenzwürfen und Intelligenzrettungswürfen. Außerdem verhält sich die Kreatur im Kampf, als würde sie unter den Auswirkungen des Zaubers <em>Verwirrung</em> leiden.</p>\n<p><strong>Krämpfe:</strong> Die Kreatur wird von Zitterkrämpfen erfasst. Sie ist im Nachteil bei Geschicklichkeitswürfen, Geschicklichkeitsrettungswürfen und Angriffswürfen, die Geschicklichkeit verwenden.</p>\n<p><strong>Schleimiges Verderben:</strong> Die Kreatur beginnt heftig zu bluten. Sie ist im Nachteil bei Konstitutionswürfen und Konstitutionsrettungswürfen. Außerdem ist die Kreatur, immer wenn sie Schaden erleidet, bis zum Ende ihres nächsten Zuges betäubt.</p>\n<p><strong>Schmutzfieber:</strong> Ein rasendes Fieber schwächt den Körper der Kreatur. Sie ist im Nachteil bei Stärkewürfen, Stärkerettungswürfen und Angriffswürfen, die Stärke verwenden.</p>",
+            "source": "SHB S. 211"
         },
         "Contingency": {
             "name": ""
@@ -337,13 +351,20 @@
             "name": ""
         },
         "Delayed Blast Fireball": {
-            "name": ""
+            "name": "Spätzündender Feuerball",
+            "description": "<p>Ein Strahl aus tiefgelbem Licht schießt aus deinem deutenden Finger, verdichtet sich und verweilt für die Wirkungsdauer als glühende Perle an einem Punkt deiner Wahl in Reichweite. Wenn der Zauber endet, entweder weil deine Konzentration unterbrochen wird oder weil du ihn beenden möchtest, erblüht die Perle mit einem lauten Brüllen in einer Explosion aus Flammen, die sich um Ecken ausbreiten können. Alle Kreaturen in einem Radius von 6 m, zentriert um den Zielpunkt, müssen einen Geschicklichkeitsrettungswurf ablegen. Bei einem Misserfolg erleidet ein Ziel Feuerschaden in Höhe des angesammelten Schadens (siehe unten) oder halb so viel Schaden bei einem erfolgreichen Rettungswurf.</p>\n<p>Der Basisschaden des Zaubers beträgt 12W6. Wenn die Perle am Ende deines Zuges noch nicht explodiert ist, steigt der Schaden jedes Mal um 1W6.</p>\n<p>Wird die glühende Perle berührt, bevor der Zauber endet, muss die entsprechende Kreatur einen Geschicklichkeitsrettungswurf ablegen. Misslingt er, endet der Zauber sofort und die Perle explodiert in Flammen. Bei einem erfolgreichen Rettungswurf kann die Kreatur die Perle bis zu 12 m weit werfen. Wenn sie eine Kreatur oder einen festen Gegenstand trifft, endet der Zauber und die Perle explodiert.</p>\n<p>Das Feuer beschädigt Gegenstände im Wirkungsbereich und entzündet brennbare Gegenstände, die nicht getragen oder in der Hand gehalten werden.</p>\n<p><strong>Auf höheren Graden:</strong> Wenn du diesen Spruch mit einem Zauberplatz des 8. oder 9. Grades wirkst, steigt der Basisschaden für jeden Grad über dem den 7. hinaus um 1W6.</p>",
+            "material": "eine winzige Kugel aus Fledermauskot und Schwefel",
+            "source": "Phb. p. 266"
         },
         "Demiplane": {
-            "name": ""
+            "name": "Halbebene",
+            "description": "<p>Du erschaffst eine schattenhafte Tür in einer festen Oberfläche in Reichweite, die du sehen kannst. Die Tür ist groß genug, dass mittelgroße Kreaturen problemlos hindurchgehen können.</p>\n<p>Wird die Tür geöffnet, führt sie zu einer Halbebene, die ein leerer Raum mit einer Kantenlänge von 9 m zu sein scheint und aus Holz oder Stein besteht. Wenn der Zauber endet, verschwindet die Tür, und Kreaturen oder Gegenstände in der Halbebene bleiben dort gefangen, da die Tür auf ihrer Seite ebenfalls verschwindet.</p>\n<p>Immer wenn du diesen Zauber wirkst, kannst du entweder eine neue Halbebene erschaffen oder die Schattentür mit einer Halbebene verbinden, die du bei einem vorherigen Wirken des Zaubers geformt hast. Ist dir außerdem die Natur und der Inhalt einer Halbebene bekannt, die durch diesen Zauber von einer anderen Kreatur erschaffen wurde, kannst du die Schattentür stattdessen auch mit dieser Halbebene verbinden.</p>",
+            "source": "Phb. p. 238"
         },
         "Detect Evil and Good": {
-            "name": ""
+            "name": "Gutes und Böses entdecken",
+            "description": "<p>Für die Wirkungsdauer weißt du, ob sich Aberrationen, himmlische Wesen, Elementare, Feenwesen, Unholde oder Untote im Umkreis von 9 m befinden. Falls sich derartige Kreaturen in deiner Nähe aufhalten, kennst du ihre genaue Position. Gleichermaßen weißt du, ob sich im Umkreis von 9 m Orte oder Gegenstände befinden, die magisch geweiht oder entweiht wurden.</p>\n<p>Der Zauber kann die meisten Hindernisse durchdringen, wird aber blockiert von 30 cm Stein, 2,5 cm gewöhnlichem Metall, einer dünnen Schicht Blei oder 90 cm Holz oder Erde.</p>",
+            "source": "Phb. p. 238"
         },
         "Detect Magic": {
             "name": ""
@@ -358,37 +379,56 @@
             "name": ""
         },
         "Disguise Self": {
-            "name": ""
+            "name": "Selbstverkleidung",
+            "description": "<p>Mit diesem Zauber veränderst du dein Aussehen – inklusive deiner Kleidung, Rüstung, Waffen und anderen Besitztümer an deiner Person. Er bleibt für die Wirkungsdauer bestehen, wenn du keine Aktion verwendest, um ihn vorzeitig aufzuheben. Du kannst dich bis zu 30 cm kleiner oder größer erscheinen lassen sowie dick oder dünn beziehungsweise irgendetwas dazwischen. Deinen grundlegenden Körpertyp kannst du nicht ändern, du musst also eine Gestalt annehmen, welche die gleiche Anordnung von Gliedmaßen besitzt. Ansonsten bestimmst du, wie die Illusion aussieht.</p>\n<p>Die Veränderungen durch diesen Zauber halten einer körperlichen Untersuchung nicht stand. Nutzt du den Spruch beispielsweise, um deiner Kleidung einen Hut beizufügen, durchdringen Gegenstände diesen einfach. Jeder, der ihn berührt, würde nichts fühlen oder nur deinen Kopf und deine Haare spüren. Lässt du dich dünner erscheinen, als du bist, würde die Hand von jemandem, der dich berühren will, gegen dich stoßen, obwohl sie scheinbar noch in der Luft schwebt.</p>\n<p>Eine Kreatur kann ihre Aktion verwenden, um dich zu untersuchen. Sie legt einen Wurf auf Intelligenz (Nachforschungen) gegen den SG zum Widerstehen deiner Zauber ab. Bei Erfolg bemerkt sie, dass du auf irgendeine Art verkleidet bist.</p>",
+            "source": "Phb. p. 264"
         },
         "Disintegrate": {
             "name": ""
         },
         "Dispel Evil and Good": {
-            "name": ""
+            "name": "Gutes und Böses bannen",
+            "description": "<p>Flirrende Energie umgibt dich und beschützt dich vor Feenwesen, Untoten und anderen Kreaturen, die nicht von der Materiellen Ebene stammen. Für die Wirkungsdauer sind himmlische Wesen, Elementare, Feenwesen, Unholde und Untote im Nachteil bei Angriffswürfen gegen dich.</p>\n<p>Du kannst den Zauber vorzeitig beenden, indem du einen der folgenden speziellen Effekte nutzt.</p>\n<p><strong>Verzauberung brechen:</strong> Als Aktion berührst du eine Kreatur, die von einem himmlischen Wesen, einem Elementar, einem Feenwesen, einem Unhold oder einem Untoten bezaubert, verängstigt oder besessen ist. Die Kreatur, die du berührst, ist nicht länger bezaubert, verängstigt oder besessen.</p>\n<p><strong>Vertreiben:</strong> Als Aktion kannst du einen Nahkampf-Zauberangriff gegen ein himmlisches Wesen, einen Elementar, ein Feenwesen, einen Unhold oder einen Untoten ausführen, den du erreichen kannst. Bei einem Treffer muss die Kreatur einen erfolgreichen Charismarettungswurf ablegen, um nicht zurück auf ihre Heimatebene geschickt zu werden (falls sie nicht bereits dort ist). Wenn sie nicht auf ihrer Heimatebene sind, werden Untote in den Schattensaum geschickt und Feenwesen in die Feenwildnis.</p>",
+            "material": "Weihwasser oder Silber- und Eisenpulver",
+            "source": "Phb. p. 238"
         },
         "Dispel Magic": {
             "name": ""
         },
         "Divination": {
-            "name": ""
+            "name": "Weissagung",
+            "description": "<p>Deine Magie und ein Opfer lassen dich in Kontakt treten mit einem Gott oder dem Gesandten eines Gottes. Du darfst eine einzelne Frage über ein bestimmtes Ziel, Ereignis oder eine Aktivität stellen, die in den nächsten 7 Tagen stattfinden wird. Du bekommst eine wahre Antwort. Diese könnte in Form eines kurzen Satzes, eines kryptischen Reims oder eines Omens überbracht werden. Der Zauber nimmt nicht Rücksicht auf mögliche Umstände, die das Ergebnis verändern könnten, wie das Wirken zusätzlicher Zauber oder der Verlust eines Gefährten.</p>\n<p>Wenn du den Zauber zweimal oder öfter wirkst, bevor du eine lange Rast beendest, besteht eine kumulative Chance von 25 % für jeden Zauber nach dem ersten, dass du ein zufälliges Ergebnis erhältst. Der SL macht diesen Wurf verdeckt.</p>",
+            "material": "Weihrauch und ein Opfer, das deinem Glauben entspricht; beides zusammen muss mindestens 25 GM wert sein und wird beim Wirken des Zaubers verbraucht",
+            "source": "Phb. p. 285"
         },
         "Divine Favor": {
-            "name": ""
+            "name": "Göttliche Gunst",
+            "description": "<p>Dein Gebet erfüllt dich mit göttlicher Macht. Bis der Zauber endet, verursacht deine Waffe bei jedem Treffer zusätzlich 1w4 gleißenden Schaden.</p>",
+            "source": "SHB S. 236"
         },
         "Divine Word": {
-            "name": ""
+            "name": "Göttliches Wort",
+            "description": "<p>Du sprichst ein göttliches Wort aus, das mit der Macht erfüllt ist, welche die Welt am Anbeginn der Schöpfung geformt hat. Wähle eine beliebige Anzahl von Kreaturen in Reichweite, die du sehen kannst. Jede Kreatur, die dich hören kann, muss einen Charismarettungswurf ablegen. Bei einem Misserfolg erleidet die Kreatur einen Effekt, der von ihren aktuellen Trefferpunkten abhängt:</p>\n<ul>\n<li>50 Trefferpunkte oder weniger: taub für 1 Minute</li>\n<li>40 Trefferpunkte oder weniger: taub und blind für 10 Minuten</li>\n<li>30 Trefferpunkte oder weniger: taub, blind und betäubt für 1 Stunde</li>\n<li>20 Trefferpunkte oder weniger: sofortiger Tod</li>\n</ul>\n<p>Unabhängig von ihren aktuellen Trefferpunkten werden himmlische Wesen, Feenwesen oder Unholde, denen ihr Rettungswurf nicht gelingt, auf ihre Heimatebene geschickt (wenn sie sich nicht bereits dort befinden). Zusätzlich können sie für 24 Stunden nicht in die Ebene zurückkehren, auf der der Zauber gewirkt wurde, es sei denn, sie setzen den Zauber Wunsch ein.</p>",
+            "source": "SHB S. 238"
         },
         "Dominate Beast": {
-            "name": ""
+            "name": "Tier beherrschen",
+            "description": "<p>Du versuchst, ein Tier in Reichweite, das du sehen kannst, unter deine Kontrolle zu bringen. Dem Ziel muss ein Weisheitsrettungswurf gelingen, um nicht für die Wirkungsdauer von dir bezaubert zu werden. Kämpfen du oder deine Verbündeten gerade gegen das Tier, ist es bei diesem Rettungswurf im Vorteil.</p>\n<p>Solange das Tier von dir bezaubert ist und ihr euch auf derselben Existenzebene aufhaltet, verfügst du über eine telepathische Verbindung mit ihm. Diese kannst du verwenden, um der Kreatur Befehle zu erteilen (dazu musst du keine Aktion aufwenden), die sie nach ihren Möglichkeiten erfüllt. Du kannst ihr eine einfache, allgemeine Handlung befehlen, wie „Greife diese Kreatur an“, „Lauf dort hinüber“ oder „Hole diesen Gegenstand“. Wenn die Kreatur den Befehl erfüllt hat und keine weiteren Anweisungen von dir erhält, verteidigt sie sich nur und versucht am Leben zu bleiben.</p>\n<p>Du kannst deine Aktion verwenden, um eine vollständige und präzise Kontrolle über das Ziel zu erlangen. Bis zum Ende deines nächsten Zuges führt die Kreatur nur die Aktionen aus, die du auswählst, und tut nichts, was du ihr nicht erlaubst. Während dieser Zeit kannst du die Kreatur auch eine Reaktion verwenden lassen, musst jedoch dazu deine eigene Reaktion verbrauchen.</p>\n<p>Immer wenn das Ziel Schaden erleidet, darf es einen neuen Weisheitsrettungswurf ablegen, um den Zauber abzuschütteln. Ist der Rettungswurf erfolgreich, endet der Zauber.</p>\n<p><strong>Auf höheren Graden:</strong> Wenn du diesen Spruch mit einem Zauberplatz eines höheren Grades wirkst, verlängert sich die Wirkungsdauer: auf „Konzentration, bis zu 10 Minuten“ bei einem Zauberplatz des 5. Grades, auf „Konzentration, bis zu 1 Stunde“ bei einem des 6. Grades oder auf „Konzentration, bis zu 8 Stunden“ bei einem des 7. Grades.</p>",
+            "source": "SHB S. 272"
         },
         "Dominate Monster": {
             "name": ""
         },
         "Dominate Person": {
-            "name": ""
+            "name": "Person beherrschen",
+            "description": "<p>Du versuchst eine humanoide Kreatur in Reichweite, die du sehen kannst, unter deine Kontrolle zu bringen. Dem Ziel muss ein Weisheitsrettungswurf gelingen, um nicht für die Wirkungsdauer von dir bezaubert zu werden. Kämpfen du oder deine Verbündeten gerade gegen das Ziel, ist es bei diesem Rettungswurf im Vorteil.</p>\n<p>Solange die Person von dir bezaubert ist und ihr euch auf derselben Existenzebene aufhaltet, verfügst du über eine telepathische Verbindung mit ihr. Diese kannst du verwenden, um der Person Befehle zu erteilen (dazu musst du keine Aktion aufwenden), die sie nach ihren Möglichkeiten erfüllt. Du kannst ihr eine einfache, allgemeine Handlung befehlen, wie „Greife diese Kreatur an“, „Lauf dort hinüber“ oder „Hole diesen Gegenstand“. Wenn die Person den Befehl erfüllt hat und keine weiteren Anweisungen von dir erhält, verteidigt sie sich nur und versucht am Leben zu bleiben.</p>\n<p>Du kannst deine Aktion verwenden, um eine vollständige und präzise Kontrolle über das Ziel zu erlangen. Bis zum Ende deines nächsten Zuges führt die Person nur die Aktionen aus, die du auswählst, und tut nichts, was du ihr nicht erlaubst. Während dieser Zeit kannst du die Person auch eine Reaktion verwenden lassen, musst jedoch dazu deine eigene Reaktion verbrauchen.</p>\n<p>Immer wenn das Ziel Schaden erleidet, darf es einen neuen Weisheitsrettungswurf ablegen, um den Zauber abzuschütteln. Ist der Rettungswurf erfolgreich, endet der Zauber.</p>\n<p><strong>Auf höheren Graden:</strong> Wenn du diesen Spruch mit einem Zauberplatz eines höheren Grades wirkst, verlängert sich die Wirkungsdauer: auf „Konzentration, bis zu 10 Minuten“ bei einem Zauberplatz des 6. Grades, auf „Konzentration, bis 1 Stunde“ bei einem des 7. Grades und auf „Konzentration, bis: zu 8 Stunden“ bei einem des 8. Grades.</p>",
+            "source": "SHB S. 254"
         },
         "Dream": {
-            "name": ""
+            "name": "Traum",
+            "description": "<p>Der Zauber formt die Träume einer Kreatur. Wähle eine Kreatur als Ziel, die du kennst und die sich auf derselben Existenzebene befindet wie du. Kreaturen, die nicht schlafen, so wie Elfen, können von diesem Zauber nicht betroffen werden. Du oder eine bereitwillige Kreatur, die du berührst, verfällt in Trance und dient als Bote.</p>\n<p>Solange sich der Bote in der Trance befindet, ist er sich seiner Umgebung bewusst, kann aber keine Aktionen ausführen und sich nicht bewegen. Wenn das Ziel schläft, erscheint der Bote für die Wirkungsdauer in seinen Träumen und kann mit dem Ziel sprechen. Der Bote vermag auch die Umgebung des Traums zu gestalten, indem er Landschaften, Gegenstände und andere Bilder formt. Er ist in der Lage, die Trance jederzeit zu verlassen, was den Zauber vorzeitig beendet. Das Ziel erinnert sich beim Erwachen perfekt an den Traum. Ist das Ziel wach, wenn du den Zauber wirkst, weiß der Bote dies und kann entweder die Trance (und den Zauber) beenden oder warten, bis das Ziel einschläft, und dann in dessen Träumen erscheinen.</p>\n<p>Es ist dir möglich, den Boten für das Ziel monströs und erschreckend aussehen zu lassen. In diesem Fall kann der Bote eine Nachricht von maximal zehn Wörtern überbringen, und das Ziel muss einen Weisheitsrettungswurf ablegen. Bei einem Misserfolg erzeugen die Echos der gespenstischen Monstrosität einen Albtraum, der für die Dauer des Schlafs anhält und verhindert, dass das Ziel Nutzen aus der Rast ziehen kann. Wenn das Ziel erwacht, erleidet es außerdem 3W6 psychischen Schaden. Besitzt du eine Haarlocke, Fingernägel oder etwas Ähnliches vom Körper des Ziels, ist dieses bei dem Rettungswurf im Nachteil.</p>",
+            "material": "eine Handvoll Sand, ein Klecks Tinte und eine Schreibfeder, die einem schlafenden Vogel ausgerupft wurde",
+            "source": "SHB S. 276"
         },
         "Druidcraft": {
             "name": ""
@@ -397,16 +437,23 @@
             "name": ""
         },
         "Eldritch Blast": {
-            "name": ""
+            "name": "Schauriger Strahl",
+            "description": "<p>Ein Strahl aus knisternder Energie schießt auf eine Kreatur in Reichweite zu. Führe einen Fernkampf-Zauberangriff gegen das Ziel aus. Bei einem Treffer erleidet es 1W10 Energieschaden.</p>\n<p>Der Zauber erschafft mehr als einen Strahl, wenn du höhere Stufen erreichst: zwei Strahlen auf der 5. Stufe, drei Strahlen auf der 11. Stufe und vier Strahlen auf der 17. Stufe. Du kannst die Strahlen auf dasselbe oder unterschiedliche Ziele lenken. Mache einen eigenständigen Angriffswurf für jeden Strahl.</p>",
+            "source": "SHB S. 260"
         },
         "Enhance Ability": {
-            "name": ""
+            "name": "Attribut verbessern",
+            "description": "<p>Du berührst eine Kreatur und gewährst ihr eine magische Verbesserung. Wähle einen der folgenden Effekte. Das Ziel profitiert von diesem, bis der Zauber endet.</p>\n<ul>\n<li><strong>Ausdauer des Bären:</strong> Das Ziel ist im Vorteil bei Konstitutionswürfen. Es erhält außerdem 2W6 temporäre Trefferpunkte, die verschwinden, wenn der Zauber endet.</li>\n<li><strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">Stärke des Stiers:</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"> Das Ziel ist im Vorteil bei Stärkewürfen und seine Traglast wird verdoppelt.</span></li>\n<li><strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">Anmut der Katze:</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"> Das Ziel ist im Vorteil bei Geschicklichkeitswürfen. Es erleidet außerdem keinen Schaden bei Stürzen aus maximal 6 m, solange es nicht kampfunfähig ist.</span></li>\n<li><strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">Pracht des Adlers:</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"> Das Ziel ist im Vorteil bei Charismawürfen.</span></li>\n<li><strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">Gerissenheit des Fuchses:</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"> Das Ziel ist im Vorteil bei Intelli</span><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">genzwürfen.</span></li>\n<li><strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">Weisheit der Eule:</strong><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"> Das Ziel ist im Vorteil bei Weisheitswürfen.</span></li>\n</ul>\n<p><span style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"><strong>Auf höheren Graden:</strong> Wenn du diesen Spruch mit einem Zauberplatz des 3. oder eines höheren Grades wirkst, kannst du für jeden Grad über den 2. hinaus eine zusätzliche Kreatur als Ziel wählen.</span></p>\n<p> </p>",
+            "material": "Fell oder Federn eines Tieres",
+            "source": "SHB S. 214"
         },
         "Enlarge/Reduce": {
             "name": ""
         },
         "Entangle": {
-            "name": ""
+            "name": "Verstricken",
+            "description": "<p>Umschlingende Gräser und Ranken wachsen in einem quadratischen Bereich mit 6 m Seitenlänge in Reichweite aus dem Boden. Für die Wirkungsdauer verwandeln diese Pflanzen den Boden in schwieriges Gelände.</p>\n<p>Jede Kreatur, die sich in dem Bereich aufhält, wenn du den Zauber wirkst, muss einen erfolgreichen Stärkerettungswurf ablegen, um nicht für die Wirkungsdauer von den umschlingenden Pflanzen festgesetzt zu werden. Eine Kreatur, die von den Pflanzen festgesetzt ist, kann als Aktion einen Stärkewurf gegen den SG zum Widerstehen deiner Zauber ablegen. Bei einem Erfolg kann sie sich befreien.</p>\n<p>Wenn der Zauber endet, verdorren die beschworenen Pflanzen.</p>",
+            "source": "SHB S. 280"
         },
         "Enthrall": {
             "name": ""
@@ -415,16 +462,22 @@
             "name": ""
         },
         "Expeditious Retreat": {
-            "name": ""
+            "name": "Rascher Rückzug",
+            "description": "<p>Dieser Zauber erlaubt es dir, dich mit unglaublicher Geschwindigkeit zu bewegen. Wenn du diesen Zauber wirkst sowie als Bonusaktion in jedem deiner folgenden Züge, bis der Zauber endet, kannst du die Spurtaktion verwenden.</p>",
+            "source": "SHB S. 255"
         },
         "Eyebite": {
             "name": ""
         },
         "Fabricate": {
-            "name": ""
+            "name": "Verarbeitung",
+            "description": "<p>Du wandelst Rohmaterialien in ein Erzeugnis des gleichen Materials um. Beispielsweise kannst du aus einem Stück Baum eine hölzerne Brücke erschaffen, ein Seil aus einem Hanffeld und Kleider aus Flachs oder Wolle.</p>\n<p>Wähle Rohmaterialien in Reichweite, die du sehen kannst. Du bist in der Lage, aus ihnen Gegenstände der Größenkategorie groß oder kleiner zu erschaffen (die in einen Würfel mit 3 m Kantenlänge passen oder in acht verbundene Würfel mit jeweils 1,50 m Kantenlänge), solange du über ausreichend Rohmaterialien verfügst. Wenn du mit Metall, Stein oder anderen mineralischen Substanzen arbeitest, darf der gefertigte Gegenstand maximal mittelgroß sein (ein Würfel mit einer Kantenlänge von bis zu 1,50 m). Die Qualität der Gegenstände, die du mit dem Zauber erschaffst, hängt von der Qualität der Rohmaterialien ab.</p>\n<p>Kreaturen oder magische Gegenstände können durch diesen Zauber weder erschaffen noch verwandelt werden. Es ist ebenfalls nicht möglich, Gegenstände zu formen, die ein großes Ausmaß an Kunstfertigkeit erfordern, wie Schmuck, Waffen, Glas oder Rüstung – außer du bist geübt mit der Art von Handwerkszeug, die für die Herstellung solcher Gegenstände erforderlich ist.</p>",
+            "source": "SHB S. 278"
         },
         "Faerie Fire": {
-            "name": ""
+            "name": "Feenfeuer",
+            "description": "<p>Jeder Gegenstand innerhalb eines Würfels mit 6 m Kantenlänge in Reichweite wird von blauem, grünem oder violettem Licht umgeben (deine Wahl). Alle Kreaturen, die sich im Wirkungsbereich des Zaubers aufhalten, werden ebenfalls von Licht umgeben, wenn ihnen ein Geschicklichkeitsrettungswurf misslingt. Für Wirkungsdauer geben Gegenstände und betroffene Kreaturen dämmriges Licht in einem Radius von 3 m ab.</p>\n<p>Angriffswürfe gegen betroffene Kreaturen oder Gegenstände sind im Vorteil, wenn der Angreifer das Ziel sehen kann. Betroffene Kreaturen oder Gegenstände ziehen keinen Nutzen aus Unsichtbarkeit.</p>",
+            "source": "SHB S. 228"
         },
         "Faithful Hound": {
             "name": ""
@@ -547,7 +600,9 @@
             "name": ""
         },
         "Guidance": {
-            "name": ""
+            "name": "Göttliche Führung",
+            "description": "<p>Du berührst eine bereitwillige Kreatur. Einmal während der Wirkungsdauer kann das Ziel mit einem W4 würfeln und das Ergebnis auf einen Attributswurf seiner Wahl addieren. Es darf sich vor oder nach dem Attributswurf dazu entscheiden, den Würfel einzusetzen. Anschließend endet der Zauber.</p>",
+            "source": "SHB S. 236"
         },
         "Guiding Bolt": {
             "name": ""

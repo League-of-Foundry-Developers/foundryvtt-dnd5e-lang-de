@@ -1,22 +1,28 @@
 {
     "entries": {
         "Aboleth": {
-            "name": ""
+            "name": "Aboleth",
+            "source": "MH S. 15"
         },
         "Acolyte": {
-            "name": ""
+            "name": "Akolyth",
+            "source": "MH S. 343"
         },
         "Adult Black Dragon": {
-            "name": ""
+            "name": "Ausgewachsener Schwarzer Drache",
+            "source": "MH S. 60"
         },
         "Adult Blue Dracolich": {
-            "name": ""
+            "name": "Ausgewachsener Blauer Dracolich",
+            "source": "MH S. 92"
         },
         "Adult Blue Dragon": {
-            "name": ""
+            "name": "Ausgewachsener Blauer Drache",
+            "source": "MH S. 63"
         },
         "Adult Brass Dragon": {
-            "name": ""
+            "name": "Ausgewachsener Messingdrache",
+            "source": "MH S. 77"
         },
         "Adult Bronze Dragon": {
             "name": ""
@@ -1015,4 +1021,4 @@
             "path": "data.details.type"
         }
     }
-}
+}
