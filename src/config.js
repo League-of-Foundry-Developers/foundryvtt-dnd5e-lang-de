@@ -38,7 +38,7 @@ export default [
         name: 'enableRangeTranslation',
         data: {
             name: 'Reichweite übersetzen',
-            hint: 'Die Reichweite von Gegenständen und Zaubern wird in Meter (m) bzw. Kilometer (km) umgerechnet.',
+            hint: 'Die Reichweite von Gegenständen und Zaubern wird in Meter (m) bzw. Kilometer (km) umgerechnet. Hinweis: Die Systemoption für metrische Einheiten sollte aktiviert sein.',
             scope: 'client',
             type: Boolean,
             config: true,
@@ -50,7 +50,7 @@ export default [
         name: 'enableWeightTranslation',
         data: {
             name: 'Gewicht übersetzen',
-            hint: 'Das Gewicht von Gegenständen wird in Kilogramm (kg) umgerechnet.',
+            hint: 'Das Gewicht von Gegenständen wird in Kilogramm (kg) umgerechnet. Hinweis: Die Systemoption für metrische Einheiten sollte aktiviert sein.',
             scope: 'client',
             type: Boolean,
             config: true,
