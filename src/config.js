@@ -66,7 +66,8 @@ export default [
             scope: 'client',
             type: Boolean,
             config: true,
-            default: true
+            default: true,
+            onChange: () => window.location.reload()
         }
     },
     {
@@ -77,7 +78,8 @@ export default [
             scope: 'client',
             type: Boolean,
             config: true,
-            default: true
+            default: true,
+            onChange: () => window.location.reload()
         }
     },
     {
