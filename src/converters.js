@@ -73,6 +73,11 @@ var rarity = {
 };
 
 function convertRarity(r) {
+    if (isNewerVersion(game.system.data.version, '1.3.9')) {
+        // D&D system version 1.4.0+ have rarity as a type,
+        // we don't need to apply this anymore then :)
+        return r;
+    }
     return rarity[r.toString().toLowerCase()] ? rarity[r.toString().toLowerCase()] : r;
 }
 
