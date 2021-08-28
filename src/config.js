@@ -38,7 +38,7 @@ export default [
         name: 'enableRangeTranslation',
         data: {
             name: 'Reichweite übersetzen',
-            hint: 'Die Reichweite von Gegenständen und Zaubern wird in Meter (m) bzw. Kilometer (km) umgerechnet. Hinweis: Die Systemoption für metrische Einheiten sollte aktiviert sein.',
+            hint: 'Die Reichweite von Gegenständen und Zaubern wird in Meter (m) bzw. Kilometer (km) umgerechnet. Hinweis: Die Systemoption für metrische Einheiten sollte aktiviert sein. (Bei Änderung wird Foundry neu geladen.)',
             scope: 'client',
             type: Boolean,
             config: true,
@@ -50,7 +50,7 @@ export default [
         name: 'enableWeightTranslation',
         data: {
             name: 'Gewicht übersetzen',
-            hint: 'Das Gewicht von Gegenständen wird in Kilogramm (kg) umgerechnet. Hinweis: Die Systemoption für metrische Einheiten sollte aktiviert sein.',
+            hint: 'Das Gewicht von Gegenständen wird in Kilogramm (kg) umgerechnet. Hinweis: Die Systemoption für metrische Einheiten sollte aktiviert sein. (Bei Änderung wird Foundry neu geladen.)',
             scope: 'client',
             type: Boolean,
             config: true,
@@ -62,7 +62,7 @@ export default [
         name: 'compendiumSrcTranslateBooks',
         data: {
             name: 'Buchtitel-Abkürzungen für Quellen übersetzen',
-            hint: 'Übersetzt die Abkürzungen für Buchtitel in Quellenangaben, z.B. wird aus PHB (Player\'s Handbook) dann SHB (Spielerhandbuch).',
+            hint: 'Übersetzt die Abkürzungen für Buchtitel in Quellenangaben, z.B. wird aus PHB (Player\'s Handbook) dann SHB (Spielerhandbuch). (Bei Änderung wird Foundry neu geladen.)',
             scope: 'client',
             type: Boolean,
             config: true,
@@ -74,7 +74,7 @@ export default [
         name: 'compendiumSrcKeepOriginal',
         data: {
             name: 'Englische Quellenangabe mit anzeigen',
-            hint: 'Englische Quellenangaben/Seitenzahlen werden zusätzlich in Klammern angegeben.',
+            hint: 'Englische Quellenangaben/Seitenzahlen werden zusätzlich in Klammern angegeben. (Bei Änderung wird Foundry neu geladen.)',
             scope: 'client',
             type: Boolean,
             config: true,
