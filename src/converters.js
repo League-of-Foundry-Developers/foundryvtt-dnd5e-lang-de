@@ -477,7 +477,7 @@ function lbToKg(lb) {
 }
 
 function convertWeight(value) {
-    if (!game.settings.get(module_id, 'enableWeightTranslation')) {
+    if (game.system.id !== 'dnd5e' || !game.settings.get('dnd5e', 'metricWeightUnits')) {
         return value;
     }
 
