@@ -1136,7 +1136,7 @@
             "converter": "spellsource"
         },
         "target": {
-            "converter": "target",
+            "converter": "range",
             "path": "data.target"
         },
         "name": {
