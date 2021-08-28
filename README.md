@@ -99,7 +99,7 @@ Also see the [releases page](https://github.com/League-of-Foundry-Developers/fou
 
 Previous versions were by previous maintainers, including Hydroxi and ThoGri
 back on Gitlab, before Fallayn took over maintenance and transferred the module
-to Github the League. Thanks for all of your work!
+to Github and the League. Thanks for all of your work, everyone!
 
 ## Contributing & adding translations
 
