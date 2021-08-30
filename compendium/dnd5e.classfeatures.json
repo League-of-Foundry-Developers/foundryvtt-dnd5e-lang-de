@@ -1,716 +1,944 @@
 {
     "entries": {
         "Ability Score Improvement": {
-            "name": ""
+            "name": "Attributswerterhöhung"
         },
         "Ability Score Improvement (Fighter)": {
-            "name": ""
+            "name": "Attributswerterhöhung (Kämpfer)",
+            "source": "SHB S. 71"
         },
         "Ability Score Improvement (Rogue)": {
-            "name": ""
+            "name": "Attributswerterhöhung (Schurke)",
+            "source": "SHB S. 106"
         },
         "Action Surge": {
-            "name": ""
+            "name": "Tatendrang",
+            "source": "SHB S. 71"
         },
         "Additional Fighting Style": {
-            "name": ""
+            "name": "Weiterer Kampfstil",
+            "source": "SHB S. 71"
         },
         "Additional Magical Secrets": {
-            "name": ""
+            "name": "Zusätzliche Magische Geheimnisse",
+            "source": "SHB S. 55"
         },
         "Arcane Recovery": {
-            "name": ""
+            "name": "Arkane Erholung",
+            "source": "SHB S. 86"
         },
         "Arcane Tradition": {
-            "name": ""
+            "name": "Arkane Tradition",
+            "source": "SHB S. 86"
         },
         "Archdruid": {
-            "name": ""
+            "name": "Erzdruide",
+            "source": "SHB S. 59"
         },
         "Aura of Courage": {
-            "name": ""
+            "name": "Aura der Tapferkeit",
+            "source": "SHB S. 100"
         },
         "Aura of Devotion": {
-            "name": ""
+            "name": "Aura der Hingabe",
+            "source": "SHB S. 102"
         },
         "Aura of Protection": {
-            "name": ""
+            "name": "Aura des Schutzes",
+            "source": "SHB S. 100"
         },
         "Bard College": {
-            "name": ""
+            "name": "Bardenschule",
+            "source": "SHB S. 54"
         },
         "Bardic Inspiration": {
-            "name": ""
+            "name": "Bardische Inspiration",
+            "source": "SHB S. 53"
         },
         "Beast Spells": {
-            "name": ""
+            "name": "In Tiergestalt zaubern",
+            "source": "SHB S. 59"
         },
         "Blessed Healer": {
-            "name": ""
+            "name": "Gesegneter Heiler",
+            "source": "SHB S. 79"
         },
         "Blindsense": {
-            "name": ""
+            "name": "Blindgespür",
+            "source": "SHB S. 106"
         },
         "Bonus Cantrip (Druid)": {
-            "name": ""
+            "name": "Zusätzlicher Zaubertrick (Druide)",
+            "source": "SHB S. 60"
         },
         "Bonus Proficiencies (College of Lore)": {
-            "name": ""
+            "name": "Zusätzliche Übung (Schule des Wissens)",
+            "source": "SHB S. 55"
         },
         "Bonus Proficiency (Life Domain)": {
-            "name": ""
+            "name": "Zusätzliche Übung (Domäne des Lebens)",
+            "source": "SHB S. 79"
         },
         "Brutal Critical": {
-            "name": ""
+            "name": "Brutale kritische Treffer",
+            "source": "SHB S. 49"
         },
         "Channel Divinity (Cleric)": {
-            "name": ""
+            "name": "Göttliche Macht fokussieren (Kleriker)",
+            "source": "SHB S. 77"
         },
         "Channel Divinity (Paladin)": {
-            "name": ""
+            "name": "Göttliche Macht fokussieren (Paladin)",
+            "source": "SHB S. 100"
         },
         "Channel Divinity: Preserve Life": {
-            "name": ""
+            "name": "Göttliche Macht fokussieren: Leben erhalten",
+            "source": "SHB S. 79"
         },
         "Channel Divinity: Sacred Weapon": {
-            "name": ""
+            "name": "Göttliche Macht fokussieren: Heilige Waffe",
+            "source": "SHB S. 102"
         },
         "Channel Divinity: Turn Undead": {
-            "name": ""
+            "name": "Göttliche Macht fokussieren: Untote vertreiben",
+            "source": "SHB S. 78"
         },
         "Channel Divinity: Turn the Unholy": {
-            "name": ""
+            "name": "Göttliche Macht fokussieren: Die Unheiligen vertreiben",
+            "source": "SHB S. 102"
         },
         "Circle Spells": {
-            "name": ""
+            "name": "Zauber des Zirkels",
+            "source": "SHB S. 60"
         },
         "Cleansing Touch": {
-            "name": ""
+            "name": "Reinigende Berührung",
+            "source": "SHB S. 100"
         },
         "Countercharm": {
-            "name": ""
+            "name": "Bannlied",
+            "source": "SHB S. 54"
         },
         "Cunning Action": {
-            "name": ""
+            "name": "Raffinierte Aktion",
+            "source": "SHB S. 106"
         },
         "Cutting Words": {
-            "name": ""
+            "name": "Schneidende Worte",
+            "source": "SHB S. 55"
         },
         "Danger Sense": {
-            "name": ""
+            "name": "Gefahrengespür",
+            "source": "SHB S. 48"
         },
         "Dark One's Blessing": {
-            "name": ""
+            "name": "Segen des Dunklen Meisters",
+            "source": "SHB S. 66"
         },
         "Dark One's Own Luck": {
-            "name": ""
+            "name": "Schicksal des Dunklen Meisters",
+            "source": "SHB S. 66"
         },
         "Defensive Tactics": {
-            "name": ""
+            "name": "Defensive Taktiken",
+            "source": "SHB S. 113"
         },
         "Defensive Tactics: Escape the Horde": {
-            "name": ""
+            "name": "Defensive Taktiken: Der Horde entkommen",
+            "source": "SHB S. 113"
         },
         "Defensive Tactics: Multiattack Defense": {
-            "name": ""
+            "name": "Defensive Taktiken: Verteidigung gegen Mehrfachangriffe",
+            "source": "SHB S. 113"
         },
         "Defensive Tactics: Steel Will": {
-            "name": ""
+            "name": "Defensive Taktiken: Eiserner Wille",
+            "source": "SHB S. 113"
         },
         "Deflect Missiles": {
-            "name": ""
+            "name": "Geschosse abwehren",
+            "source": "SHB S. 93"
         },
         "Destroy Undead": {
-            "name": ""
+            "name": "Untote zerstören",
+            "source": "SHB S. 78"
         },
         "Disciple of Life": {
-            "name": ""
+            "name": "Jünger des Lebens",
+            "source": "SHB S. 79"
         },
         "Divine Domain": {
-            "name": ""
+            "name": "Göttliche Domänen",
+            "source": "SHB S. 77"
         },
         "Divine Health": {
-            "name": ""
+            "name": "Göttliche Gesundheit",
+            "source": "SHB S. 100"
         },
         "Divine Intervention": {
-            "name": ""
+            "name": "Göttliche Intervention",
+            "source": "SHB S. 78"
         },
         "Divine Sense": {
-            "name": ""
+            "name": "Göttliches Gespür",
+            "source": "SHB S. 99"
         },
         "Divine Smite": {
-            "name": ""
+            "name": "Göttliches Niederstrecken",
+            "source": "SHB S. 100"
         },
         "Divine Strike": {
-            "name": ""
+            "name": "Göttlicher Schlag",
+            "source": "SHB S. 79"
         },
         "Draconic Presence": {
-            "name": ""
+            "name": "Drakonische Präsenz",
+            "source": "SHB S. 118"
         },
         "Draconic Resilience": {
-            "name": ""
+            "name": "Drakonische Widerstandskraft",
+            "source": "SHB S. 118"
         },
         "Dragon Ancestor": {
-            "name": ""
+            "name": "Drachenvorfahre",
+            "source": "SHB S. 118"
         },
         "Dragon Wings": {
-            "name": ""
+            "name": "Drachenflügel",
+            "source": "SHB S. 118"
         },
         "Druid Circle": {
-            "name": ""
+            "name": "Druidenzirkel",
+            "source": "SHB S. 59"
         },
         "Druidic": {
-            "name": ""
+            "name": "Druidisch",
+            "source": "SHB S. 58"
         },
         "Eldritch Invocations": {
-            "name": ""
+            "name": "Schauerliche Anrufungen",
+            "source": "SHB S. 64"
         },
         "Eldritch Master": {
-            "name": ""
+            "name": "Mystischer Meister",
+            "source": "SHB S. 65"
         },
         "Elemental Affinity": {
-            "name": ""
+            "name": "Elementare Affinität",
+            "source": "SHB S. 118"
         },
         "Elusive": {
-            "name": ""
+            "name": "Schwer zu fassen",
+            "source": "SHB S. 106"
         },
         "Empowered Evocation": {
-            "name": ""
+            "name": "Mächtige Hervorrufung",
+            "source": "SHB S. 88"
         },
         "Evasion": {
-            "name": ""
+            "name": "Entrinnen",
+            "source": "SHB S. 106"
         },
         "Evocation Savant": {
-            "name": ""
+            "name": "Gelehrter der Bannmagie",
+            "source": "SHB S. 86"
         },
         "Expanded Spell List": {
-            "name": ""
+            "name": "Erweiterte Zauberliste",
+            "source": "SHB S. 65"
         },
         "Expertise (Bard)": {
-            "name": ""
+            "name": "Expertise (Barde)",
+            "source": "SHB S. 54"
         },
         "Expertise (Rogue)": {
-            "name": ""
+            "name": "Expertise (Schurke)",
+            "source": "SHB S. 106"
         },
         "Extra Attack": {
-            "name": ""
+            "name": "Zusätzlicher Angriff"
         },
         "Extra Attack (Fighter)": {
-            "name": ""
+            "name": "Zusätzlicher Angriff (Kämpfer)",
+            "source": "SHB S. 71"
         },
         "Fast Hands": {
-            "name": ""
+            "name": "Flinke Finger",
+            "source": "SHB S. 108"
         },
         "Fast Movement": {
-            "name": ""
+            "name": "Schnelle Bewegung",
+            "source": "SHB S. 48"
         },
         "Favored Enemy": {
-            "name": ""
+            "name": "Erzfeind",
+            "source": "SHB S. 111"
         },
         "Feral Instinct": {
-            "name": ""
+            "name": "Wilder Instinkt",
+            "source": "SHB S. 49"
         },
         "Feral Senses": {
-            "name": ""
+            "name": "Wilde Sinne",
+            "source": "SHB S. 112"
         },
         "Fiendish Resilience": {
-            "name": ""
+            "name": "Widerstandskraft des Unholds",
+            "source": "SHB S. 66"
         },
         "Fighting Style": {
-            "name": ""
+            "name": "Kampfstil",
+            "source": "SHB S. 71"
         },
         "Fighting Style: Archery": {
-            "name": ""
+            "name": "Kampfstil: Bogenschiessen",
+            "source": "SHB S. 71"
         },
         "Fighting Style: Defense": {
-            "name": ""
+            "name": "Kampfstil: Verteidigung",
+            "source": "SHB S. 71"
         },
         "Fighting Style: Dueling": {
-            "name": ""
+            "name": "Kampfstil: Duellieren",
+            "source": "SHB S. 71"
         },
         "Fighting Style: Great Weapon Fighting": {
-            "name": ""
+            "name": "Kampfstil: Kampf mit grossen Waffen",
+            "source": "SHB S. 71"
         },
         "Fighting Style: Protection": {
-            "name": ""
+            "name": "Kampfstil: Leibwache",
+            "source": "SHB S. 71"
         },
         "Fighting Style: Two Weapon Fighting": {
-            "name": ""
+            "name": "Kampfstil: Kampf mit zwei Waffen",
+            "source": "SHB S. 71"
         },
         "Foe Slayer": {
-            "name": ""
+            "name": "Feindestöter",
+            "source": "SHB S. 112"
         },
         "Font of Inspiration": {
-            "name": ""
+            "name": "Quelle der Inspiration",
+            "source": "SHB S. 54"
         },
         "Font of Magic": {
-            "name": ""
+            "name": "Quelle der Magie",
+            "source": "SHB S. 116"
         },
         "Frenzy": {
-            "name": ""
+            "name": "Raserei",
+            "source": "SHB S. 49"
         },
         "Grappler": {
-            "name": ""
+            "name": "Ringer",
+            "source": "SHB S. 168"
         },
         "Hide in Plain Sight": {
-            "name": ""
+            "name": "Tarnung",
+            "source": "SHB S. 112"
         },
         "Holy Nimbus": {
-            "name": ""
+            "name": "Heiliger Nimbus",
+            "source": "SHB S. 102"
         },
         "Hunter's Prey": {
-            "name": ""
+            "name": "Des Jägers Beute",
+            "source": "SHB S. 113"
         },
         "Hunter's Prey: Colossus Slayer": {
-            "name": ""
+            "name": "Des Jägers Beute: Kolossschlächter",
+            "source": "SHB S. 113"
         },
         "Hunter's Prey: Giant Killer": {
-            "name": ""
+            "name": "Des Jägers Beute: Riesentöter",
+            "source": "SHB S. 113"
         },
         "Hunter's Prey: Horde Breaker": {
-            "name": ""
+            "name": "Des Jägers Beute: Hordenbrecher",
+            "source": "SHB S. 113"
         },
         "Hurl Through Hell": {
-            "name": ""
+            "name": "Schlund des Wahnsinns",
+            "source": "SHB S. 66"
         },
         "Improved Critical": {
-            "name": ""
+            "name": "Verbesserte kritische Treffer",
+            "source": "SHB S. 71"
         },
         "Improved Divine Smite": {
-            "name": ""
+            "name": "Verbessertes Göttliches Niederstrecken",
+            "source": "SHB S. 100"
         },
         "Indomitable": {
-            "name": ""
+            "name": "Unbeugsamkeit",
+            "source": "SHB S. 71"
         },
         "Indomitable Might": {
-            "name": ""
+            "name": "Unbändige Stärke",
+            "source": "SHB S. 49"
         },
         "Intimidating Presence": {
-            "name": ""
+            "name": "Einschüchternde Präsenz",
+            "source": "SHB S. 49"
         },
         "Invocation: Agonizing Blast": {
-            "name": ""
+            "name": "Anrufung: Qualvoller Strahl",
+            "source": "SHB S. 68"
         },
         "Invocation: Armor of Shadows": {
-            "name": ""
+            "name": "Anrufung: Schattenrüstung",
+            "source": "SHB S. 68"
         },
         "Invocation: Ascendant Step": {
-            "name": ""
+            "name": "Anrufung: Aufsteigender Schritt",
+            "source": "SHB S. 67"
         },
         "Invocation: Beast Speech": {
-            "name": ""
+            "name": "Anrufung: Tiersprache",
+            "source": "SHB S. 68"
         },
         "Invocation: Beguiling Influence": {
-            "name": ""
+            "name": "Anrufung: Verführerischer Einfluss",
+            "source": "SHB S. 68"
         },
         "Invocation: Bewitching Whispers": {
-            "name": ""
+            "name": "Anrufung: Verhexendes Flüstern",
+            "source": "SHB S. 68"
         },
         "Invocation: Book of Ancient Secrets": {
-            "name": ""
+            "name": "Anrufung: Buch der uralten Geheimnisse",
+            "source": "SHB S. 67"
         },
         "Invocation: Chains of Carceri": {
-            "name": ""
+            "name": "Ketten von Carceri",
+            "source": "SHB S. 68"
         },
         "Invocation: Devil's Sight": {
-            "name": ""
+            "name": "Anrufung: Teufelssicht",
+            "source": "SHB S. 68"
         },
         "Invocation: Dreadful Word": {
-            "name": ""
+            "name": "Anrufung: Fürchterliches Wort",
+            "source": "SHB S. 67"
         },
         "Invocation: Eldritch Sight": {
-            "name": ""
+            "name": "Anrufung: Unheimliche Sicht",
+            "source": "SHB S. 68"
         },
         "Invocation: Eldritch Spear": {
-            "name": ""
+            "name": "Anrufung: Unheimlicher Speer",
+            "source": "SHB S. 68"
         },
         "Invocation: Eyes of the Rune Keeper": {
-            "name": ""
+            "name": "Anrufung: Auge des Runenwächters",
+            "source": "SHB S. 67"
         },
         "Invocation: Fiendish Vigor": {
-            "name": ""
+            "name": "Anrufung: Vitalität des Unholds",
+            "source": "SHB S. 68"
         },
         "Invocation: Gaze of Two Minds": {
-            "name": ""
+            "name": "Anrufung: Gedankenblick",
+            "source": "SHB S. 67"
         },
         "Invocation: Life Drinker": {
-            "name": ""
+            "name": "Anrufung: Lebenstrinker",
+            "source": "SHB S. 68"
         },
         "Invocation: Mask of Many Faces": {
-            "name": ""
+            "name": "Anrufung: Maske der vielen Gesichter",
+            "source": "SHB S. 68"
         },
         "Invocation: Master of Myriad Forms": {
-            "name": ""
+            "name": "Anrufung: Meister der myriaden Formen",
+            "source": "SHB S. 68"
         },
         "Invocation: Minions of Chaos": {
-            "name": ""
+            "name": "Anrufung: Untergebene des Chaos",
+            "source": "SHB S. 68"
         },
         "Invocation: Mire the Mind": {
-            "name": ""
+            "name": "Anrufung: Versumpfen lassen",
+            "source": "SHB S. 68"
         },
         "Invocation: Misty Visions": {
-            "name": ""
+            "name": "Anrufung: Neblige Visionen",
+            "source": "SHB S. 68"
         },
         "Invocation: One With Shadows": {
-            "name": ""
+            "name": "Anrufung: Mit den Schatten verschmelzen",
+            "source": "SHB S. 68"
         },
         "Invocation: Otherwordly Leap": {
-            "name": ""
+            "name": "Anrufung: Andersweltlicher Sprung",
+            "source": "SHB S. 67"
         },
         "Invocation: Repelling Blast": {
-            "name": ""
+            "name": "Anrufung: Zurückdrängender Strahl",
+            "source": "SHB S. 68"
         },
         "Invocation: Sculptor of Flesh": {
-            "name": ""
+            "name": "Anrufung: Fleischbildhauer",
+            "source": "SHB S. 67"
         },
         "Invocation: Sign of Ill Omen": {
-            "name": ""
+            "name": "Anrufung: Zeichen des schlechten Omens",
+            "source": "SHB S. 68"
         },
         "Invocation: Thief of Five Fates": {
-            "name": ""
+            "name": "Anrufung: Dieb der fünf Schicksale",
+            "source": "SHB S. 67"
         },
         "Invocation: Thirsting Blade": {
-            "name": ""
+            "name": "Anrufung: Dürstende Klinge",
+            "source": "SHB S. 67"
         },
         "Invocation: Visions of Distant Realms": {
-            "name": ""
+            "name": "Anrufung: Visionen von fernen Gefilden",
+            "source": "SHB S. 68"
         },
         "Invocation: Voice of the Chain Master": {
-            "name": ""
+            "name": "Anrufung: Stimme des Kettenmeisters"
         },
         "Invocation: Whispers of the Grave": {
-            "name": ""
+            "name": "Anrufung: Grabesflüstern"
         },
         "Invocation: Witch Sight": {
-            "name": ""
+            "name": "Anrufung: Hexensicht"
         },
         "Jack of All Trades": {
-            "name": ""
+            "name": "Alleskönner",
+            "source": "SHB S. 54"
         },
         "Ki": {
-            "name": ""
+            "name": "Ki",
+            "source": "SHB S. 93"
         },
         "Ki-Empowered Strikes": {
-            "name": ""
+            "name": "Ki-Schläge",
+            "source": "SHB S. 94"
         },
         "Ki: Diamond Soul": {
-            "name": ""
+            "name": "Ki: Diamantseele",
+            "source": "SHB S. 94"
         },
         "Ki: Empty Body": {
-            "name": ""
+            "name": "Ki: Geist über Körper",
+            "source": "SHB S. 94"
         },
         "Ki: Flurry of Blows": {
-            "name": ""
+            "name": "Ki: Schlaghagel",
+            "source": "SHB S. 93"
         },
         "Ki: Patient Defense": {
-            "name": ""
+            "name": "Ki: Geduldige Verteidigung",
+            "source": "SHB S. 93"
         },
         "Ki: Quivering Palm": {
-            "name": ""
+            "name": "Ki: Vibrierende Handfläche",
+            "source": "SHB S. 95"
         },
         "Ki: Step of the Wind": {
-            "name": ""
+            "name": "Ki: Windschritt",
+            "source": "SHB S. 93"
         },
         "Ki: Stunning Strike": {
-            "name": ""
+            "name": "Ki: Betäubender Schlag",
+            "source": "SHB S. 93"
         },
         "Land's Stride (Circle of the Land)": {
-            "name": ""
+            "name": "Sicherer Schritt (Zirkel des Landes)",
+            "source": "SHB S. 60"
         },
         "Land's Stride (Ranger)": {
-            "name": ""
+            "name": "Sicherer Schritt (Waldläufer)",
+            "source": "SHB S. 112"
         },
         "Lay on Hands": {
-            "name": ""
+            "name": "Handauflegen",
+            "source": "SHB S. 99"
         },
         "Magical Secrets": {
-            "name": ""
+            "name": "Magische Geheimnisse",
+            "source": "SHB S. 54"
         },
         "Martial Archetype": {
-            "name": ""
+            "name": "Kampfarchetyp",
+            "source": "SHB S. 71"
         },
         "Martial Arts": {
-            "name": ""
+            "name": "Kampfkünste",
+            "source": "SHB S. 93"
         },
         "Metamagic": {
-            "name": ""
+            "name": "Metamagie",
+            "source": "SHB S. 116"
         },
         "Metamagic: Careful Spell": {
-            "name": ""
+            "name": "Metamagie: Bedachter Zauber",
+            "source": "SHB S. 116"
         },
         "Metamagic: Distant Spell": {
-            "name": ""
+            "name": "Metamagie: Weitreichender Zauber",
+            "source": "SHB S. 117"
         },
         "Metamagic: Empowered Spell": {
-            "name": ""
+            "name": "Metamagie: Mächtiger Zauber",
+            "source": "SHB S. 117"
         },
         "Metamagic: Extended Spell": {
-            "name": ""
+            "name": "Metamagie: Verlängerter Zauber",
+            "source": "SHB S. 117"
         },
         "Metamagic: Heightened Spell": {
-            "name": ""
+            "name": "Metamagie: Konzentrierter Zauber",
+            "source": "SHB S. 117"
         },
         "Metamagic: Quickened Spell": {
-            "name": ""
+            "name": "Metamagie: Beschleunigter Zauber",
+            "source": "SHB S. 117"
         },
         "Metamagic: Subtle Spell": {
-            "name": ""
+            "name": "Metamagie: Subtiler Zauber",
+            "source": "SHB S. 117"
         },
         "Metamagic: Twinned Spell": {
-            "name": ""
+            "name": "Metamagie: Gespiegelter Zauber",
+            "source": "SHB S. 117"
         },
         "Mindless Rage": {
-            "name": ""
+            "name": "Geistloser Kampfrausch",
+            "source": "SHB S. 49"
         },
         "Monastic Tradition": {
-            "name": ""
+            "name": "Klostertradition",
+            "source": "SHB S. 93"
         },
         "Multiattack": {
-            "name": ""
+            "name": "Mehrfachangriff",
+            "source": "SHB S. 113"
         },
         "Multiattack: Volley": {
-            "name": ""
+            "name": "Mehrfachangriff: Geschosshagel",
+            "source": "SHB S. 113"
         },
         "Multiattack: Whirlwind Attack": {
-            "name": ""
+            "name": "Mehrfachangriff: Wirbelwindangriff",
+            "source": "SHB S. 113"
         },
         "Mystic Arcanum (6th-Level Spell)": {
-            "name": ""
+            "name": "Mystisches Arkanum (6. Grad)",
+            "source": "SHB S. 65"
         },
         "Mystic Arcanum (7th-Level Spell)": {
-            "name": ""
+            "name": "Mystisches Arkanum (7. Grad)",
+            "source": "SHB S. 65"
         },
         "Mystic Arcanum (8th-Level Spell)": {
-            "name": ""
+            "name": "Mystisches Arkanum (8. Grad)",
+            "source": "SHB S. 65"
         },
         "Mystic Arcanum (9th-Level Spell)": {
-            "name": ""
+            "name": "Mystisches Arkanum (9. Grad)",
+            "source": "SHB S. 65"
         },
         "Natural Explorer": {
-            "name": ""
+            "name": "Bevorzugtes Gelände",
+            "source": "SHB S. 111"
         },
         "Natural Recovery": {
-            "name": ""
+            "name": "Natürliche Erholung",
+            "source": "SHB S. 60"
         },
         "Nature's Sanctuary": {
-            "name": ""
+            "name": "Heiligtum der Natur",
+            "source": "SHB S. 61"
         },
         "Nature's Ward": {
-            "name": ""
+            "name": "Schutz der Natur",
+            "source": "SHB S. 61"
         },
         "Open Hand Technique": {
-            "name": ""
+            "name": "Die Technik der Offenen Hand",
+            "source": "SHB S. 94"
         },
         "Otherworldly Patron": {
-            "name": ""
+            "name": "Andersweltlicher Schutzherr",
+            "source": "SHB S. 64"
         },
         "Overchannel": {
-            "name": ""
+            "name": "Überladen",
+            "source": "SHB S. 88"
         },
         "Pact Boon": {
-            "name": ""
+            "name": "Segen des Pakts",
+            "source": "SHB S. 64"
         },
         "Pact Magic": {
-            "name": ""
+            "name": "Paktmagie",
+            "source": "SHB S. 64"
         },
         "Pact of the Blade": {
-            "name": ""
+            "name": "Pakt der Klinge",
+            "source": "SHB S. 64"
         },
         "Pact of the Chain": {
-            "name": ""
+            "name": "Pakt der Kette",
+            "source": "SHB S. 64"
         },
         "Pact of the Tome": {
-            "name": ""
+            "name": "Pakt des Buches",
+            "source": "SHB S. 64"
         },
         "Peerless Skill": {
-            "name": ""
+            "name": "Grenzenlose Begabung",
+            "source": "SHB S. 55"
         },
         "Perfect Self": {
-            "name": ""
+            "name": "Perfektes Selbst",
+            "source": "SHB S. 94"
         },
         "Persistent Rage": {
-            "name": ""
+            "name": "Anhaltender Kampfrausch",
+            "source": "SHB S. 49"
         },
         "Potent Cantrip": {
-            "name": ""
+            "name": "Kraftvolle Zaubertricks",
+            "source": "SHB S. 88"
         },
         "Primal Champion": {
-            "name": ""
+            "name": "Meister der Wildnis",
+            "source": "SHB S. 49"
         },
         "Primal Path": {
-            "name": ""
+            "name": "Urtümlicher Pfad",
+            "source": "SHB S. 48"
         },
         "Primeval Awareness": {
-            "name": ""
+            "name": "Urtümliche Wahrnehmung",
+            "source": "SHB S. 112"
         },
         "Purity of Body": {
-            "name": ""
+            "name": "Reinheit des Körpers",
+            "source": "SHB S. 94"
         },
         "Purity of Spirit": {
-            "name": ""
+            "name": "Reinheit des Geistes"
         },
         "Rage": {
-            "name": ""
+            "name": "Kampfrausch",
+            "source": "SHB S. 48"
         },
         "Ranger Archetype": {
-            "name": ""
+            "name": "Waldläuferarchetyp",
+            "source": "SHB S. 112"
         },
         "Reckless Attack": {
-            "name": ""
+            "name": "Rücksichtsloser Angriff",
+            "source": "SHB S. 48"
         },
         "Relentless Rage": {
-            "name": ""
+            "name": "Unerbittlicher Kampfrausch",
+            "source": "SHB S. 49"
         },
         "Reliable Talent": {
-            "name": ""
+            "name": "Verlässliches Talent",
+            "source": "SHB S. 106"
         },
         "Remarkable Athlete": {
-            "name": ""
+            "name": "Bemerkenswerter Athlet",
+            "source": "SHB S. 71"
         },
         "Retaliation": {
-            "name": ""
+            "name": "Vergeltung",
+            "source": "SHB S. 50"
         },
         "Roguish Archetype": {
-            "name": ""
+            "name": "Schurkenarchetyp",
+            "source": "SHB S. 106"
         },
         "Sacred Oath": {
-            "name": ""
+            "name": "Heiliger Schwur",
+            "source": "SHB S. 100"
         },
         "Sculpt Spells": {
-            "name": ""
+            "name": "Zauber formen",
+            "source": "SHB S. 88"
         },
         "Second Wind": {
-            "name": ""
+            "name": "Durchschnaufen",
+            "source": "SHB S. 71"
         },
         "Second-Story Work": {
-            "name": ""
+            "name": "Kletteraffe",
+            "source": "SHB S. 108"
         },
         "Signature Spells (First Spell)": {
-            "name": ""
+            "name": "Lieblingszauber (Erster Zauber)"
         },
         "Signature Spells (Second Spell)": {
-            "name": ""
+            "name": "Lieblingszauber (Zweiter Zauber)"
         },
         "Slippery Mind": {
-            "name": ""
+            "name": "Entschlüpfender Geist",
+            "source": "SHB S. 106"
         },
         "Slow Fall": {
-            "name": ""
+            "name": "Sturz abfedern",
+            "source": "SHB S. 93"
         },
         "Sneak Attack": {
-            "name": ""
+            "name": "Hinterhältiger Angriff",
+            "source": "SHB S. 106"
         },
         "Song of Rest": {
-            "name": ""
+            "name": "Lied der Erholung",
+            "source": "SHB S. 54"
         },
         "Sorcerous Origins": {
-            "name": ""
+            "name": "Ursprung der Zauberei",
+            "source": "SHB S. 116"
         },
         "Sorcerous Restoration": {
-            "name": ""
+            "name": "Zaubereiauffrischung",
+            "source": "SHB S. 117"
         },
         "Spell Mastery": {
-            "name": ""
+            "name": "Zaubermeisterschaft",
+            "source": "SHB S. 86"
         },
         "Spellcasting (Bard)": {
-            "name": ""
+            "name": "Zauberwirken (Barde)",
+            "source": "SHB S. 52"
         },
         "Spellcasting (Cleric)": {
-            "name": ""
+            "name": "Zauberwirken (Kleriker)",
+            "source": "SHB S. 77"
         },
         "Spellcasting (Druid)": {
-            "name": ""
+            "name": "Zauberwirken (Druide)",
+            "source": "SHB S. 58"
         },
         "Spellcasting (Paladin)": {
-            "name": ""
+            "name": "Zauberwirken (Paladin)",
+            "source": "SHB S. 99"
         },
         "Spellcasting (Ranger)": {
-            "name": ""
+            "name": "Zauberwirken (Waldläufer)",
+            "source": "SHB S. 111"
         },
         "Spellcasting (Sorcerer)": {
-            "name": ""
+            "name": "Zauberwirken (Zauberer)",
+            "source": "SHB S. 116"
         },
         "Spellcasting (Wizard)": {
-            "name": ""
+            "name": "Zauberwirken (Magier)",
+            "source": "SHB S. 85"
         },
         "Stillness of Mind": {
-            "name": ""
+            "name": "Ruhiger Geist",
+            "source": "SHB S. 94"
         },
         "Stroke of Luck": {
-            "name": ""
+            "name": "Glückstreffer",
+            "source": "SHB S. 107"
         },
         "Superior Critical": {
-            "name": ""
+            "name": "Überlegener kritischer Treffer",
+            "source": "SHB S. 72"
         },
         "Superior Hunter's Defense": {
-            "name": ""
+            "name": "Ausserordentliche Verteidigung des Jägers",
+            "source": "SHB S. 113"
         },
         "Superior Hunter's Defense: Evasion": {
-            "name": ""
+            "name": "Ausserordentliche Verteidigung des Jägers: Entrinnen",
+            "source": "SHB S. 113"
         },
         "Superior Hunter's Defense: Stand Against the Tide": {
-            "name": ""
+            "name": "Ausserordentliche Verteidigung des Jägers: Gegen den Strom",
+            "source": "SHB S. 113"
         },
         "Superior Hunter's Defense: Uncanny Dodge": {
-            "name": ""
+            "name": "Ausserordentliche Verteidigung des Jägers: Unglaubliches Ausweichen",
+            "source": "SHB S. 113"
         },
         "Superior Inspiration": {
-            "name": ""
+            "name": "Überlegene Inspiration",
+            "source": "SHB S. 54"
         },
         "Supreme Healing": {
-            "name": ""
+            "name": "Überlegene Heilung",
+            "source": "SHB S. 79"
         },
         "Supreme Sneak": {
-            "name": ""
+            "name": "Ausserordentliches Schleichen",
+            "source": "SHB S. 108"
         },
         "Survivor": {
-            "name": ""
+            "name": "Der Überlebende",
+            "source": "SHB S. 72"
         },
         "Thief's Reflexes": {
-            "name": ""
+            "name": "Die Reflexe des Diebes",
+            "source": "SHB S. 108"
         },
         "Thieves' Cant": {
-            "name": ""
+            "name": "Diebessprache",
+            "source": "SHB S. 106"
         },
         "Timeless Body (Druid)": {
-            "name": ""
+            "name": "Zeitloser Körper (Druide)",
+            "source": "SHB S. 59"
         },
         "Timeless Body (Monk)": {
-            "name": ""
+            "name": "Zeitloser Körper (Mönch)"
         },
         "Tongue of the Sun and Moon": {
-            "name": ""
+            "name": "Sprache von Sonne und Mond",
+            "source": "SHB S. 94"
         },
         "Tranquility": {
-            "name": ""
+            "name": "Innere Ruhe",
+            "source": "SHB S. 94"
         },
         "Unarmored Defense (Barbarian)": {
-            "name": ""
+            "name": "Ungerüstete Verteidigung (Barbar)",
+            "source": "SHB S. 48"
         },
         "Unarmored Defense (Monk)": {
-            "name": ""
+            "name": "Ungerüstete Verteidigung (Mönch)",
+            "source": "SHB S. 93"
         },
         "Unarmored Movement": {
-            "name": ""
+            "name": "Ungerüstete Bewegung",
+            "source": "SHB S. 93"
         },
         "Unarmored Movement (Monk)": {
-            "name": ""
+            "name": "Ungerüstete Bewegung (Mönch)",
+            "source": "SHB S. 93"
         },
         "Uncanny Dodge": {
-            "name": ""
+            "name": "Unglaubliches Ausweichen",
+            "source": "SHB S. 106"
         },
         "Use Magic Device": {
-            "name": ""
+            "name": "Magischen Gegenstand benutzen",
+            "source": "SHB S. 108"
         },
         "Vanish": {
-            "name": ""
+            "name": "Verschwinden",
+            "source": "SHB S. 112"
         },
         "Wholeness of Body": {
-            "name": ""
+            "name": "Unversehrtheit des Körpers",
+            "source": "SHB S. 94"
         },
         "Wild Shape": {
-            "name": ""
+            "name": "Tiergestalt",
+            "source": "SHB S. 58"
         }
     },
     "label": "Klassenfähigkeiten (SRD)"
-}
+}

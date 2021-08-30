@@ -25,7 +25,9 @@ export default function registerConverters(id) {
         'monstertoken': convertMonsterToken,
         'itemname': convertItemName,
         'spellname': convertSpellName,
-        'spellsource': convertSpellSource
+        'spellsource': convertSpellSource,
+        'range': convertRange,
+        'weight': convertWeight,
     });
 }
 
@@ -71,6 +73,11 @@ var rarity = {
 };
 
 function convertRarity(r) {
+    if (isNewerVersion(game.system.data.version, '1.3.9')) {
+        // D&D system version 1.4.0+ have rarity as a type,
+        // we don't need to apply this anymore then :)
+        return r;
+    }
     return rarity[r.toString().toLowerCase()] ? rarity[r.toString().toLowerCase()] : r;
 }
 
@@ -425,4 +432,54 @@ function convertSpellSource(m, translation, data) {
     }
 
     return new_src
+}
+
+// Range
+
+function round(num) {
+	return Math.round((num + Number.EPSILON) * 100) / 100;
+}
+
+function footsToMeters(ft) {
+	return round(parseInt(ft) * 0.3);
+}
+
+function milesToKilometers(mi) {
+	return round(parseInt(mi) * 1.5);
+}
+
+function convertRange(range) {
+    if (!game.settings.get(module_id, 'enableRangeTranslation')) {
+        return range;
+    }
+
+    if (range.units === 'ft') {
+        if (range.long) {
+            range = mergeObject(range, { long: footsToMeters(range.long) });
+        }
+        return mergeObject(range, { value: footsToMeters(range.value), units: 'm' });
+    }
+
+    if(range.units === 'mi') {
+        if(range.long) {
+            range = mergeObject(range, { long: milesToKilometers(range.long) });
+        }
+        return mergeObject(range, { value: milesToKilometers(range.value), units: 'km' });
+    }
+
+    return range;
+}
+
+// Weight
+
+function lbToKg(lb) {
+	return parseInt(lb)/2;
+}
+
+function convertWeight(value) {
+    if (game.system.id !== 'dnd5e' || !game.settings.get('dnd5e', 'metricWeightUnits')) {
+        return value;
+    }
+
+    return lbToKg(value);
 }

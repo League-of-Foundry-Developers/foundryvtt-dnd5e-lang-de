@@ -48,6 +48,12 @@ The module also depends on [Babele](https://foundryvtt.com/packages/babele) for 
 
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
 
+### Version 1.3.0
+
+- Add conversion/translation of distance and weight units into metric units (thanks @elbracht)
+- Rarity converter is no longer needed and disabled in D&D system versions 1.4.0+
+- More compendium translations (thanks @stillday & friends)
+
 ### Version 1.2.0
 
 - Update to D&D 5E system version 1.4.0
@@ -93,7 +99,7 @@ Also see the [releases page](https://github.com/League-of-Foundry-Developers/fou
 
 Previous versions were by previous maintainers, including Hydroxi and ThoGri
 back on Gitlab, before Fallayn took over maintenance and transferred the module
-to Github the League. Thanks for all of your work!
+to Github and the League. Thanks for all of your work, everyone!
 
 ## Contributing & adding translations
 
