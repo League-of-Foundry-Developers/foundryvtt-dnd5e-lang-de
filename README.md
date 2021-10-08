@@ -12,7 +12,7 @@ for [Foundry Virtual Tabletop](https://foundryvtt.com/).
 Aims to provide consistent and usable translations in german for all 5E
 system content, including compendia via Babele.
 
-**Note: The compendium content is currently in the process of being translated. This is still ongoing. Some or even most compendium content still remaining in english isn't an error on your side. We're working on it! More news soon.**
+**Note: The compendium content is currently in the process of being translated. This is still ongoing. Some or even most compendium content still remaining in english isn't an error on your side. We're working on it! More news soon. Compendium translations files are currently included as a submodule from [here](https://github.com/stillday/dnd-translation-file-de).**
 
 ## How to use
 
@@ -129,8 +129,8 @@ awesome [Babele](https://foundryvtt.com/packages/babele) module.
 The [Babele repository](https://gitlab.com/riccisi/foundryvtt-babele) has a
 brief tutorial.
 
-In short, compendium translations live in `compendium/`
-([here](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/tree/master/compendium)).
+In short, compendium translations are included as a submodile in `compendium/`from 
+[here](https://github.com/stillday/dnd-translation-file-de).
 
 In cases where there is only a small set of values for a field (like *Alignments*),
 those are translated using Babele converter functions in `src/`:
