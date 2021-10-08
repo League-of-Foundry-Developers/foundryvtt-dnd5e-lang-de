@@ -148,8 +148,8 @@ If you want to contact the current maintainer directly, feel free to message
 
 ## Thanks and credits
 
-Thanks to all current, past and future contributors: \
-**Hydroxi, Smicman, ThoGri, Morvar, Fallayn, crash**
+Thanks to all current, past and future contributors, including: \
+**Hydroxi, Smicman, ThoGri, Morvar, Fallayn, crash, elbracht, stillday, CarnVanBeck**
 
 Much love to [Foundry](https://foundryvtt.com/), Atropos & team and the awesome Foundry community,
 especially the [League](https://discord.com/invite/2rHs78h),
