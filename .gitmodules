@@ -1,0 +1,3 @@
+[submodule "compendium"]
+	path = compendium
+	url = https://github.com/stillday/dnd-translation-file-de.git
