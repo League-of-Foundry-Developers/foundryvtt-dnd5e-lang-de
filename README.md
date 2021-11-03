@@ -48,6 +48,13 @@ The module also depends on [Babele](https://foundryvtt.com/packages/babele) for 
 
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
 
+### Version 1.4.0
+
+- Update translations to D&D 5E system version 1.5.3
+- New batch of compendium translations (thanks @stillday & friends)
+- Update translations for consistency with new official german translations by WotC
+- Various translation fixes thanks to @scamin0 and others
+
 ### Version 1.3.0
 
 - Add conversion/translation of distance and weight units into metric units (thanks @elbracht)
@@ -129,7 +136,7 @@ awesome [Babele](https://foundryvtt.com/packages/babele) module.
 The [Babele repository](https://gitlab.com/riccisi/foundryvtt-babele) has a
 brief tutorial.
 
-In short, compendium translations are included as a submodile in `compendium/`from 
+In short, compendium translations are included as a submodile in `compendium/`from
 [here](https://github.com/stillday/dnd-translation-file-de).
 
 In cases where there is only a small set of values for a field (like *Alignments*),
