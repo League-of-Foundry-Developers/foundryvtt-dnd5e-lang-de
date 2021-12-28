@@ -48,7 +48,12 @@ The module also depends on [Babele](https://foundryvtt.com/packages/babele) for 
 
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
 
+### Version 1.5.1
+
+- Bugfix for compendia translations
+
 ### Version 1.5.0
+
 - New translations and fixes
 - Compendium item names are now normalized before matching for better results
 
