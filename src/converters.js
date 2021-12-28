@@ -351,7 +351,14 @@ function convertMonsterName(m, translation, data) {
 }
 
 function convertMonsterToken(m, translation, data) {
-    m.name = convertMonsterName(m.name);
+    if (!m) {
+        return m;
+    }
+
+    if ('name' in m) {
+        m.name = convertMonsterName(m.name, translation, data);
+    }
+
     return m;
 }
 
