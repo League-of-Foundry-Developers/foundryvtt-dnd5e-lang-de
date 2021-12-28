@@ -347,7 +347,7 @@ function convertMonsterName(m, translation, data) {
 
     var id = getMonsterID(m);
 
-    return MonsterData.data[id] ? MonsterData.data[id].name : m;
+    return monsterDataDB[normalize(data.name)] ? monsterDataDB[normalize(data.name)].name : m;
 }
 
 function convertMonsterToken(m, translation, data) {
@@ -389,7 +389,7 @@ function convertMonsterEnvironment(m, translation, data) {
         return m;
     }
 
-    return monsterDataDB.data[normalize(data.name)].env;
+    return monsterDataDB[normalize(data.name)].env;
 }
 
 
