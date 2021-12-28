@@ -48,9 +48,9 @@ The module also depends on [Babele](https://foundryvtt.com/packages/babele) for 
 
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
 
-### Version 1.5.1
+### Versions 1.5.1 to 1.5.2
 
-- Bugfix for compendia translations
+- Bugfixes for compendia translations
 
 ### Version 1.5.0
 
