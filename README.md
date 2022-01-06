@@ -1,11 +1,12 @@
-# foundryvtt-dnd5e-lang-de
+# DnD5e German Translation (Deutsch) for FoundryVTT (FoundryVTT-dnd5e-DE)
+
 ![FoundryVTT German [D&D5E] Module Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Ffoundryvtt-dnd5e-lang-de.json)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de?label=Latest+Release)
 ![GitHub Downloads All Releases](https://img.shields.io/github/downloads/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/total?label=Downloads+(Total))
 ![GitHub Downloads Release](https://img.shields.io/github/downloads/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/latest/total?label=Downloads+(Latest))
 ![GitHub Release Date](https://img.shields.io/github/release-date/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de?label=Release+Date)
 
-German translation of the
+German translation module for the
 [Dungeons & Dragons 5th Edition (dnd5e) system](https://foundryvtt.com/packages/dnd5e)
 for [Foundry Virtual Tabletop](https://foundryvtt.com/).
 
@@ -18,11 +19,11 @@ system content, including compendia via Babele.
 
 Install via Foundry or by pasting the URL below into Foundry's module manager:
 
-https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/latest/download/module.json
+<https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/latest/download/module.json>
 
 If you want to install a specific release, have a look at the releases page:
 
-https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases
+<https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases>
 
 There you can find the link to the manifest of a specific release version to use instead.
 
@@ -46,75 +47,8 @@ The module also depends on [Babele](https://foundryvtt.com/packages/babele) for 
 
 ## Changelog
 
+See [CHANGELOG.md](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/blob/master/CHANGELOG.md).
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
-
-### Version 1.5.3
-- Marked as compatible for Foundry v9
-
-### Versions 1.5.1 to 1.5.2
-
-- Bugfixes for compendia translations
-
-### Version 1.5.0
-
-- New translations and fixes
-- Compendium item names are now normalized before matching for better results
-
-### Version 1.4.0
-
-- Update translations to D&D 5E system version 1.5.3
-- New batch of compendium translations (thanks @stillday & friends)
-- Update translations for consistency with new official german translations by WotC
-- Various translation fixes thanks to @scamin0 and others
-
-### Version 1.3.0
-
-- Add conversion/translation of distance and weight units into metric units (thanks @elbracht)
-- Rarity converter is no longer needed and disabled in D&D system versions 1.4.0+
-- More compendium translations (thanks @stillday & friends)
-
-### Version 1.2.0
-
-- Update to D&D 5E system version 1.4.0
-- Additional small fixes and improvements
-
-### Version 1.1.0
-
-- Update to Foundry Version 0.8.8 and D&D 5E system version 1.3.6
-- Support skill sorting for the [D&D 5e OGL Character Sheet](https://foundryvtt.com/packages/5e-ogl-character-sheet). (thanks @stillday)
-- Small translation improvements/fixes
-
-### Version 1.0.0
-
-- Added compendium content translations using the Babele module
-- Many things in the compendia are already translated, further translations will follow with further updates
-- Skills on character sheets are now sorted alphabetically
-- Added a settings menu: Whether compendiums are translated, whether original source page number(s) are kept, overriden, or kept in addition to the german source references can all be set and changed here
-- Fixed tons of small UI issues with the 5E sheets
-- Many translation improvements, improving consistency
-
-### Version 0.8.0
-
-- Initial support for Foundry 0.8 and DND 5E system version 1.3.0
-
-### Version 0.7.4
-
-- Small fix for the description of general bonuses to saving throws in the special bonus section of character sheets
-
-### Version 0.7.3
-
-- DND5E system version 1.2.1 support (new weapon/item properties)
-
-### Version 0.7.2
-
-- Add 15 new translations, fix 2 existing ones
-- Bump compatible Foundry version to 0.7.9
-- Fix paths in helper scripts
-- README additions
-
-### Version 0.7.1
-
-- The first release on Github
 
 Previous versions were by previous maintainers, including Hydroxi and ThoGri
 back on Gitlab, before Fallayn took over maintenance and transferred the module
@@ -153,7 +87,7 @@ In short, compendium translations are included as a submodile in `compendium/`fr
 
 In cases where there is only a small set of values for a field (like *Alignments*),
 those are translated using Babele converter functions in `src/`:
-https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/blob/compendia/src/converters.js
+<https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/blob/compendia/src/converters.js>
 
 Those are also useful for translation values that are used in multiple places,
 like *Item Rarities*.
@@ -195,7 +129,7 @@ core translation, letting us focus on the 5E system translations.
 
 Finally, thanks to WotC for the support and all the wonderful authors - for everything.
 
-Based on work by Hydroxi at https://gitlab.com/Hydroxi/foundryvtt-dnd5e-lang-de
+Based on work by Hydroxi at <https://gitlab.com/Hydroxi/foundryvtt-dnd5e-lang-de>.
 
 ## Legal & license
 
