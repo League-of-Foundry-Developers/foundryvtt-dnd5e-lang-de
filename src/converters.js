@@ -1,17 +1,26 @@
 import { default as MonsterData } from '../data/monsters.js'
 import { default as ItemData } from '../data/items.js'
 import { default as MagicItemData } from '../data/magicitems.js'
-import { default as SpellData } from '../data/spells.js'
 
 var module_id = '';
+var setup_done = false;
+
+var monsterDataDB = {}
+var itemDataDB = {}
+var magicItemDataDB = {}
 
 export default function registerConverters(id) {
     module_id = id;
 
-    if (typeof Babele === 'undefined' ||
+    if (setup_done || typeof Babele === 'undefined' ||
         !game.settings.get(module_id, 'enableCompendiumTranslation')) {
         return
     }
+    setup_done = true;
+
+    monsterDataDB = setupDataParsing(MonsterData);
+    itemDataDB = setupDataParsing(ItemData);
+    magicItemDataDB = setupDataParsing(MagicItemData);
 
     Babele.get().registerConverters({
         'alignment': convertAlignment,
@@ -24,11 +33,21 @@ export default function registerConverters(id) {
         'monsterenvironment': convertMonsterEnvironment,
         'monstertoken': convertMonsterToken,
         'itemname': convertItemName,
-        'spellname': convertSpellName,
-        'spellsource': convertSpellSource,
         'range': convertRange,
         'weight': convertWeight,
     });
+}
+
+function setupDataParsing(d) {
+    var out = {}
+    for (var key in d.data) {
+        out[normalize(key)] = d.data[key];
+    }
+    return out;
+}
+
+function normalize(s) {
+    return s.toString().toLowerCase();
 }
 
 // Alignments
@@ -328,11 +347,18 @@ function convertMonsterName(m, translation, data) {
 
     var id = getMonsterID(m);
 
-    return MonsterData.data[id] ? MonsterData.data[id].name : m;
+    return monsterDataDB[normalize(data.name)] ? monsterDataDB[normalize(data.name)].name : m;
 }
 
 function convertMonsterToken(m, translation, data) {
-    m.name = convertMonsterName(m.name);
+    if (!m) {
+        return m;
+    }
+
+    if ('name' in m) {
+        m.name = convertMonsterName(m.name, translation, data);
+    }
+
     return m;
 }
 
@@ -344,11 +370,11 @@ var source_book_replacements = {
 }
 
 function convertMonsterSource(m, translation, data) {
-    if (!MonsterData.data[data.name]) {
+    if (!monsterDataDB[normalize(data.name)]) {
         return m;
     }
 
-    var new_src = MonsterData.data[data.name].src + ' S. ' + MonsterData.data[data.name].src_pg;
+    var new_src = monsterDataDB[normalize(data.name)].src + ' S. ' + monsterDataDB[normalize(data.name)].src_pg;
     new_src = new_src.replace(', SRD', '');
     new_src = new_src.replace('SRD', '');
 
@@ -366,32 +392,32 @@ function convertMonsterSource(m, translation, data) {
 }
 
 function convertMonsterEnvironment(m, translation, data) {
-    if (!MonsterData.data[data.name]) {
+    if (!monsterDataDB[normalize(data.name)]) {
         return m;
     }
 
-    return MonsterData.data[data.name].env;
+    return monsterDataDB[normalize(data.name)].env;
 }
 
 
 function convertItemName(m, translation, data) {
-    if (ItemData.data[m]) {
-        return ItemData.data[m].name;
+    if (itemDataDB[normalize(m)]) {
+        return itemDataDB[normalize(m)].name;
     }
 
-    if (MagicItemData.data[m]) {
-        return MagicItemData.data[m].name;
+    if (magicItemDataDB[normalize(m)]) {
+        return magicItemDataDB[normalize(m)].name;
     }
 
     var mod = getMagicalItemModifier(m);
     if (mod.length > 0) {
         var basename = m.substring(0, m.length - mod.length).trim()
-        if (ItemData.data[basename]) {
-            return ItemData.data[basename].name + " " + mod;
+        if (itemDataDB[normalize(basename)]) {
+            return itemDataDB[normalize(basename)].name + " " + mod;
         }
 
-        if (MagicItemData.data[basename]) {
-            return MagicItemData.data[basename].name + " " + mod;
+        if (magicItemDataDB[normalize(m)]) {
+            return magicItemDataDB[normalize(basename)].name + " " + mod;
         }
     }
 
@@ -402,36 +428,6 @@ function getMagicalItemModifier(string)
 {
     var match = string.match(/[\+\-][0-9]$/);
     return match ? match[0] : '';
-}
-
-function convertSpellName(name) {
-    if (SpellData.data[name]) {
-        return SpellData.data[name].name;
-    }
-
-    return name;
-}
-
-function convertSpellSource(m, translation, data) {
-    if (!SpellData.data[data.name]) {
-        return m;
-    }
-
-    var new_src = SpellData.data[data.name].src + ' S. ' + SpellData.data[data.name].src_pg;
-    new_src = new_src.replace(', SRD', '');
-    new_src = new_src.replace('SRD', '');
-
-    if (game.settings.get(module_id, 'compendiumSrcTranslateBooks')) {
-        for (var book in source_book_replacements) {
-            new_src = new_src.replace(book, source_book_replacements[book]);
-        }
-    }
-
-    if (game.settings.get(module_id, 'compendiumSrcKeepOriginal')) {
-        new_src = new_src + ' (' + m.replace('pg.', 'S.') + ')';
-    }
-
-    return new_src
 }
 
 // Range
