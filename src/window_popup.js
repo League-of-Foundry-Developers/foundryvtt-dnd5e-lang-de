@@ -27,7 +27,7 @@ export default function DialogWindow() {
                 Wir bedanken uns bei:
             </h3>
             <p>
-                <i>Fallayn, Crash, AlexElbracht, JPrince, Sinon, Zeku, vttom</i>
+                <i>Fallayn, Crash, AlexElbracht, JPrince, Sinon, Zeku, vttom, Hydroxi, Smicman, ThoGri, Morvar</i>
             </p>
             <p>
                 für ihre Arbeit und die Zeit, die sie bisher investiert haben. 
