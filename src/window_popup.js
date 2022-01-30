@@ -20,7 +20,7 @@ export default function DialogWindow() {
                 Jede Hilfe ist eine große Unterstützung für uns und für die Community.
             </p>
             <p>
-                Das Übersetzungstool befindet sich aktuell in einer offenen Beta. Wenn du fehler findest, kannst du ihn <a href="https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de-ui/issues" target="_blank">hier einmelden.</a> 
+                Das Übersetzungstool befindet sich aktuell in einer offenen Beta. Wenn du Fehler findest, kannst du ihn <a href="https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de-ui/issues" target="_blank">hier einmelden.</a> 
             </p>
             <hr> 
             <h3>
