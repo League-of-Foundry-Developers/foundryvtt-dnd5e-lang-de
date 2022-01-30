@@ -115,6 +115,6 @@ Hooks.once('ready', function () {
     if (game.i18n.lang === module_lang &&
         game.system.id === module_sys &&
         game.settings.get(module_id, 'translationDialog')){
-            Diaglog();
+            Dialog();
         }
 });
