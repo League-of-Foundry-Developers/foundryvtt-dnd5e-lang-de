@@ -8,7 +8,6 @@ import {
     onRenderSideBar
 } from "./MetricModule.js";
 import {consoleLog} from "./Utils/Utils.js";
-import {addNewSizes, convertI18NObject} from "./Pf2e/Pf2eConverter.js";
 
 Hooks.on('init', () => {
     if (game.system.id === 'dnd5e') {
@@ -26,13 +25,6 @@ Hooks.on('init', () => {
 Hooks.on('ready', () => {
     consoleLog("Changing label 'lbs.' to 'kg'.");
     if (game.system.id === 'dnd5e') game.i18n.translations.DND5E["AbbreviationLbs"] = 'kg';
-
-    //if (game.system.id === 'pf2e') game.i18n.translations.PF2E = pf2ePack;
-    if (game.system.id === 'pf2e') {
-        game.i18n.translations.PF2EM = {};
-        convertI18NObject(game.i18n.translations.PF2E);
-        addNewSizes();
-    }
 });
 
 Hooks.on('createScene', (scene) => {
