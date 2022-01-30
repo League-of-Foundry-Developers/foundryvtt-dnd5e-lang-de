@@ -1,6 +1,6 @@
 export default function DialogWindow() {
     let d = new Dialog({
-        title: "Module Aktiviert !",
+        title: "Modul aktiviert!",
         content: `
         <div style="text-align: justify;">
             <h2>
