@@ -6,7 +6,7 @@ import NPC from '../../systems/dnd5e/module/actor/sheets/npc.js';
 // Module
 import Config from './src/config.js';
 import Converters from './src/converters.js';
-import Diaglog from './src/window_popup.js';
+import Dialog from './src/window_popup.js';
 
 
 const module_id = 'FoundryVTT-dnd5e-DE';
