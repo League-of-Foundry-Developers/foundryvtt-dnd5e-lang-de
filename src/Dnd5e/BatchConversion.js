@@ -9,7 +9,7 @@ import {createErrorMessage} from "../Utils/ErrorHandler.js";
 import {loading} from "../Utils/Utils.js";
 
 const itemUpdater = (item, loading) => {
-    if (item.getFlag("Foundry-MGL", "converted")) return;
+    if (item.getFlag("FoundryVTT-dnd5e-DE", "converted")) return;
     const itemClone = JSON.parse(JSON.stringify(item));
 
     itemClone.data.description.value = convertText(itemClone.data.description.value);
@@ -21,7 +21,7 @@ const itemUpdater = (item, loading) => {
     if (item.labels.range) item.labels.range = labelConverter(item.labels.range);
 
 
-    item.setFlag("Foundry-MGL", "converted", true)
+    item.setFlag("FoundryVTT-dnd5e-DE", "converted", true)
         .then(() => {
             item.update(itemClone)
                 .catch((e) => createErrorMessage(e, `${itemClone.name}.update`, itemClone))
@@ -37,12 +37,12 @@ const itemsUpdater = (items) => {
 const actorUpdater = (actor, loading) => {
     const actorClone = JSON.parse(JSON.stringify(actor));
 
-    if (!actor.getFlag("Foundry-MGL", "converted")) {
+    if (!actor.getFlag("FoundryVTT-dnd5e-DE", "converted")) {
         actorClone.data = actorDataConverter(actorClone.data);
         actorClone.token = actorTokenConverter(actorClone.token);
     }
 
-    actor.setFlag("Foundry-MGL", "converted", true)
+    actor.setFlag("FoundryVTT-dnd5e-DE", "converted", true)
         .then(() => {
             actor.update(actorClone)
                 .then(() => {

@@ -9,7 +9,7 @@ import {createNewCompendium, createNewCompendiumMeta, relinkCompendiums, typeSel
 
 
 const itemUpdater = async (item, onlyLabel, onlyUnit) => {
-    if (item.getFlag("Foundry-MGL", "converted")) return;
+    if (item.getFlag("FoundryVTT-dnd5e-DE", "converted")) return;
     const itemClone = JSON.parse(JSON.stringify(item));
 
     if (!onlyLabel) itemClone.data.description.value = convertText(itemClone.data.description.value);
@@ -21,7 +21,7 @@ const itemUpdater = async (item, onlyLabel, onlyUnit) => {
     if (item.labels.range) item.labels.range = labelConverter(item.labels.range);
 
     try {
-        await item.setFlag("Foundry-MGL", "converted", true);
+        await item.setFlag("FoundryVTT-dnd5e-DE", "converted", true);
     } catch (e) {
         createErrorMessage(e, `${itemClone.name}.setFlag()`, item);
     }
@@ -39,14 +39,14 @@ const itemsUpdater = async (items, onlyLabel, onlyUnit) => {
 const actorUpdater = async (actor, onlyLabel, onlyUnit) => {
     const actorClone = JSON.parse(JSON.stringify(actor));
 
-    if (!actor.getFlag("Foundry-MGL", "converted")) {
+    if (!actor.getFlag("FoundryVTT-dnd5e-DE", "converted")) {
         actorClone.data = actorDataConverter(actorClone.data);
         actorClone.token = actorTokenConverter(actorClone.token);
     }
 
     try {
         await actor.update(actorClone);
-        await actor.setFlag("Foundry-MGL", "converted", true);
+        await actor.setFlag("FoundryVTT-dnd5e-DE", "converted", true);
     } catch (e) {
         createErrorMessage(e, 'actor.update', actorClone.data);
     }

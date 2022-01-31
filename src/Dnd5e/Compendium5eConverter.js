@@ -66,7 +66,7 @@ const createNewCompendium = async (metadata) => {
         entity: metadata.entity,
         label: `${metadata.label} Metrified`,
         name: `${metadata.name}-metrified`,
-        package: 'Foundry-MGL',
+        package: 'FoundryVTT-dnd5e-DE',
         path: `./packs/${metadata.name}-metrified.db`,
         system: "dnd5e"
     })
@@ -77,7 +77,7 @@ const createNewCompendiumMeta = (metadata) => {
         entity: metadata.entity,
         label: `${metadata.label} Metrified`,
         name: `${metadata.name}-metrified`,
-        package: 'Foundry-MGL',
+        package: 'FoundryVTT-dnd5e-DE',
         path: `./packs/${metadata.name}-metrified.db`,
         system: "dnd5e"
     };
