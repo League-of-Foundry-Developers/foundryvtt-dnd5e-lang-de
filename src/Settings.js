@@ -2,11 +2,11 @@ import {moduleName} from './Utils/Utils.js'
 import settingsLists from "./settingsLists.js";
 
 const registerSetting = (key, data) => {
-    game.settings.register('Foundry-MGL', key, data);
+    game.settings.register('FoundryVTT-dnd5e-DE', key, data);
 }
 
 const getSetting = (key) => {
-    return game.settings.get('Foundry-MGL', key);
+    return game.settings.get('FoundryVTT-dnd5e-DE', key);
 }
 
 const setSetting = (key, data) => {

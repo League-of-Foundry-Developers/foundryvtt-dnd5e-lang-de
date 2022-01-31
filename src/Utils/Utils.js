@@ -1,5 +1,5 @@
-const moduleName = 'foundry-mgl';
-const moduleTitle = 'Foundry Meters, Grams & Liters';
+const moduleName = 'FoundryVTT-dnd5e-DE';
+const moduleTitle = 'FoundryVTT-dnd5e-DE';
 
 const consoleLog = (output) => {
     console.log(
