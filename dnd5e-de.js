@@ -26,7 +26,7 @@ const module_sys = 'dnd5e';
 
 Hooks.once('init', () => {
     // Create settings
-    Config.forEach((cfg) => {
+    Config.SETTINGS.forEach((cfg) => {
         // Skip settings not applicable for this system version
         if ('onlyUntilSystemVersionIncluding' in cfg &&
             isNewerVersion(game.system.data.version,
@@ -34,6 +34,15 @@ Hooks.once('init', () => {
             return;
         }
         game.settings.register(module_id, cfg.name, cfg.data);
+    });
+    Config.CONVERTER.forEach((mgl) => {
+        // Skip settings not applicable for this system version
+        if ('onlyUntilSystemVersionIncluding' in mgl &&
+            isNewerVersion(game.system.data.version,
+                mgl.onlyUntilSystemVersionIncluding)) {
+            return;
+        }
+        game.settings.register(module_id, mgl.key, mgl.data);
     });
 
     // Register Babele compendium translations if module is present

@@ -1,5 +1,5 @@
 import {moduleName} from './Utils/Utils.js'
-import settingsLists from "./settingsLists.js";
+import settingsLists from "./config.js";
 
 const registerSetting = (key, data) => {
     game.settings.register('FoundryVTT-dnd5e-DE', key, data);
@@ -23,7 +23,8 @@ const getMultipliers = () => {
 }
 
 const registerSettings = () => {
-    settingsLists.SETTINGS.forEach((setting) => {
+    settingsLists.CONVERTER.forEach((setting) => {
+        console.log(setting);
         registerSetting(setting.key, setting.data);
     });
 }
