@@ -1,6 +1,6 @@
 export default function DialogWindow() {
     let d = new Dialog({
-        title: "Module Aktiviert !",
+        title: "Modul aktiviert!",
         content: `
         <div style="text-align: justify;">
             <h2>
@@ -10,7 +10,7 @@ export default function DialogWindow() {
                 Wir freuen uns, dass du unser Modul verwendest, um dein Spielsystem ins Deutsche zu übersetzen. 
             </p>
             <p>
-                Wir arbeiten gerade an der Fertigstellung, der restlichen Texte. Das bedeutet, dass noch nicht alle Texte auf Deutsch verfügbar sind. 
+                Wir arbeiten gerade an der Fertigstellung der Übersetzung. Das bedeutet, dass noch nicht alle Texte auf Deutsch verfügbar sind. 
                 Falls du einen Fehler findest, kannst du diesen <a href="https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/issues" target="_blank">hier melden</a>.
             </p>
             <p>
@@ -20,14 +20,14 @@ export default function DialogWindow() {
                 Jede Hilfe ist eine große Unterstützung für uns und für die Community.
             </p>
             <p>
-                Das Übersetzungstool befindet sich aktuell in einer offenen Beta. Wenn du fehler findest, kannst du ihn <a href="https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de-ui/issues" target="_blank">hier einmelden.</a> 
+                Das Übersetzungstool befindet sich aktuell in einer offenen Beta. Wenn du Fehler findest, kannst du ihn <a href="https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de-ui/issues" target="_blank">hier einmelden.</a> 
             </p>
             <hr> 
             <h3>
                 Wir bedanken uns bei:
             </h3>
             <p>
-                <i>Fallayn, Crash, AlexElbracht, JPrince, Sinon, Zeku, vttom</i>
+                <i>Fallayn, Crash, AlexElbracht, JPrince, Sinon, Zeku, vttom, Hydroxi, Smicman, ThoGri, Morvar</i>
             </p>
             <p>
                 für ihre Arbeit und die Zeit, die sie bisher investiert haben. 
