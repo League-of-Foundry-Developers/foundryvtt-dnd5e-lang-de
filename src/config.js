@@ -81,5 +81,17 @@ export default [
             default: false,
             onChange: () => window.location.reload()
         }
+    },
+    {
+        name: 'translationDialog',
+        data: {
+            name: 'Dialog Fenster anzeigen',
+            hint: 'Aktiviere oder Deaktiviere den Begrüßungs Dialog',
+            scope: 'client',
+            type: Boolean,
+            config: true,
+            default: true,
+            onChange: () => window.location.reload()
+        }
     }
 ];
