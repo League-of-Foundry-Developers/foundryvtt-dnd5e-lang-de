@@ -6,6 +6,8 @@ import NPC from '../../systems/dnd5e/module/actor/sheets/npc.js';
 // Module
 import Config from './src/config.js';
 import Converters from './src/converters.js';
+import Dialog from './src/window_popup.js';
+
 
 const module_id = 'FoundryVTT-dnd5e-DE';
 const module_lang = 'de';
@@ -109,4 +111,10 @@ Hooks.once('ready', function () {
             makeDefault: false
         });
     }
+
+    if (game.i18n.lang === module_lang &&
+        game.system.id === module_sys &&
+        game.settings.get(module_id, 'translationDialog')){
+            Dialog();
+        }
 });
