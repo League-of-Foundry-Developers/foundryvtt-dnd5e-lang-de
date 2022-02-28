@@ -23,6 +23,8 @@ export default function registerConverters(id) {
     magicItemDataDB = setupDataParsing(MagicItemData);
 
     Babele.get().registerConverters({
+        'classNameFormula': convertClass,
+        'classRequirements': convertClassRequirements,
         'alignment': convertAlignment,
         'rarity': convertRarity,
         'type': convertType,
@@ -48,6 +50,43 @@ function setupDataParsing(d) {
 
 function normalize(s) {
     return s.toString().toLowerCase();
+}
+
+// Classes
+
+const classes = {
+    "Barbarian": "Barbar",
+    "Bard": "Barde",
+    "Cleric": "Kleriker",
+    "Druid": "Druide",
+    "Fighter": "Kämpfer",
+    "Monk": "Mönch",
+    "Paladin": "Paladin",
+    "Ranger": "Waldläufer",
+    "Rogue": "Schurke",
+    "Sorcerer": "Zauberer",
+    "Warlock": "Hexenmeister",
+    "Wizard": "Magier"
+};
+
+function convertClass(c) {
+    if (c && typeof c === 'string') {
+         let translated = c;
+         const names = Object.keys(classes);
+         names.forEach(name => {
+            translated = translated.replaceAll(name.toLowerCase(), classes[name].toLowerCase())
+         });
+         return translated;
+    }
+}
+
+function convertClassRequirements(requirements) {
+    let translated = requirements;
+    const names = Object.keys(classes);
+    names.forEach(name => {
+        translated = translated.replaceAll(name, classes[name])
+    });
+    return translated;
 }
 
 // Alignments
