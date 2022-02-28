@@ -2,9 +2,14 @@
 
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
 
-## Unreleased
+## Version 1.5.4
 
 - Moved changelog to separate file
+- Compendium data and translations updates
+- Info popup on how to help with translations, can be disabled
+- Bugfix for translations fallbacks for Babele converters
+- Initial ground work for class / class name translations
+- Some additional translations
 
 ## Version 1.5.3
 
