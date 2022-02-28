@@ -113,9 +113,9 @@ var alignments = {
     'any': 'Jede Gesinnung',
 };
 
-function convertAlignment(a) {
+function convertAlignment(a, translation, data) {
     var id = a.toString().toLowerCase().replace('-', ' ');
-    return alignments[id] ? alignments[id] : a;
+    return alignments[id] ? alignments[id] : translation;
 }
 
 // Rarity
@@ -130,13 +130,13 @@ var rarity = {
     'unique': 'Einzigartig'
 };
 
-function convertRarity(r) {
+function convertRarity(r, translation, data) {
     if (isNewerVersion(game.system.data.version, '1.3.9')) {
         // D&D system version 1.4.0+ have rarity as a type,
         // we don't need to apply this anymore then :)
         return r;
     }
-    return rarity[r.toString().toLowerCase()] ? rarity[r.toString().toLowerCase()] : r;
+    return rarity[r.toString().toLowerCase()] ? rarity[r.toString().toLowerCase()] : translation;
 }
 
 var types = {
@@ -204,11 +204,11 @@ var types = {
     'undead': 'Untoter'
 }
 
-function convertType(t) {
+function convertType(t, translation, data) {
     if (!t) {
         return t;
     }
-    return types[t.toString().toLowerCase()] ? types[t.toString().toLowerCase()] : t;
+    return types[t.toString().toLowerCase()] ? types[t.toString().toLowerCase()] : translation;
 }
 
 var races = {
@@ -225,12 +225,13 @@ var races = {
     'halfling': 'Halbling',
     'lightfoot halfling': 'Leichtfuss-Halbling',
     'half orc': 'Halbork',
+    'half-orc': 'Halbork',
     'human': 'Mensch',
     'variant human': 'Mensch Variante',
     'tiefling': 'Tiefling'
 }
 
-function convertRace(r) {
+function convertRace(r, translation, data) {
     return races[r.toString().toLowerCase()] ? races[r.toString().toLowerCase()] : r;
 }
 
@@ -386,19 +387,19 @@ function convertMonsterName(m, translation, data) {
 
     var id = getMonsterID(m);
 
-    return monsterDataDB[normalize(data.name)] ? monsterDataDB[normalize(data.name)].name : m;
+    return monsterDataDB[normalize(data.name)] ? monsterDataDB[normalize(data.name)].name : translation;
 }
 
 function convertMonsterToken(m, translation, data) {
     if (!m) {
-        return m;
+        return translation;
     }
 
     if ('name' in m) {
         m.name = convertMonsterName(m.name, translation, data);
     }
 
-    return m;
+    return translation;
 }
 
 var source_book_replacements = {
@@ -410,7 +411,7 @@ var source_book_replacements = {
 
 function convertMonsterSource(m, translation, data) {
     if (!monsterDataDB[normalize(data.name)]) {
-        return m;
+        return translation;
     }
 
     var new_src = monsterDataDB[normalize(data.name)].src + ' S. ' + monsterDataDB[normalize(data.name)].src_pg;
@@ -424,7 +425,7 @@ function convertMonsterSource(m, translation, data) {
     }
 
     if (game.settings.get(module_id, 'compendiumSrcKeepOriginal')) {
-        new_src = new_src + ' (' + m.replace('pg.', 'S.') + ')';
+        new_src = new_src + ' (' + m.replace('pg.', 'S.').replace('PG.', 'S.') + ')';
     }
 
     return new_src
@@ -432,7 +433,7 @@ function convertMonsterSource(m, translation, data) {
 
 function convertMonsterEnvironment(m, translation, data) {
     if (!monsterDataDB[normalize(data.name)]) {
-        return m;
+        return translation;
     }
 
     return monsterDataDB[normalize(data.name)].env;
@@ -460,7 +461,7 @@ function convertItemName(m, translation, data) {
         }
     }
 
-    return m;
+    return translation;
 }
 
 function getMagicalItemModifier(string)
