@@ -13,7 +13,9 @@ for [Foundry Virtual Tabletop](https://foundryvtt.com/).
 Aims to provide consistent and usable translations in german for all 5E
 system content, including compendia via Babele.
 
-**Note: The compendium content is currently in the process of being translated. This is still ongoing. Some or even most compendium content still remaining in english isn't an error on your side. We're working on it! More news soon. Compendium translations files are currently included as a submodule from [here](https://github.com/stillday/dnd-translation-file-de).**
+**IF YOU WANT TO HELP OUT WITH COMPENDIUM TRANSLATIONS, USE [THIS SITE](https://translator.gilneas.at/) AND GET IN TOUCH WITH `crash#7509` ON DISCORD.**
+
+**The compendium content is currently in the process of being translated. This is still ongoing. Some or even most compendium content still remaining in english isn't an error on your side. We're working on it! More news soon. Compendium translations files are currently included as a submodule from [here](https://github.com/stillday/dnd-translation-file-de).**
 
 ## How to use
 
@@ -50,7 +52,7 @@ The module also depends on [Babele](https://foundryvtt.com/packages/babele) for 
 See [CHANGELOG.md](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/blob/master/CHANGELOG.md).
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
 
-Previous versions were by previous maintainers, including Hydroxi and ThoGri
+Older versions were released by previous maintainers, including Hydroxi and ThoGri
 back on Gitlab, before Fallayn took over maintenance and transferred the module
 to Github and the League. Thanks for all of your work, everyone!
 

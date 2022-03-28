@@ -320,13 +320,28 @@ export default {
             "src": "PHB",
             "src_pg": "150"
         },
+        "Hand Crossbow": {
+            "name": "Handarmbrust",
+            "src": "PHB",
+            "src_pg": "149"
+        },
         "Crossbow, hand": {
             "name": "Armbrust, Hand-",
             "src": "PHB",
             "src_pg": "149"
         },
+        "Heavy Crossbow": {
+            "name": "Schwere Armburst",
+            "src": "PHB",
+            "src_pg": "149"
+        },
         "Crossbow, heavy": {
             "name": "Armburst, Schwere",
+            "src": "PHB",
+            "src_pg": "149"
+        },
+        "Light Crossbow": {
+            "name": "Leichte Armbrust",
             "src": "PHB",
             "src_pg": "149"
         },
@@ -372,6 +387,11 @@ export default {
         },
         "Dragonchess set": {
             "name": "Drachenschach Spielsatz",
+            "src": "PHB",
+            "src_pg": "154"
+        },
+        "Chess set": {
+            "name": "Schachspiel",
             "src": "PHB",
             "src_pg": "154"
         },
@@ -515,6 +535,11 @@ export default {
             "src": "PHB",
             "src_pg": "145"
         },
+        "Half Plate Armor": {
+            "name": "Plattenpanzer",
+            "src": "PHB",
+            "src_pg": "145"
+        },
         "Hammer": {
             "name": "Hammer",
             "src": "PHB",
@@ -542,6 +567,11 @@ export default {
         },
         "Hide": {
             "name": "Fell",
+            "src": "PHB",
+            "src_pg": "145"
+        },
+        "Hide Armor": {
+            "name": "Fellrüstung",
             "src": "PHB",
             "src_pg": "145"
         },
@@ -642,6 +672,11 @@ export default {
         },
         "Leather": {
             "name": "Leder",
+            "src": "PHB",
+            "src_pg": "145"
+        },
+        "Leather armor": {
+            "name": "Lederrüstung",
             "src": "PHB",
             "src_pg": "145"
         },
@@ -800,6 +835,11 @@ export default {
             "src": "PHB",
             "src_pg": "145"
         },
+        "Padded armor": {
+            "name": "Gefütterte Rüstung",
+            "src": "PHB",
+            "src_pg": "145"
+        },
         "Painter's supplies": {
             "name": "Malutensilien",
             "src": "PHB",
@@ -865,13 +905,23 @@ export default {
             "src": "PHB",
             "src_pg": "145"
         },
+        "Plate Armor": {
+            "name": "Ritterrüstung",
+            "src": "PHB",
+            "src_pg": "145"
+        },
         "Platinum": {
             "name": "Platin",
             "src": "PHB",
             "src_pg": "157"
         },
         "Playing card set": {
-            "name": "Satz Spielkarten",
+            "name": "Spielkarten",
+            "src": "PHB",
+            "src_pg": "154"
+        },
+        "Playing cards set": {
+            "name": "Spielkarten",
             "src": "PHB",
             "src_pg": "154"
         },
@@ -1140,6 +1190,11 @@ export default {
             "src": "PHB",
             "src_pg": "145"
         },
+        "Splint Armor": {
+            "name": "Schienenpanzer",
+            "src": "PHB",
+            "src_pg": "145"
+        },
         "Sprig of mistletoe": {
             "name": "Mistelzweigsprößling",
             "src": "PHB",
@@ -1162,6 +1217,11 @@ export default {
         },
         "Studded leather": {
             "name": "Beschlagenes Leder",
+            "src": "PHB",
+            "src_pg": "145"
+        },
+        "Studded leather armor": {
+            "name": "Beschlagene Lederrüstung",
             "src": "PHB",
             "src_pg": "145"
         },

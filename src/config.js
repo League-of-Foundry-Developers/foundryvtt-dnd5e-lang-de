@@ -81,5 +81,16 @@ export default [
             default: false,
             onChange: () => window.location.reload()
         }
+    },
+    {
+        name: 'translationDialog',
+        data: {
+            name: 'Zeige Updatedialog',
+            hint: 'Zeigt den Changelog / Update-Dialog.',
+            scope: 'world',
+            type: Boolean,
+            config: true,
+            default: true
+        }
     }
 ];
