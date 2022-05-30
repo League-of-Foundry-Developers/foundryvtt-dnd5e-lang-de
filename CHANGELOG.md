@@ -2,6 +2,10 @@
 
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
 
+## Version 1.5.5
+
+- Update translations for D&D 5E System release 1.6.1 (including advancements)
+
 ## Version 1.5.4
 
 - Moved changelog to separate file
