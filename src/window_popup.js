@@ -4,13 +4,13 @@ export default function DialogWindow() {
         content: `
         <div style="text-align: justify;">
             <h2>
-                Willkommen in der deutschen Übersetzung des DnD5e Systems
+                Willkommen in der deutschen DnD5e Übersetzung
             </h2>
             <p>
-                Wir freuen uns, dass du unser Modul verwendest, um dein Spielsystem ins Deutsche zu übersetzen. 
+                Wir freuen uns, dass du unser Modul verwendest, um dein Spielsystem ins Deutsche zu übersetzen.
             </p>
             <p>
-                Wir arbeiten gerade an der Fertigstellung der Übersetzung. Das bedeutet, dass noch nicht alle Texte auf Deutsch verfügbar sind. 
+                Wir arbeiten gerade an der Fertigstellung der Übersetzung. Das bedeutet, dass noch nicht alle Texte auf Deutsch verfügbar sind.
                 Falls du einen Fehler findest, kannst du diesen <a href="https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/issues" target="_blank">hier melden</a>.
             </p>
             <p>
@@ -20,9 +20,9 @@ export default function DialogWindow() {
                 Jede Hilfe ist eine große Unterstützung für uns und für die Community.
             </p>
             <p>
-                Das Übersetzungstool befindet sich aktuell in einer offenen Beta. Wenn du Fehler findest, kannst du ihn <a href="https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de-ui/issues" target="_blank">hier einmelden.</a> 
+                Das Übersetzungstool befindet sich aktuell in einer offenen Beta. Wenn du Fehler findest, kannst du ihn <a href="https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de-ui/issues" target="_blank">hier einmelden.</a>
             </p>
-            <hr> 
+            <hr>
             <h3>
                 Wir bedanken uns bei:
             </h3>
@@ -30,7 +30,7 @@ export default function DialogWindow() {
                 <i>Fallayn, Crash, AlexElbracht, JPrince, Sinon, Zeku, vttom, Hydroxi, Smicman, ThoGri, Morvar</i>
             </p>
             <p>
-                für ihre Arbeit und die Zeit, die sie bisher investiert haben. 
+                für ihre Arbeit und die Zeit, die sie bisher investiert haben.
             </p>
             <p>
                 <b>Wir wünschen dir viel Vergnügen beim Spielen und Leiten von DnD.</b>
@@ -48,7 +48,7 @@ export default function DialogWindow() {
                 callback: () => game.settings.set("FoundryVTT-dnd5e-DE", "translationDialog", false)
             },
         },
-    
+
     },{ width: 550});
     d.render(true);
 }

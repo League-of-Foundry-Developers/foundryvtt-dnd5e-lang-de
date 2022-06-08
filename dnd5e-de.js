@@ -8,17 +8,6 @@ import Config from './src/config.js';
 import Converters from './src/converters.js';
 import Dialog from './src/window_popup.js';
 
-// meter import
-import {getSetting, registerSettings} from "./src/Settings.js";
-import {
-    onCompendiumRender,
-    onRenderActorSheet,
-    onRenderItemSheet,
-    onRenderJurnalSheet,
-    onRenderRollTable,
-    onRenderSideBar
-} from "./src/MetricModule.js";
-import {consoleLog} from "./src/Utils/Utils.js";
 
 const module_id = 'FoundryVTT-dnd5e-DE';
 const module_lang = 'de';
@@ -149,10 +138,6 @@ Hooks.once('ready', function () {
         game.settings.get(module_id, 'translationDialog')){
             Dialog();
         }
-
-    // module meter, gram, liter
-    consoleLog("Changing label 'lbs.' to 'kg'.");
-    if (game.system.id === 'dnd5e') game.i18n.translations.DND5E["AbbreviationLbs"] = 'kg';
 });
 
 Hooks.on('createScene', (scene) => {
