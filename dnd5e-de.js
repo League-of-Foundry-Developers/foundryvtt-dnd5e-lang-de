@@ -15,7 +15,7 @@ const module_sys = 'dnd5e';
 
 Hooks.once('init', () => {
     // Create settings
-    Config.forEach((cfg) => {
+    Config.SETTINGS.forEach((cfg) => {
         // Skip settings not applicable for this system version
         if ('onlyUntilSystemVersionIncluding' in cfg &&
             isNewerVersion(game.system.data.version,
@@ -23,6 +23,15 @@ Hooks.once('init', () => {
             return;
         }
         game.settings.register(module_id, cfg.name, cfg.data);
+    });
+    Config.CONVERTER.forEach((mgl) => {
+        // Skip settings not applicable for this system version
+        if ('onlyUntilSystemVersionIncluding' in mgl &&
+            isNewerVersion(game.system.data.version,
+                mgl.onlyUntilSystemVersionIncluding)) {
+            return;
+        }
+        game.settings.register(module_id, mgl.key, mgl.data);
     });
 
     // Register Babele compendium translations if module is present
@@ -74,6 +83,18 @@ Hooks.once('init', () => {
                 sortSkillsAlpha();
             }
         });
+
+        // load settings for meter, gram, liter
+        if (game.system.id === 'dnd5e') {
+            consoleLog("Changing labels 'Feet' and 'Miles' to 'Meters' and 'Kilometers'.")
+            CONFIG.DND5E.distanceUnits["m"] = game.i18n.localize("metricsystem.meters");
+            CONFIG.DND5E.distanceUnits["km"] = game.i18n.localize("metricsystem.kilometers");
+            consoleLog("Changing encumbrance calculation.")
+            CONFIG.DND5E.encumbrance["currencyPerWeight"].imperial = 100;
+            CONFIG.DND5E.encumbrance["strMultiplier"].imperial = 7.5;
+        }
+    
+        registerSettings();
     }
 });
 
@@ -118,3 +139,27 @@ Hooks.once('ready', function () {
             Dialog();
         }
 });
+
+Hooks.on('createScene', (scene) => {
+    const gridDist = getSetting("sceneGridDistance");
+    const gridUnits = getSetting("sceneGridUnits");
+    if (!getSetting("sceneConversion")) return;
+    consoleLog(`New Scene: changing gridUnits to '${gridUnits}' and gridDistance to '${gridDist}'.`);
+    const sceneClone = JSON.parse(JSON.stringify(scene));
+
+    sceneClone.gridDistance = gridDist;
+    sceneClone.gridUnits = gridUnits;
+    scene.update(sceneClone)
+})
+
+Hooks.on('renderActorSheet', onRenderActorSheet);
+
+Hooks.on('renderItemSheet', onRenderItemSheet);
+
+Hooks.on('renderJournalSheet', onRenderJurnalSheet);
+
+Hooks.on("renderSidebarTab", onRenderSideBar);
+
+Hooks.on('renderRollTableConfig', onRenderRollTable);
+
+Hooks.on('renderCompendium', onCompendiumRender)
