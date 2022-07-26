@@ -2,6 +2,10 @@
 
 Also see the [releases page](https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases).
 
+## Version 1.5.7
+
+- New & updated translations for compendium content
+
 ## Version 1.5.6
 
 - New & updated translations for compendium content
